@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Popularity Analytics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/local-fallback.css') }}" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    
+    <style>
+        :root {
+    --bg-main: #0b0f14;
+    --bg-card: #121821;
+    --bg-soft: #0f141b;
+    --border: rgba(255,255,255,0.06);
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #4f8cff;
+    --accent-soft: rgba(79,140,255,0.12);
+    --radius: 14px;
+}
+
+body {
+  
+    padding-top: 80px;  /* adjust based on navbar height */
+    font-family: "DM Sans", sans-serif;
+    background: var(--bg-main);
+    color: var(--text);
+}
+
+/* NAVBAR */
+.nav-top {
+   
+  .nav-top {
+    position: fixed;   /* 🔥 change from sticky → fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+
+    background: rgba(11, 15, 20, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+}
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* DASHBOARD LAYOUT */
+.dashboard {
+    padding: 25px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+/* CARD */
+.card-dash {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    transition: 0.25s ease;
+}
+
+.card-dash:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* CARD HEADER */
+.card-title {
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin-bottom: 10px;
+}
+
+/* BIG NUMBER */
+.metric {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* CHART BOX */
+.chart-box {
+    height: 300px;
+}
+
+/* FULL WIDTH */
+.col-12 { grid-column: span 12; }
+.col-6 { grid-column: span 6; }
+.col-4 { grid-column: span 4; }
+.col-3 { grid-column: span 3; }
+
+/* RESPONSIVE */
+@media(max-width: 900px) {
+    .col-6, .col-4, .col-3 {
+        grid-column: span 12;
+    }
+}
+    </style>
+</head>
+<body>
+{% if not ready %}
+<div class="container py-5 text-center" style="max-width: 640px;">
+    <h1 class="font-display h3 text-white mb-3">Car Popularity Analytics</h1>
+    <p class="text-secondary">{{ error or "Setup required." }}</p>
+    {% if csv_expected_path %}
+    <p class="text-secondary small mb-1">Expected file (next to <code>app.py</code>):</p>
+    <pre class="text-start small text-white bg-dark p-3 rounded border border-secondary border-opacity-25">{{ csv_expected_path }}</pre>
+    {% endif %}
+    <p class="text-secondary small">You can run these from <strong>any</strong> directory — outputs are written into the project folder automatically.</p>
+    <code class="text-info d-block text-start p-3 rounded bg-dark">python generate_car_market_data.py<br>python train_dashboard_model.py<br>python app.py</code>
+    <p class="text-secondary small mt-3 mb-0">After the CSV is created, <strong>restart</strong> the Flask server so it reloads the data.</p>
+</div>
+{% else %}
+<nav class="nav-top py-2 px-3 px-lg-4">
+    <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+        <span class="font-display fw-bold text-white me-3">Car Analytics</span>
+        <div class="d-flex flex-wrap gap-3">
+            <a href="#overview">Overview</a>
+            <a href="#predict">Predict</a>
+            <a href="#brands">Brands</a>
+            <a href="#price">Price vs popularity</a>
+            <a href="#fuel">Fuel</a>
+            <a href="#trend">Year trend</a>
+            <a href="#top10">Top 10</a>
+            <a href="#insights">Insights</a>
+            <a href="#viewer">Car viewer</a>
+        </div>
+    </div>
+</nav>
+
+<main class="container-fluid px-3 px-lg-4 py-4" style="max-width: 1440px;">
+    <header class="mb-4 pb-3 border-bottom border-secondary border-opacity-25">
+        <h1 class="font-display h2 text-white mb-2">Car popularity dashboard</h1>
+        <p class="text-secondary mb-0">Explore trends, compare segments, predict popularity scores, and inspect individual vehicles — mini analytics for your project.</p>
+        {% if model_ready and meta.r2_score is not none %}
+        <p class="small text-secondary mt-2 mb-0">Model fit: R² {{ meta.r2_score }} · MAE {{ meta.mae }} (on hold-out test)</p>
+        {% elif not model_ready %}
+        <p class="small text-warning mt-2 mb-0">Train the model to enable predictions: <code>python train_dashboard_model.py</code></p>
+        {% endif %}
+    </header>
+
+    <section id="overview" class="anchor-offset mb-5">
+        <h2 class="section-title font-display">Project overview</h2>
+        <div class="row g-3">
+            <div class="col-6 col-lg-3">
+                <div class="card-dash">
+                    <div class="kpi-emoji" aria-hidden="true">🚗</div>
+                    <div class="kpi-label">Total cars (filtered)</div>
+                    <div class="kpi-val">{{ overview.total_cars }}</div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="card-dash">
+                    <div class="kpi-emoji" aria-hidden="true">⭐</div>
+                    <div class="kpi-label">Avg popularity index (%)</div>
+                    <div class="kpi-val">{{ overview.avg_popularity }}</div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="card-dash">
+                    <div class="kpi-emoji" aria-hidden="true">🔥</div>
+                    <div class="kpi-label">Top brand (avg score)</div>
+                    <div class="kpi-val" style="font-size:1.25rem;">{{ overview.top_brand }}</div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="card-dash">
+                    <div class="kpi-emoji" aria-hidden="true">📉</div>
+                    <div class="kpi-label">Lowest in selection</div>
+                    <div class="kpi-val" style="font-size:1.05rem;line-height:1.2;">{{ overview.least_car }}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="filters" class="anchor-offset mb-5">
+        <h2 class="section-title font-display">Interactive filters</h2>
+        <form class="card-dash" method="get" action="{{ url_for('index') }}">
+            <div class="row g-2 g-lg-3 align-items-end">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <label class="form-label" for="f_brand">Brand</label>
+                    <select class="form-select" id="f_brand" name="brand">
+                        <option value="__all__" {% if filter_state.brand == '__all__' %}selected{% endif %}>All</option>
+                        {% for b in meta.categories.brand %}
+                        <option value="{{ b }}" {% if filter_state.brand == b %}selected{% endif %}>{{ b }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <label class="form-label" for="f_fuel">Fuel type</label>
+                    <select class="form-select" id="f_fuel" name="fuel_type">
+                        <option value="__all__" {% if filter_state.fuel_type == '__all__' %}selected{% endif %}>All</option>
+                        {% for f in meta.categories.fuel_type %}
+                        <option value="{{ f }}" {% if filter_state.fuel_type == f %}selected{% endif %}>{{ f }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <label class="form-label" for="f_trans">Transmission</label>
+                    <select class="form-select" id="f_trans" name="transmission">
+                        <option value="__all__" {% if filter_state.transmission == '__all__' %}selected{% endif %}>All</option>
+                        {% for t in meta.categories.get('transmission', []) %}
+                        <option value="{{ t }}" {% if filter_state.transmission == t %}selected{% endif %}>{{ t }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <label class="form-label" for="f_year">Year</label>
+                    <select class="form-select" id="f_year" name="year">
+                        <option value="__all__" {% if filter_state.year == '__all__' %}selected{% endif %}>All</option>
+                        {% for y in years_options %}
+                        <option value="{{ y }}" {% if filter_state.year == (y|string) %}selected{% endif %}>{{ y }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <label class="form-label" for="f_pmin">Min price</label>
+                    <input class="form-control" type="number" id="f_pmin" name="min_price" placeholder="Any" value="{{ filter_state.min_price }}">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <label class="form-label" for="f_pmax">Max price</label>
+                    <input class="form-control" type="number" id="f_pmax" name="max_price" placeholder="Any" value="{{ filter_state.max_price }}">
+                </div>
+                <div class="col-12 col-lg-auto d-flex gap-2">
+                    <button type="submit" class="btn btn-accent">Apply filters</button>
+                    <a class="btn btn-ghost" href="{{ url_for('index') }}">Reset</a>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section id="predict" class="anchor-offset mb-5">
+        
+            <h2 class="section-title font-display">Popularity prediction</h2>
+
+<div class="row g-4">
+    
+    <div class="col-lg-7">
+        <div class="card-dash">
+            <form action="{{ url_for('predict') }}" method="post" {% if not model_ready %}aria-disabled="true"{% endif %}>
+                
+                <input type="hidden" name="return_query" value="{{ return_query }}">
+
+                <div class="row g-3">
+
+                    <!-- BRAND -->
+                    <div class="col-12">
+                        <label class="form-label">Brand</label>
+                        <select class="form-select" name="brand" required {% if not model_ready %}disabled{% endif %}>
+                            {% for b in meta.categories.brand %}
+                                <option value="{{ b }}">{{ b }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- MODEL -->
+                    <div class="col-md-6">
+                        <label class="form-label">Model</label>
+                        <select class="form-select" name="model" required {% if not model_ready %}disabled{% endif %}>
+                            {% for m in meta.categories.model %}
+                                <option value="{{ m }}">{{ m }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- YEAR -->
+                    <div class="col-md-6">
+                        <label class="form-label">Year</label>
+                        <input class="form-control" type="number" name="year"
+                               min="{{ meta.numeric_ranges.year[0] }}"
+                               max="{{ meta.numeric_ranges.year[1] }}"
+                               value="{{ meta.numeric_ranges.year[1] }}"
+                               required {% if not model_ready %}disabled{% endif %}>
+                    </div>
+
+                    <!-- ENGINE HP -->
+                    <div class="col-md-6">
+                        <label class="form-label">Engine HP</label>
+                        <input class="form-control" type="number" name="engine_hp"
+                               min="{{ meta.numeric_ranges.engine_hp[0] }}"
+                               max="{{ meta.numeric_ranges.engine_hp[1] }}"
+                               value="240"
+                               required {% if not model_ready %}disabled{% endif %}>
+                    </div>
+
+                    <!-- CYLINDERS -->
+                    <div class="col-md-6">
+                        <label class="form-label">Engine Cylinders</label>
+                        <select class="form-select" name="engine_cylinders" required {% if not model_ready %}disabled{% endif %}>
+                            {% for c in meta.numeric_ranges.engine_cylinders %}
+                                <option value="{{ c }}">{{ c }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- FUEL -->
+                    <div class="col-md-6">
+                        <label class="form-label">Fuel Type</label>
+                        <select class="form-select" name="fuel_type" required {% if not model_ready %}disabled{% endif %}>
+                            {% for f in meta.categories.fuel_type %}
+                                <option value="{{ f }}">{{ f }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- TRANSMISSION -->
+                    <div class="col-md-6">
+                        <label class="form-label">Transmission</label>
+                        <select class="form-select" name="transmission" required {% if not model_ready %}disabled{% endif %}>
+                            {% for t in meta.categories.transmission %}
+                                <option value="{{ t }}">{{ t }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- DRIVEN -->
+                    <div class="col-md-6">
+                        <label class="form-label">Driven Wheels</label>
+                        <select class="form-select" name="driven_wheels" required {% if not model_ready %}disabled{% endif %}>
+                            {% for w in meta.categories.driven_wheels %}
+                                <option value="{{ w }}">{{ w }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- DOORS -->
+                    <div class="col-md-6">
+                        <label class="form-label">Doors</label>
+                        <select class="form-select" name="doors" required {% if not model_ready %}disabled{% endif %}>
+                            {% for d in meta.numeric_ranges.doors %}
+                                <option value="{{ d }}">{{ d }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- CATEGORY -->
+                    <div class="col-md-6">
+                        <label class="form-label">Market Category</label>
+                        <select class="form-select" name="market_category" required {% if not model_ready %}disabled{% endif %}>
+                            {% for c in meta.categories.get('market_category', []) %}
+                                <option value="{{ c }}">{{ c }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- PRICE -->
+                    <div class="col-md-6">
+                        <label class="form-label">Price (USD)</label>
+                        <input class="form-control" type="number" name="price"
+                               min="{{ meta.numeric_ranges.price[0] }}"
+                               max="{{ meta.numeric_ranges.price[1] }}"
+                               value="32000"
+                               required {% if not model_ready %}disabled{% endif %}>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-accent w-100 mt-4" {% if not model_ready %}disabled{% endif %}>
+                    Predict Popularity
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+            <div class="col-lg-5">
+                <div class="card-dash">
+                    <div class="kpi-label mb-2">Estimated popularity index</div>
+                    {% if pred_result %}
+                    <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                        <span class="font-display fs-2 fw-bold text-white">{{ pred_result.percent }}%</span>
+                        <span class="result-pill {% if pred_result.level == 'High' %}level-high{% elif pred_result.level == 'Medium' %}level-med{% else %}level-low{% endif %}">{{ pred_result.level }}</span>
+                    </div>
+                    <p class="small text-secondary mb-3">This index is normalized to your dataset (0–100). Higher means more likely to be popular.</p>
+                    <div class="chart-box" style="height:200px;">
+                        <canvas id="gaugeChart" aria-label="Popularity gauge"></canvas>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between small text-secondary mb-1"><span>0</span><span>100</span></div>
+                        <div class="progress" style="height:10px;background:rgba(255,255,255,0.06);">
+                            <div class="progress-bar" role="progressbar" style="width: {{ pred_result.percent | round(1) }}%; background: linear-gradient(90deg,#5b93ff,#3dd68c);"></div>
+                        </div>
+                    </div>
+                    {% else %}
+                    <p class="text-secondary small mb-3">Submit the form to see an index (0–100) and popularity level (Low / Medium / High).</p>
+                    <div class="chart-box d-flex align-items-center justify-content-center text-secondary small" style="height:200px;">No prediction yet</div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="brands" class="anchor-offset mb-5">
+        <h2 class="section-title font-display">Brand popularity</h2>
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <div class="card-dash">
+                    <div class="kpi-label mb-2">Average popularity by brand</div>
+                    <div class="chart-box"><canvas id="brandBar" aria-label="Bar chart by brand"></canvas></div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="card-dash">
+                    <div class="kpi-label mb-2">Brand market share (row count)</div>
+                    <div class="chart-box"><canvas id="brandPie" aria-label="Brand share doughnut"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="price" class="anchor-offset mb-5">
+        <h2 class="section-title font-display">Price vs popularity</h2>
+        <div class="card-dash">
+            <p class="small text-secondary mb-2">Each point is a car: price (x) vs popularity score (y). Filters narrow the cloud.</p>
+            <div class="chart-box tall"><canvas id="scatterChart" aria-label="Price vs popularity scatter"></canvas></div>
+        </div>
+    </section>
+
+    <section id="fuel" class="anchor-offset mb-5">
+        <h2 class="section-title font-display">Fuel type popularity</h2>
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card-dash">
+                    <div class="kpi-label mb-2">Mean popularity score by fuel type</div>
+                    <div class="chart-box"><canvas id="fuelBar" aria-label="Fuel type bar chart"></canvas></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card-dash">
+                    <div class="kpi-label mb-2">Share of rows by fuel type</div>
+                    <div class="chart-box"><canvas id="fuelDonut" aria-label="Fuel donut chart"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trend" class="anchor-offset mb-5">
+        <h2 class="section-title font-display">Year-wise trend</h2>
+        <div class="card-dash">
+            <p class="small text-secondary mb-2">Average popularity score by model year in the current filter.</p>
+            <div class="chart-box tall"><canvas id="yearLine" aria-label="Year trend line chart"></canvas></div>
+        </div>
+    </section>
+
+    <section id="top10" class="anchor-offset mb-5">
+        <h2 class="section-title font-display">Top 10 most popular (filtered)</h2>
+        <div class="card-dash p-0 overflow-hidden">
+            <div class="table-responsive">
+               <table class="table table-darkish table-hover mb-0 custom-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Car</th>
+            <th>Details</th>
+            <th>Year</th>
+            <th>Popularity</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for row in charts.top10 %}
+        <tr data-car-id="{{ row.car_id }}" class="top-row">
+
+            <!-- RANK -->
+            <td class="rank">{{ loop.index }}</td>
+
+            <!-- IMAGE -->
+            <td>
+                <div class="car-thumb">
+                    <img
+                        class="car-photo-thumb-top"
+                        data-car-id="{{ row.car_id }}"
+                        alt="{{ row.brand }} {{ row.model }}"
+                        loading="lazy"
+                        decoding="async"
+                        onerror="this.style.display='none';"
+                    />
+                    <div class="car-thumb-initial" style="display:none;"></div>
+                </div>
+            </td>
+
+            <!-- NAME + BRAND -->
+            <td>
+                <div class="car-info">
+                    <div class="car-model">{{ row.model }}</div>
+                    <div class="car-brand">{{ row.brand }}</div>
+                </div>
+            </td>
+
+            <!-- YEAR -->
+            <td>{{ row.year }}</td>
+
+            <!-- POPULARITY -->
+            <td>
+                <div class="popularity">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: {{ row.popularity_percent }}%"></div>
+                    </div>
+                    <span>{{ row.popularity_percent }}%</span>
+                </div>
+            </td>
+
+            <!-- STATUS -->
+            <td>
+                <span class="result-pill 
+                    {% if row.popularity_level == 'High' %}level-high
+                    {% elif row.popularity_level == 'Medium' %}level-med
+                    {% else %}level-low{% endif %}">
+                    {{ row.popularity_level }}
+                </span>
+            </td>
+
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="6" class="text-center text-secondary py-4">
+                No rows for this filter.
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+            </div>
+        </div>
+    </section>
+
+    <section id="insights" class="anchor-offset mb-5">
+        <h2 class="section-title font-display">Dataset insights</h2>
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card-dash">
+                    <div class="kpi-label">Most common transmission</div>
+                    <div class="font-display fs-4 fw-bold text-white mt-1">{{ charts.insights.common_transmission }}</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-dash">
+                    <div class="kpi-label">Most common fuel type</div>
+                    <div class="font-display fs-4 fw-bold text-white mt-1">{{ charts.insights.common_fuel }}</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-dash">
+                    <div class="kpi-label">Model (top features)</div>
+                    <div class="small text-secondary mt-1">Random forest on encoded attributes — see bar chart.</div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <div class="card-dash">
+                    <div class="kpi-label mb-2">Average engine HP by brand (top 10 in filter)</div>
+                    <div class="chart-box"><canvas id="hpBrandBar" aria-label="HP by brand"></canvas></div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="card-dash">
+                    <div class="kpi-label mb-2">Engine HP distribution</div>
+                    <div class="chart-box"><canvas id="hpHist" aria-label="HP histogram"></canvas></div>
+                </div>
+            </div>
+        </div>
+        {% if model_ready %}
+        <div class="card-dash mt-4">
+            <div class="kpi-label mb-2">Model feature importance (encoded groups)</div>
+            <div class="chart-box" style="height:240px;"><canvas id="fiBar" aria-label="Feature importance"></canvas></div>
+        </div>
+        {% endif %}
+    </section>
+
+    <section id="viewer" class="anchor-offset mb-5 pb-5">
+        <h2 class="section-title font-display">Car details viewer</h2>
+        <div class="row g-4">
+            <div class="col-lg-5">
+                <div class="card-dash">
+                    <label class="form-label" for="car_select">Select a car</label>
+                    <input id="car_search" class="form-control form-control-sm mb-2" placeholder="Search models (type to filter)" aria-label="Search car models">
+                    <select class="form-select mb-3" id="car_select">
+                        <option value="">Choose…</option>
+                        {% for c in car_options %}
+                        <option value="{{ c.id }}">{{ c.label }}</option>
+                        {% endfor %}
+                    </select>
+                    <div class="car-preview mb-3" id="car_image_wrap">
+                    <span class="text-secondary small" id="car_image_ph">Real image lookup (falls back when unavailable)</span>
+                    </div>
+                    <p class="small text-secondary mb-0">Viewer tries Wikimedia Commons car photos by brand + model + year. If no reliable match exists, a clean fallback illustration is shown.</p>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="card-dash">
+                    <h3 class="h6 font-display text-white mb-3" id="viewer_title">Specifications</h3>
+                    <dl class="row spec-grid mb-0" id="viewer_specs">
+                        <dt class="col-5 col-md-4">Brand</dt><dd class="col-7 col-md-8" id="v_brand">—</dd>
+                        <dt class="col-5 col-md-4">Model</dt><dd class="col-7 col-md-8" id="v_model">—</dd>
+                        <dt class="col-5 col-md-4">Year</dt><dd class="col-7 col-md-8" id="v_year">—</dd>
+                        <dt class="col-5 col-md-4">Engine HP</dt><dd class="col-7 col-md-8" id="v_hp">—</dd>
+                        <dt class="col-5 col-md-4">Cylinders</dt><dd class="col-7 col-md-8" id="v_cyl">—</dd>
+                        <dt class="col-5 col-md-4">Fuel</dt><dd class="col-7 col-md-8" id="v_fuel">—</dd>
+                        <dt class="col-5 col-md-4">Transmission</dt><dd class="col-7 col-md-8" id="v_tr">—</dd>
+                        <dt class="col-5 col-md-4">Driven wheels</dt><dd class="col-7 col-md-8" id="v_wh">—</dd>
+                        <dt class="col-5 col-md-4">Doors</dt><dd class="col-7 col-md-8" id="v_doors">—</dd>
+                        <dt class="col-5 col-md-4">Category</dt><dd class="col-7 col-md-8" id="v_cat">—</dd>
+                        <dt class="col-5 col-md-4">Price</dt><dd class="col-7 col-md-8" id="v_price">—</dd>
+                        <dt class="col-5 col-md-4">Dataset popularity index (%)</dt><dd class="col-7 col-md-8" id="v_score">—</dd>
+                        <dt class="col-5 col-md-4">Dataset level</dt><dd class="col-7 col-md-8" id="v_level">—</dd>
+                        <dt class="col-5 col-md-4">Predicted popularity index (%)</dt><dd class="col-7 col-md-8" id="v_pscore">—</dd>
+                        <dt class="col-5 col-md-4">Predicted level</dt><dd class="col-7 col-md-8" id="v_plevel">—</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script id="car-api-base" type="text/plain">{{ url_for('api_car', car_id=0) }}</script>
+<script id="dash-data" type="application/json">{{ charts | tojson }}</script>
+<script id="fi-data" type="application/json">{{ (meta.feature_importance_top or {}) | tojson }}</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+(function () {
+    const chartFont = "'DM Sans', sans-serif";
+    const muted = "#8b95a8";
+    const grid = "rgba(255,255,255,0.06)";
+    const charts = JSON.parse(document.getElementById("dash-data").textContent);
+    const fiRaw = document.getElementById("fi-data");
+    const fiTop = fiRaw ? JSON.parse(fiRaw.textContent) : {};
+
+    Chart.defaults.color = muted;
+    Chart.defaults.borderColor = grid;
+    Chart.defaults.font.family = chartFont;
+
+    function mkBar(canvasId, labels, values, label, horizontal) {
+        const ctx = document.getElementById(canvasId);
+        if (!ctx || !labels.length) return;
+        new Chart(ctx, {
+            type: "bar",
+            data: {
+                labels,
+                datasets: [{
+                    label,
+                    data: values,
+                    backgroundColor: "rgba(79, 140, 255, 0.75)",
+                    borderRadius: 8,
+                    maxBarThickness: horizontal ? 22 : 36
+                }]
+            },
+            options: {
+                indexAxis: horizontal ? "y" : "x",
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: {
+                        ticks: { color: muted },
+                        grid: { color: horizontal ? grid : "transparent" },
+                        beginAtZero: horizontal
+                    },
+                    y: {
+                        ticks: { color: muted },
+                        grid: { color: horizontal ? "transparent" : grid },
+                        beginAtZero: !horizontal
+                    }
+                }
+            }
+        });
+    }
+
+    if (charts && charts.brand_bar && Array.isArray(charts.brand_bar.labels) && charts.brand_bar.labels.length) {
+        mkBar("brandBar", charts.brand_bar.labels, charts.brand_bar.values, "Avg score", true);
+    }
+
+    const pieCtx = document.getElementById("brandPie");
+    if (pieCtx && charts.brand_share.labels.length) {
+        new Chart(pieCtx, {
+            type: "doughnut",
+            data: {
+                labels: charts.brand_share.labels,
+                datasets: [{
+                    data: charts.brand_share.values,
+                    backgroundColor: ["#4f8cff", "#3dd68c", "#f5c15c", "#f08080", "#a78bfa", "#38bdf8", "#fb7185", "#94a3b8", "#64748b"],
+                    borderWidth: 0
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, cutout: "58%", plugins: { legend: { position: "bottom", labels: { boxWidth: 10 } } } }
+        });
+    }
+
+    const sc = document.getElementById("scatterChart");
+    if (sc && charts.scatter && Array.isArray(charts.scatter.points) && charts.scatter.points.length) {
+        new Chart(sc, {
+            type: "scatter",
+            data: {
+                datasets: [{
+                    label: "Cars",
+                    data: charts.scatter.points,
+                    backgroundColor: "rgba(79, 140, 255, 0.35)",
+                    borderColor: "rgba(79, 140, 255, 0.9)",
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { title: { display: true, text: "Price (USD)" }, ticks: { color: muted }, grid: { color: grid } },
+                    y: { title: { display: true, text: "Popularity score" }, ticks: { color: muted }, grid: { color: grid }, beginAtZero: false }
+                }
+            }
+        });
+    }
+
+    if (charts && charts.fuel && Array.isArray(charts.fuel.labels) && charts.fuel.labels.length) {
+        mkBar("fuelBar", charts.fuel.labels, charts.fuel.values, "Mean score", false);
+    }
+
+    const fuelDonut = document.getElementById("fuelDonut");
+    if (fuelDonut && charts && charts.fuel_share_counts && Array.isArray(charts.fuel_share_counts.labels) && charts.fuel_share_counts.labels.length) {
+        new Chart(fuelDonut, {
+            type: "doughnut",
+            data: {
+                labels: charts.fuel_share_counts.labels,
+                datasets: [{
+                    data: charts.fuel_share_counts.values,
+                    backgroundColor: ["#4f8cff", "#f5c15c", "#3dd68c", "#f08080"],
+                    borderWidth: 0
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, cutout: "62%", plugins: { legend: { position: "bottom" } } }
+        });
+    }
+
+    const yl = document.getElementById("yearLine");
+    if (yl && charts && charts.year_trend && Array.isArray(charts.year_trend.labels) && charts.year_trend.labels.length) {
+        new Chart(yl, {
+            type: "line",
+            data: {
+                labels: charts.year_trend.labels,
+                datasets: [{
+                    label: "Avg popularity",
+                    data: charts.year_trend.values,
+                    borderColor: "#4f8cff",
+                    backgroundColor: "rgba(79, 140, 255, 0.12)",
+                    fill: true,
+                    tension: 0.35,
+                    pointRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { ticks: { color: muted }, grid: { display: false } },
+                    y: { ticks: { color: muted }, grid: { color: grid }, beginAtZero: false }
+                }
+            }
+        });
+    }
+
+    const hpB = document.getElementById("hpBrandBar");
+    if (hpB && charts && charts.insights && charts.insights.avg_hp_by_brand && Array.isArray(charts.insights.avg_hp_by_brand.labels) && charts.insights.avg_hp_by_brand.labels.length) {
+        new Chart(hpB, {
+            type: "bar",
+            data: {
+                labels: charts.insights.avg_hp_by_brand.labels,
+                datasets: [{
+                    label: "HP",
+                    data: charts.insights.avg_hp_by_brand.values,
+                    backgroundColor: "rgba(61, 214, 140, 0.55)",
+                    borderRadius: 8,
+                    maxBarThickness: 28
+                }]
+            },
+            options: {
+                indexAxis: "y",
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { beginAtZero: true, ticks: { color: muted }, grid: { color: grid } },
+                    y: { ticks: { color: muted }, grid: { display: false } }
+                }
+            }
+        });
+    }
+
+    const hh = document.getElementById("hpHist");
+    if (hh && charts && charts.hp_hist && Array.isArray(charts.hp_hist.counts) && charts.hp_hist.counts.length) {
+        new Chart(hh, {
+            type: "bar",
+            data: {
+                labels: charts.hp_hist.bins,
+                datasets: [{
+                    label: "Count",
+                    data: charts.hp_hist.counts,
+                    backgroundColor: "rgba(245, 193, 92, 0.5)",
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { ticks: { color: muted, maxRotation: 45, minRotation: 45 }, grid: { display: false } },
+                    y: { ticks: { color: muted }, grid: { color: grid }, beginAtZero: true }
+                }
+            }
+        });
+    }
+
+    const fiKeys = Object.keys(fiTop || {});
+    const fiCtx = document.getElementById("fiBar");
+    if (fiCtx && fiKeys.length) {
+        const vals = fiKeys.map((k) => fiTop[k]);
+        new Chart(fiCtx, {
+            type: "bar",
+            data: {
+                labels: fiKeys,
+                datasets: [{ data: vals, backgroundColor: "rgba(167, 139, 250, 0.65)", borderRadius: 6 }]
+            },
+            options: {
+                indexAxis: "y",
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { beginAtZero: true, ticks: { color: muted }, grid: { color: grid } },
+                    y: { ticks: { color: muted }, grid: { display: false } }
+                }
+            }
+        });
+    }
+
+    {% if pred_result %}
+    const g = document.getElementById("gaugeChart");
+    if (g) {
+        const p = {{ pred_result.percent | tojson }};
+        const rest = Math.max(0, 100 - p);
+        new Chart(g, {
+            type: "doughnut",
+            data: {
+                labels: ["Popularity", "Remaining"],
+                datasets: [{
+                    data: [p, rest],
+                    backgroundColor: ["#4f8cff", "rgba(255,255,255,0.06)"],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                rotation: -90,
+                circumference: 180,
+                cutout: "72%",
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label(ctx) {
+                                if (ctx.dataIndex === 0) return "Popularity: " + p + "%";
+                                return "";
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+    {% endif %}
+
+    const carApiEl = document.getElementById("car-api-base");
+    const carApiPrefix = carApiEl ? carApiEl.textContent.replace(/\d+$/, "") : "/api/car/";
+
+    const brandPalette = ["#4f8cff", "#3dd68c", "#f5c15c", "#f08080", "#a78bfa", "#38bdf8", "#94a3b8", "#fb7185"];
+    function brandColor(seedText) {
+        const s = (seedText || "").toString().trim().toUpperCase();
+        if (!s) return brandPalette[0];
+        let sum = 0;
+        for (let i = 0; i < s.length; i++) sum += s.charCodeAt(i);
+        return brandPalette[sum % brandPalette.length];
+    }
+    function hexToRgba(hex, alpha) {
+        const h = (hex || "").replace("#", "");
+        const n = parseInt(h, 16);
+        const r = (n >> 16) & 255;
+        const g = (n >> 8) & 255;
+        const b = n & 255;
+        return `rgba(${r},${g},${b},${alpha})`;
+    }
+
+    const sel = document.getElementById("car_select");
+    if (sel) {
+        sel.addEventListener("change", async () => {
+            const id = sel.value;
+            const wrap = document.getElementById("car_image_wrap");
+            const ph = document.getElementById("car_image_ph");
+            if (!id) {
+                if (ph) { ph.style.display = ""; }
+                wrap.querySelectorAll(".car-thumb-preview").forEach((n) => n.remove());
+                return;
+            }
+            const r = await fetch(carApiPrefix + encodeURIComponent(id) + "?with_image=1");
+            if (!r.ok) return;
+            const d = await r.json();
+            document.getElementById("viewer_title").textContent = d.brand + " " + d.model;
+            const set = (i, t) => { const el = document.getElementById(i); if (el) el.textContent = t; };
+            set("v_brand", d.brand);
+            set("v_model", d.model);
+            set("v_year", String(d.year));
+            set("v_hp", String(d.engine_hp));
+            set("v_cyl", String(d.engine_cylinders));
+            set("v_fuel", d.fuel_type);
+            set("v_tr", d.transmission);
+            set("v_wh", d.driven_wheels);
+            set("v_doors", String(d.doors));
+            set("v_cat", d.market_category);
+            set("v_price", "$" + d.price.toLocaleString());
+            set("v_score", d.popularity_percent != null ? String(d.popularity_percent) + "%" : "—");
+            set("v_level", d.popularity_level);
+            set("v_pscore", d.predicted_percent != null ? String(d.predicted_percent) + "%" : "—");
+            set("v_plevel", d.predicted_level || "—");
+            wrap.querySelectorAll(".car-thumb-preview").forEach((n) => n.remove());
+            if (ph) ph.style.display = "none";
+            const preview = document.createElement("div");
+            preview.className = "car-thumb-preview";
+
+            const base = brandColor(d.brand);
+            const fill = hexToRgba(base, 0.22);
+            const stroke = hexToRgba(base, 0.65);
+            const dot = hexToRgba(base, 0.35);
+            const fuel = (d.fuel_type || "").toString();
+            const fuelShort = fuel ? fuel : "Fuel";
+            const fuelTag = hexToRgba(brandColor(fuel), 0.18);
+            const fuelTagStroke = hexToRgba(brandColor(fuel), 0.55);
+
+            const svgMarkup = `
+                <div class="car-thumb-preview-inner">
+                    <svg viewBox="0 0 320 160" width="320" height="160" aria-hidden="true">
+                        <path d="M40 100h18l22-44h154l14 22h42v44H40z" fill="${fill}" stroke="${stroke}" stroke-width="2"/>
+                        <circle cx="100" cy="130" r="16" fill="rgba(255,255,255,0.08)" stroke="${dot}"/>
+                        <circle cx="220" cy="130" r="16" fill="rgba(255,255,255,0.08)" stroke="${dot}"/>
+                        <text x="160" y="85" text-anchor="middle" font-size="26" font-family="DM Sans, sans-serif" fill="rgba(233,237,242,0.92)">${(d.brand || '').slice(0, 1).toUpperCase()}</text>
+                    </svg>
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:-2px;">
+                        <span style="padding:4px 10px;border-radius:999px;background:${fuelTag};border:1px solid ${fuelTagStroke};color:rgba(233,237,242,0.95);font-weight:800;font-size:0.72rem;">
+                            ${fuelShort}
+                        </span>
+                    </div>
+                    <div class="car-thumb-sub">${d.brand} ${d.model} (${d.year})</div>
+                </div>
+            `;
+
+            if (d.image_url) {
+                preview.innerHTML = `
+                    <div class="car-thumb-preview-inner">
+                        <img
+                            class="car-photo-preview"
+                            alt="${d.brand} ${d.model}"
+                            src="${d.image_url}"
+                            loading="lazy"
+                        />
+                        <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:-2px;">
+                            <span style="padding:4px 10px;border-radius:999px;background:${fuelTag};border:1px solid ${fuelTagStroke};color:rgba(233,237,242,0.95);font-weight:800;font-size:0.72rem;">
+                                ${fuelShort}
+                            </span>
+                        </div>
+                        <div class="car-thumb-sub">${d.brand} ${d.model} (${d.year})</div>
+                    </div>
+                `;
+
+                const img = preview.querySelector("img.car-photo-preview");
+                if (img) {
+                    img.onerror = () => {
+                        preview.innerHTML = svgMarkup;
+                    };
+                }
+            } else {
+                preview.innerHTML = svgMarkup;
+            }
+            wrap.appendChild(preview);
+        });
+    }
+
+    // Simple client-side filter for the car selector.
+    const search = document.getElementById('car_search');
+    if (search && sel) {
+        search.addEventListener('input', () => {
+            const q = (search.value || '').toLowerCase().trim();
+            const opts = sel.querySelectorAll('option');
+            opts.forEach(o => {
+                const txt = (o.textContent || '').toLowerCase();
+                if (!o.value) { o.hidden = false; return; }
+                o.hidden = !(q === '' || txt.includes(q));
+            });
+        });
+    }
+
+    // Make Top10 rows clickable to open the viewer.
+    document.querySelectorAll('tr.top-row[data-car-id]').forEach(row => {
+        row.addEventListener('click', () => {
+            const id = row.getAttribute('data-car-id');
+            if (!id) return;
+            sel.value = id;
+            sel.dispatchEvent(new Event('change'));
+            window.location.hash = '#viewer';
+            window.scrollBy({ top: -80, behavior: 'smooth' });
+        });
+    });
+
+    // Load best-effort real thumbnails for the Top 10 list.
+    const topThumbs = document.querySelectorAll("img.car-photo-thumb-top[data-car-id]");
+    topThumbs.forEach(async (imgEl) => {
+        const carId = imgEl.getAttribute("data-car-id");
+        if (!carId) return;
+        try {
+            const resp = await fetch(carApiPrefix + encodeURIComponent(carId) + "?with_image=1");
+            if (!resp.ok) return;
+            const d = await resp.json();
+            if (d && d.image_url) {
+                imgEl.src = d.image_url;
+                imgEl.style.display = "block";
+            }
+        } catch (e) {
+            // Keep the brand initial fallback.
+        }
+    });
+})();
+</script>
+{% endif %}
+</body>
+</html>

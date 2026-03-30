@@ -1,0 +1,2401 @@
+car_id,brand,model,year,engine_hp,engine_cylinders,fuel_type,transmission,driven_wheels,doors,market_category,price,popularity_score,popularity_level
+1,Subaru,Outback,2017,327,6,Petrol,CVT,RWD,5,SUV,35007,619,Medium
+2,BMW,5 Series,2019,126,4,Petrol,Automatic,AWD,5,SUV,30909,618,Medium
+3,Ford,Explorer,2019,131,4,Diesel,Automatic,AWD,4,SUV,30710,608,Medium
+4,Hyundai,Elantra,2021,143,4,Petrol,Manual,AWD,4,Coupe,29925,493,Low
+5,Ford,F-150,2016,309,6,Petrol,Automatic,AWD,4,SUV,33963,571,Low
+6,Subaru,WRX,2017,179,4,Hybrid,Automatic,FWD,4,SUV,27673,647,High
+7,Jeep,Grand Cherokee,2019,383,8,Petrol,Manual,FWD,5,SUV,37228,578,Medium
+8,Ram,2500,2019,120,4,Petrol,Automatic,FWD,3,Sedan,31631,534,Low
+9,Hyundai,Sonata,2024,314,6,Hybrid,Automatic,FWD,3,Truck,37517,686,High
+10,Porsche,Macan,2016,391,8,Hybrid,Automatic,FWD,4,SUV,31651,658,High
+11,Toyota,Camry,2019,141,4,Petrol,Manual,RWD,4,Truck,22986,543,Low
+12,Toyota,Camry,2024,120,4,Hybrid,Manual,RWD,4,Truck,28777,635,Medium
+13,Volkswagen,Tiguan,2020,96,4,Petrol,CVT,AWD,4,SUV,26768,544,Low
+14,Genesis,GV80,2022,126,4,Electric,Automatic,FWD,4,SUV,37620,601,Medium
+15,Ferrari,Portofino,2017,110,4,Petrol,CVT,FWD,2,SUV,24702,589,Medium
+16,Buick,Enclave,2023,208,4,Petrol,Automatic,RWD,4,Sedan,42504,597,Medium
+17,Audi,A4,2016,368,8,Petrol,Automatic,RWD,5,Sedan,36887,584,Medium
+18,Tesla,Model Y,2016,125,4,Petrol,Automatic,RWD,4,SUV,19722,510,Low
+19,Suzuki,Swift,2022,320,6,Petrol,Automatic,AWD,4,SUV,42566,682,High
+20,Hyundai,Sonata,2024,243,4,Diesel,Automatic,FWD,4,SUV,47452,571,Low
+21,Suzuki,Swift,2019,279,6,Petrol,Manual,AWD,5,Sedan,29777,516,Low
+22,Nissan,Murano,2019,349,6,Hybrid,Automatic,FWD,4,Coupe,45871,523,Low
+23,Porsche,Cayenne,2016,395,8,Petrol,Automatic,AWD,4,SUV,30589,611,Medium
+24,Toyota,Camry,2016,155,4,Diesel,Automatic,FWD,4,SUV,20271,495,Low
+25,BMW,X5,2017,116,4,Diesel,Automatic,FWD,4,SUV,28628,540,Low
+26,Alfa Romeo,Stelvio,2015,389,8,Electric,CVT,AWD,5,SUV,32065,636,Medium
+27,Tesla,Model X,2023,166,4,Petrol,Automatic,FWD,4,SUV,46052,576,Low
+28,Nissan,Rogue,2018,196,4,Diesel,Automatic,AWD,5,SUV,29609,620,Medium
+29,Jeep,Wrangler,2023,278,6,Diesel,Automatic,AWD,4,Coupe,44725,644,Medium
+30,Genesis,GV70,2015,375,8,Petrol,CVT,AWD,4,Hatchback,27413,552,Low
+31,Porsche,911,2015,287,6,Petrol,Automatic,RWD,4,SUV,30268,655,High
+32,Porsche,911,2024,183,4,Petrol,Manual,RWD,4,Hatchback,46654,664,High
+33,Mitsubishi,Eclipse Cross,2017,150,4,Petrol,Automatic,FWD,5,SUV,31258,495,Low
+34,Ferrari,488 GTB,2022,236,4,Petrol,CVT,AWD,5,Sedan,38068,518,Low
+35,Porsche,911,2021,170,4,Petrol,CVT,FWD,4,SUV,38051,642,Medium
+36,Honda,Accord,2024,404,8,Petrol,CVT,FWD,5,Coupe,54721,711,High
+37,Toyota,Camry,2017,150,4,Hybrid,Automatic,AWD,4,Sedan,27356,433,Low
+38,Mini,Countryman,2017,446,8,Petrol,CVT,AWD,5,Coupe,36990,646,Medium
+39,Volvo,XC60,2023,106,4,Hybrid,Automatic,FWD,4,Van,37528,561,Low
+40,Toyota,Camry,2023,299,6,Petrol,Manual,FWD,5,SUV,40489,604,Medium
+41,Ford,F-150,2024,150,4,Diesel,Automatic,RWD,5,Sedan,41959,748,High
+42,Ford,Escape,2016,125,4,Petrol,Automatic,RWD,4,SUV,18052,440,Low
+43,Kia,K5,2015,145,4,Petrol,Automatic,RWD,4,Coupe,23211,545,Low
+44,Mini,Cooper,2020,175,4,Diesel,Automatic,RWD,5,Truck,32128,581,Medium
+45,Mini,Cooper,2018,389,8,Petrol,Manual,FWD,5,Sedan,38500,542,Low
+46,Kia,Sportage,2022,102,4,Hybrid,CVT,FWD,4,SUV,24574,635,Medium
+47,Aston Martin,DB11,2022,182,4,Diesel,Automatic,FWD,4,Sedan,40162,675,High
+48,BMW,5 Series,2023,604,12,Diesel,CVT,AWD,4,SUV,60687,746,High
+49,Subaru,Outback,2019,136,4,Petrol,CVT,FWD,4,SUV,35547,501,Low
+50,Honda,Accord,2017,364,8,Diesel,Automatic,RWD,5,Sedan,38539,649,High
+51,Cadillac,XT5,2019,241,6,Hybrid,Automatic,AWD,4,Hatchback,32693,673,High
+52,Alfa Romeo,Stelvio,2021,161,4,Petrol,Automatic,FWD,5,SUV,30044,603,Medium
+53,Hyundai,Elantra,2022,200,6,Electric,Automatic,FWD,5,Truck,31521,608,Medium
+54,Cadillac,XT5,2016,293,6,Petrol,Automatic,RWD,5,Van,38127,490,Low
+55,Toyota,RAV4,2022,199,4,Electric,Automatic,AWD,4,Hatchback,33334,587,Medium
+56,Alfa Romeo,Giulia,2023,170,4,Petrol,Manual,FWD,4,Coupe,36678,545,Low
+57,Mini,Cooper,2015,171,4,Diesel,CVT,FWD,4,Coupe,20658,467,Low
+58,Ram,2500,2017,389,8,Petrol,CVT,FWD,4,SUV,36801,573,Low
+59,Honda,CR-V,2018,306,6,Hybrid,CVT,FWD,4,Sedan,29626,652,High
+60,Alfa Romeo,Giulia,2019,161,4,Petrol,Manual,FWD,2,SUV,35338,553,Low
+61,Ferrari,Portofino,2022,266,6,Petrol,CVT,FWD,4,Truck,30999,660,High
+62,Jeep,Wrangler,2017,168,4,Petrol,Automatic,AWD,4,SUV,24715,547,Low
+63,Chevrolet,Tahoe,2024,337,6,Hybrid,CVT,AWD,4,SUV,47416,744,High
+64,Tesla,Model X,2019,122,4,Electric,Manual,FWD,4,Sedan,29289,667,High
+65,Toyota,Highlander,2016,177,4,Petrol,Automatic,FWD,4,SUV,23579,507,Low
+66,Cadillac,XT5,2015,151,4,Petrol,Automatic,FWD,5,Hatchback,27530,428,Low
+67,Chevrolet,Tahoe,2021,157,4,Petrol,CVT,FWD,4,Coupe,37336,591,Medium
+68,Alfa Romeo,Giulia,2015,119,4,Petrol,Manual,RWD,4,SUV,14821,518,Low
+69,Cadillac,Escalade,2021,226,4,Hybrid,CVT,FWD,5,SUV,45595,757,High
+70,Suzuki,Swift,2018,296,6,Diesel,Automatic,FWD,4,Sedan,26031,539,Low
+71,BMW,X3,2022,292,6,Hybrid,Automatic,AWD,4,Sedan,37386,691,High
+72,Tesla,Model 3,2024,156,4,Petrol,CVT,RWD,4,Truck,40922,627,Medium
+73,Hyundai,Santa Fe,2015,322,6,Petrol,Automatic,AWD,2,SUV,30845,511,Low
+74,Volvo,XC60,2020,143,4,Diesel,Automatic,RWD,5,Van,32494,545,Low
+75,Mini,Cooper,2020,115,4,Petrol,CVT,FWD,4,Sedan,28275,606,Medium
+76,Cadillac,Escalade,2024,197,4,Petrol,Automatic,AWD,4,SUV,35028,727,High
+77,Lexus,RX,2016,388,8,Hybrid,Automatic,FWD,4,Coupe,41440,622,Medium
+78,Genesis,GV80,2023,142,4,Petrol,Automatic,RWD,4,SUV,35563,661,High
+79,Nissan,Sentra,2018,104,4,Petrol,Automatic,FWD,5,Sedan,24390,475,Low
+80,Hyundai,Tucson,2017,180,4,Diesel,Automatic,FWD,2,SUV,25806,409,Low
+81,Honda,Civic,2017,113,4,Hybrid,CVT,AWD,5,Van,21734,595,Medium
+82,Kia,Sportage,2020,144,4,Hybrid,Automatic,RWD,4,Sedan,36314,602,Medium
+83,Genesis,GV70,2017,227,4,Petrol,Automatic,AWD,4,Truck,28165,504,Low
+84,Hyundai,Elantra,2023,205,4,Petrol,Automatic,FWD,4,Hatchback,39456,626,Medium
+85,Audi,A6,2016,414,8,Electric,Automatic,RWD,4,SUV,35773,687,High
+86,Ford,F-150,2024,187,4,Electric,Automatic,RWD,4,Sedan,45291,715,High
+87,Kia,K5,2021,90,4,Petrol,Automatic,FWD,5,Hatchback,26397,601,Medium
+88,Alfa Romeo,Stelvio,2018,211,4,Petrol,Automatic,RWD,5,Hatchback,31598,520,Low
+89,Jeep,Cherokee,2015,616,12,Petrol,Manual,FWD,4,Sedan,39388,565,Low
+90,Kia,Telluride,2022,163,4,Diesel,Automatic,FWD,5,SUV,40050,657,High
+91,Toyota,Highlander,2019,451,8,Hybrid,CVT,RWD,4,SUV,45787,696,High
+92,Mazda,CX-50,2020,270,6,Petrol,CVT,FWD,4,SUV,39162,606,Medium
+93,Honda,Accord,2021,227,6,Diesel,Manual,FWD,4,Hatchback,34858,572,Low
+94,Ford,Escape,2017,90,4,Petrol,Automatic,AWD,4,SUV,22911,449,Low
+95,Audi,A6,2021,154,4,Electric,Automatic,RWD,2,SUV,39378,669,High
+96,Ferrari,Portofino,2023,136,4,Diesel,Automatic,RWD,4,Sedan,38659,561,Low
+97,Aston Martin,DB11,2022,299,6,Hybrid,Automatic,FWD,4,SUV,44301,738,High
+98,Mazda,Mazda6,2017,450,8,Hybrid,Automatic,FWD,4,Hatchback,38019,619,Medium
+99,Ford,F-150,2018,670,12,Petrol,Automatic,FWD,4,Truck,50918,675,High
+100,Mini,Cooper,2017,379,8,Diesel,Manual,AWD,4,SUV,34618,624,Medium
+101,Jeep,Wrangler,2024,659,12,Petrol,Manual,AWD,5,SUV,59111,733,High
+102,Ram,ProMaster,2018,275,6,Hybrid,CVT,FWD,4,Coupe,30682,629,Medium
+103,Ford,Explorer,2023,128,4,Petrol,Automatic,FWD,2,Sedan,36996,604,Medium
+104,Jeep,Compass,2023,203,4,Petrol,CVT,AWD,4,Hatchback,37198,648,High
+105,Audi,A6,2022,155,4,Hybrid,Automatic,FWD,4,Sedan,40457,698,High
+106,BMW,3 Series,2016,403,8,Petrol,CVT,FWD,4,SUV,33952,638,Medium
+107,Buick,Enclave,2016,241,4,Diesel,Automatic,AWD,4,SUV,35212,580,Medium
+108,Toyota,Highlander,2021,160,4,Petrol,Automatic,AWD,5,SUV,33495,577,Low
+109,Kia,Telluride,2020,306,6,Petrol,Manual,FWD,5,SUV,38854,694,High
+110,Chevrolet,Tahoe,2024,117,4,Petrol,Automatic,FWD,4,Sedan,35230,611,Medium
+111,BMW,3 Series,2016,431,8,Petrol,Automatic,FWD,4,Sedan,33351,547,Low
+112,Alfa Romeo,Stelvio,2015,200,4,Petrol,Automatic,FWD,5,Coupe,26098,549,Low
+113,Toyota,Camry,2019,113,4,Electric,Automatic,AWD,4,Van,27050,550,Low
+114,Porsche,Cayenne,2016,136,4,Petrol,Manual,AWD,4,SUV,28193,559,Low
+115,Alfa Romeo,Stelvio,2024,129,4,Petrol,Automatic,RWD,4,SUV,37626,689,High
+116,Nissan,Rogue,2015,150,4,Hybrid,Automatic,FWD,4,Coupe,17863,511,Low
+117,Porsche,911,2021,134,4,Electric,Automatic,AWD,4,Sedan,40376,693,High
+118,Toyota,Corolla,2022,399,8,Petrol,Automatic,FWD,5,SUV,50093,645,Medium
+119,Hyundai,Santa Fe,2016,244,6,Petrol,Automatic,AWD,5,Hatchback,22777,491,Low
+120,Nissan,Altima,2016,302,8,Petrol,Automatic,AWD,4,SUV,27167,463,Low
+121,Mini,Cooper,2023,196,4,Petrol,CVT,FWD,4,SUV,36279,585,Medium
+122,Nissan,Murano,2021,90,4,Petrol,Automatic,FWD,4,Sedan,25848,552,Low
+123,Mazda,Mazda3,2023,634,12,Petrol,Automatic,AWD,4,SUV,59110,717,High
+124,Aston Martin,DB11,2024,109,4,Hybrid,Automatic,AWD,2,Truck,41234,818,High
+125,Ford,Explorer,2020,430,8,Diesel,Automatic,FWD,2,Truck,42884,688,High
+126,Ferrari,488 GTB,2015,399,8,Hybrid,CVT,AWD,5,Truck,32956,643,Medium
+127,Lexus,IS,2023,623,12,Hybrid,Automatic,FWD,4,SUV,63126,738,High
+128,Mini,Countryman,2019,421,8,Diesel,Manual,FWD,4,Van,39464,592,Medium
+129,Aston Martin,DB11,2017,177,4,Petrol,Manual,FWD,4,Truck,28411,595,Medium
+130,Mini,Countryman,2021,433,8,Electric,Automatic,FWD,4,SUV,44531,678,High
+131,Lexus,RX,2016,181,4,Diesel,Automatic,FWD,4,Coupe,25223,497,Low
+132,Honda,CR-V,2019,131,4,Petrol,Automatic,AWD,4,SUV,31668,538,Low
+133,Mercedes,GLC,2021,172,4,Electric,Automatic,AWD,4,Sedan,34071,622,Medium
+134,Mazda,Mazda6,2021,370,8,Diesel,Automatic,RWD,4,Truck,44567,713,High
+135,Tesla,Model 3,2022,90,4,Petrol,Automatic,FWD,4,SUV,34119,611,Medium
+136,Honda,Civic,2024,182,4,Petrol,Automatic,RWD,5,Hatchback,39937,703,High
+137,Chevrolet,Tahoe,2016,116,4,Petrol,Automatic,RWD,4,Sedan,24657,477,Low
+138,Suzuki,Swift,2019,326,8,Petrol,Automatic,FWD,4,SUV,35144,655,High
+139,Hyundai,Tucson,2016,200,4,Petrol,Automatic,FWD,5,Truck,23392,390,Low
+140,Aston Martin,DB11,2021,325,8,Electric,Automatic,FWD,3,Sedan,45083,730,High
+141,Lexus,IS,2020,453,8,Petrol,Automatic,AWD,5,Van,44685,684,High
+142,Mazda,CX-5,2017,230,6,Electric,Automatic,RWD,4,Sedan,26867,574,Low
+143,Mazda,Mazda3,2023,289,6,Petrol,Automatic,AWD,4,Truck,40778,617,Medium
+144,Audi,Q7,2017,631,12,Petrol,Automatic,FWD,4,Hatchback,47814,593,Medium
+145,Mercedes,GLC,2015,260,6,Electric,Manual,FWD,4,Hatchback,25850,468,Low
+146,Nissan,Altima,2016,168,4,Petrol,Automatic,AWD,4,Coupe,24902,485,Low
+147,Alfa Romeo,Giulia,2017,332,6,Hybrid,Manual,FWD,4,Sedan,35882,617,Medium
+148,Alfa Romeo,Stelvio,2023,256,4,Petrol,Automatic,FWD,5,SUV,36816,671,High
+149,Toyota,Camry,2016,340,6,Hybrid,Automatic,AWD,5,Hatchback,31093,607,Medium
+150,Kia,Sportage,2021,285,6,Petrol,Automatic,AWD,5,SUV,39789,587,Medium
+151,Suzuki,Swift,2022,148,4,Petrol,Automatic,RWD,4,SUV,31666,547,Low
+152,Audi,Q7,2022,289,6,Diesel,Automatic,AWD,5,Coupe,52078,632,Medium
+153,Jeep,Compass,2019,616,12,Petrol,Automatic,AWD,4,Hatchback,40445,624,Medium
+154,Kia,Sportage,2022,119,4,Diesel,Automatic,AWD,2,Sedan,33772,691,High
+155,Toyota,Corolla,2018,394,8,Petrol,Automatic,AWD,2,Coupe,30673,521,Low
+156,Mercedes,GLC,2020,289,6,Petrol,Automatic,FWD,5,Coupe,29012,586,Medium
+157,Chevrolet,Silverado,2019,281,6,Petrol,CVT,AWD,4,SUV,32964,643,Medium
+158,Alfa Romeo,Stelvio,2018,194,4,Petrol,Manual,FWD,2,Van,30783,477,Low
+159,Porsche,911,2022,317,6,Electric,Automatic,RWD,4,SUV,39645,728,High
+160,Mini,Countryman,2017,134,4,Petrol,CVT,FWD,4,Hatchback,26021,474,Low
+161,Mercedes,E-Class,2021,479,8,Petrol,Automatic,FWD,4,SUV,43051,654,High
+162,Ram,3500,2021,252,6,Petrol,Automatic,FWD,3,Sedan,49773,613,Medium
+163,Mitsubishi,Lancer,2019,206,4,Diesel,CVT,RWD,4,SUV,35094,601,Medium
+164,Chevrolet,Malibu,2024,96,4,Petrol,CVT,FWD,4,Sedan,38956,646,Medium
+165,Mini,Countryman,2022,170,4,Diesel,Automatic,AWD,4,SUV,34921,600,Medium
+166,Mitsubishi,Outlander,2017,409,8,Petrol,Automatic,AWD,5,Sedan,36472,599,Medium
+167,Porsche,Panamera,2024,642,12,Diesel,Automatic,AWD,5,Sedan,59091,819,High
+168,Subaru,Forester,2024,640,12,Electric,Automatic,FWD,4,SUV,64095,859,High
+169,Mazda,CX-5,2022,90,4,Petrol,Automatic,FWD,5,SUV,33736,537,Low
+170,Toyota,Highlander,2018,149,4,Diesel,Automatic,FWD,2,SUV,29914,526,Low
+171,Volvo,XC60,2019,178,4,Petrol,CVT,AWD,2,Sedan,29876,583,Medium
+172,Mercedes,GLE,2021,334,6,Diesel,CVT,RWD,4,SUV,35196,678,High
+173,Volkswagen,Jetta,2022,174,4,Petrol,Automatic,RWD,5,Hatchback,38814,526,Low
+174,Porsche,Macan,2017,135,4,Petrol,Automatic,FWD,4,Hatchback,30294,574,Low
+175,Toyota,Corolla,2024,637,12,Petrol,Automatic,AWD,5,Van,57688,524,Low
+176,Volvo,S90,2021,90,4,Diesel,Automatic,AWD,2,Coupe,35519,582,Medium
+177,Kia,K5,2024,330,6,Petrol,Automatic,FWD,4,Truck,43712,774,High
+178,Nissan,Altima,2023,141,4,Diesel,CVT,FWD,4,Van,28923,503,Low
+179,Volkswagen,Jetta,2015,119,4,Hybrid,Automatic,FWD,5,SUV,23133,447,Low
+180,Jeep,Wrangler,2016,408,8,Petrol,Automatic,FWD,4,Sedan,32251,493,Low
+181,Mazda,CX-5,2020,162,4,Petrol,Automatic,FWD,4,Sedan,38093,587,Medium
+182,Nissan,Murano,2023,126,4,Diesel,Automatic,FWD,4,SUV,29905,591,Medium
+183,Ferrari,488 GTB,2015,362,6,Hybrid,Automatic,AWD,4,Truck,28631,574,Low
+184,Lexus,NX,2016,110,4,Electric,Manual,FWD,5,SUV,29441,611,Medium
+185,Ford,F-150,2015,400,8,Petrol,Automatic,FWD,4,Truck,30155,587,Medium
+186,Tesla,Model S,2023,137,4,Petrol,CVT,FWD,4,Van,41103,587,Medium
+187,Nissan,Rogue,2017,352,6,Petrol,Automatic,FWD,4,SUV,29449,460,Low
+188,Cadillac,XT5,2020,255,4,Electric,Automatic,FWD,4,Sedan,39778,715,High
+189,Ferrari,488 GTB,2021,274,6,Hybrid,CVT,FWD,4,SUV,37749,697,High
+190,Toyota,Camry,2024,134,4,Petrol,Manual,FWD,4,Sedan,32267,549,Low
+191,Nissan,Murano,2018,182,4,Petrol,Manual,FWD,5,Van,27210,431,Low
+192,Kia,Sportage,2022,315,6,Hybrid,CVT,FWD,5,Hatchback,40953,605,Medium
+193,Aston Martin,DB11,2022,118,4,Diesel,Manual,AWD,5,SUV,33464,662,High
+194,Mazda,CX-50,2015,162,4,Petrol,Automatic,FWD,5,Sedan,25408,520,Low
+195,Tesla,Model 3,2019,192,4,Petrol,Automatic,FWD,4,SUV,33262,711,High
+196,Mini,Cooper,2024,396,8,Petrol,Automatic,FWD,5,SUV,47597,797,High
+197,Lexus,RX,2022,180,4,Diesel,CVT,FWD,4,Sedan,35354,582,Medium
+198,Buick,Enclave,2016,200,4,Diesel,Automatic,FWD,4,Sedan,29405,587,Medium
+199,Honda,Pilot,2016,357,8,Electric,Automatic,FWD,4,SUV,34899,652,High
+200,Genesis,GV70,2015,94,4,Diesel,Automatic,RWD,3,Truck,19795,506,Low
+201,Kia,K5,2018,220,6,Petrol,Manual,FWD,4,SUV,31108,574,Low
+202,Nissan,Altima,2018,269,6,Hybrid,Automatic,RWD,5,SUV,32363,607,Medium
+203,Subaru,WRX,2021,616,12,Petrol,Manual,RWD,4,Coupe,54159,655,High
+204,Volvo,S90,2021,361,6,Hybrid,CVT,FWD,4,Sedan,43460,691,High
+205,BMW,X5,2018,274,6,Petrol,Manual,AWD,5,Sedan,37006,519,Low
+206,Volvo,XC60,2018,118,4,Petrol,Automatic,FWD,2,Coupe,26490,551,Low
+207,Chevrolet,Tahoe,2019,127,4,Diesel,Automatic,RWD,5,Van,30578,555,Low
+208,Volkswagen,Golf,2017,177,4,Hybrid,Automatic,AWD,2,Sedan,29124,555,Low
+209,Aston Martin,DB11,2017,164,4,Diesel,Automatic,RWD,4,Hatchback,29498,595,Medium
+210,Buick,Encore,2018,325,6,Petrol,Automatic,FWD,5,SUV,39769,740,High
+211,Cadillac,XT5,2015,137,4,Petrol,CVT,FWD,4,SUV,29757,555,Low
+212,Aston Martin,DB11,2016,389,8,Petrol,Automatic,AWD,4,Coupe,36734,713,High
+213,Tesla,Model Y,2019,206,4,Petrol,Automatic,FWD,4,Hatchback,34098,633,Medium
+214,Cadillac,XT5,2017,191,4,Petrol,Manual,AWD,5,Sedan,32433,655,High
+215,Mitsubishi,Lancer,2018,181,4,Diesel,CVT,FWD,4,Sedan,31568,582,Medium
+216,Mitsubishi,Eclipse Cross,2023,454,8,Petrol,Automatic,FWD,4,Truck,46622,670,High
+217,Tesla,Model X,2019,146,4,Petrol,Automatic,FWD,5,Sedan,30595,651,High
+218,Buick,Encore,2022,101,4,Diesel,Automatic,AWD,5,Coupe,33521,666,High
+219,Ferrari,488 GTB,2020,295,6,Petrol,Automatic,AWD,4,Sedan,34142,540,Low
+220,Toyota,Corolla,2019,254,6,Diesel,Automatic,AWD,4,Hatchback,26304,559,Low
+221,Tesla,Model X,2023,332,6,Petrol,Automatic,FWD,5,Hatchback,44338,639,Medium
+222,Subaru,WRX,2023,358,6,Petrol,Automatic,FWD,4,Sedan,47507,702,High
+223,Audi,Q7,2016,96,4,Hybrid,Automatic,AWD,5,Sedan,19662,609,Medium
+224,Toyota,Highlander,2024,386,8,Diesel,Automatic,FWD,5,SUV,44678,680,High
+225,Suzuki,Vitara,2017,133,4,Electric,CVT,RWD,4,SUV,17710,464,Low
+226,Audi,A6,2023,178,4,Petrol,Automatic,FWD,4,SUV,41146,642,Medium
+227,Ford,Escape,2024,390,8,Hybrid,Automatic,RWD,4,Coupe,56972,693,High
+228,Mini,Cooper,2018,163,4,Petrol,Automatic,FWD,4,Sedan,27988,556,Low
+229,BMW,X3,2018,198,4,Diesel,Automatic,RWD,5,SUV,31610,582,Medium
+230,Chevrolet,Tahoe,2015,263,6,Diesel,Automatic,RWD,4,SUV,33587,588,Medium
+231,Aston Martin,DB11,2015,347,6,Hybrid,CVT,RWD,4,Coupe,30737,536,Low
+232,Honda,CR-V,2016,163,4,Petrol,Automatic,FWD,4,SUV,26116,543,Low
+233,Ford,Escape,2017,388,8,Petrol,Automatic,AWD,5,SUV,39205,617,Medium
+234,Toyota,Camry,2016,212,6,Petrol,Automatic,FWD,5,Hatchback,26310,445,Low
+235,Chevrolet,Equinox,2016,439,8,Hybrid,CVT,AWD,5,Sedan,33685,669,High
+236,Lexus,RX,2018,168,4,Petrol,Manual,RWD,5,SUV,26839,529,Low
+237,Mercedes,C-Class,2023,157,4,Hybrid,Automatic,RWD,5,SUV,42670,677,High
+238,Jeep,Wrangler,2023,630,12,Petrol,CVT,AWD,4,Truck,47303,751,High
+239,Mercedes,E-Class,2023,183,4,Petrol,Automatic,RWD,5,Truck,34111,548,Low
+240,Volvo,S60,2019,213,4,Petrol,Automatic,RWD,4,Hatchback,30188,534,Low
+241,Cadillac,XT5,2016,288,6,Petrol,Automatic,FWD,4,Sedan,28087,581,Medium
+242,Buick,Enclave,2024,379,8,Petrol,CVT,FWD,4,Hatchback,53136,694,High
+243,Suzuki,Vitara,2022,117,4,Electric,Automatic,FWD,4,Van,26265,631,Medium
+244,Mercedes,E-Class,2020,595,12,Petrol,Automatic,RWD,5,SUV,48114,603,Medium
+245,Mini,Cooper,2016,138,4,Electric,Manual,FWD,4,SUV,24850,532,Low
+246,Tesla,Model Y,2022,260,6,Petrol,CVT,FWD,5,SUV,36693,666,High
+247,Tesla,Model X,2015,203,4,Hybrid,CVT,FWD,5,Hatchback,28545,600,Medium
+248,Tesla,Model Y,2021,393,8,Petrol,Automatic,FWD,5,SUV,46809,534,Low
+249,BMW,5 Series,2022,404,8,Petrol,Automatic,FWD,4,SUV,46243,699,High
+250,Honda,Civic,2021,149,4,Petrol,Automatic,RWD,4,Truck,41696,573,Low
+251,Mitsubishi,Outlander,2024,486,8,Diesel,Automatic,FWD,4,Hatchback,58243,657,High
+252,Porsche,Macan,2016,181,4,Petrol,Automatic,FWD,4,Sedan,27794,524,Low
+253,Lexus,NX,2017,260,6,Petrol,CVT,FWD,4,Sedan,25826,544,Low
+254,Chevrolet,Silverado,2017,420,8,Hybrid,Automatic,FWD,4,Hatchback,37370,639,Medium
+255,Hyundai,Santa Fe,2018,172,4,Hybrid,Automatic,FWD,4,Sedan,30860,548,Low
+256,Mitsubishi,Lancer,2018,136,4,Petrol,CVT,FWD,5,Truck,31328,582,Medium
+257,Mazda,CX-5,2020,125,4,Petrol,Automatic,FWD,4,SUV,31466,653,High
+258,Subaru,Forester,2015,155,4,Petrol,Automatic,FWD,4,SUV,22047,491,Low
+259,Lexus,RX,2018,280,6,Petrol,Manual,AWD,4,Sedan,40795,685,High
+260,Volvo,S60,2024,174,4,Electric,Automatic,RWD,4,SUV,41671,758,High
+261,Nissan,Rogue,2021,598,12,Petrol,CVT,RWD,4,Sedan,51564,681,High
+262,Ford,Escape,2017,388,8,Petrol,Automatic,AWD,2,Sedan,33335,534,Low
+263,Ram,2500,2020,175,4,Diesel,Automatic,FWD,4,Truck,28169,603,Medium
+264,Honda,Pilot,2017,165,4,Electric,Automatic,AWD,4,SUV,30865,675,High
+265,Ferrari,Portofino,2023,169,4,Hybrid,Automatic,AWD,4,SUV,37739,638,Medium
+266,Aston Martin,Vantage,2016,320,6,Petrol,Automatic,FWD,4,SUV,30528,573,Low
+267,Ford,Mustang,2024,90,4,Hybrid,Automatic,AWD,4,Hatchback,39520,773,High
+268,Volvo,XC60,2015,131,4,Petrol,Automatic,FWD,4,Hatchback,24544,521,Low
+269,Lexus,ES,2019,189,6,Petrol,CVT,FWD,5,SUV,26413,665,High
+270,Mini,Countryman,2020,211,4,Petrol,Automatic,FWD,5,Hatchback,35225,588,Medium
+271,Ferrari,488 GTB,2015,173,4,Petrol,Automatic,AWD,4,SUV,23117,523,Low
+272,Cadillac,XT5,2021,131,4,Hybrid,Manual,FWD,4,Van,42391,627,Medium
+273,BMW,X3,2021,127,4,Electric,Automatic,FWD,5,Van,32252,560,Low
+274,Audi,A4,2023,162,4,Diesel,Automatic,RWD,4,SUV,45962,693,High
+275,Porsche,Panamera,2019,236,4,Electric,Automatic,FWD,4,Sedan,37751,636,Medium
+276,Ferrari,488 GTB,2023,275,6,Hybrid,CVT,FWD,4,SUV,44860,792,High
+277,Jeep,Grand Cherokee,2022,213,6,Petrol,Automatic,FWD,4,Truck,32009,647,High
+278,Toyota,Corolla,2015,164,4,Petrol,Automatic,AWD,4,Truck,20941,507,Low
+279,Volkswagen,Tiguan,2021,199,4,Electric,Automatic,FWD,4,SUV,33893,574,Low
+280,Ram,ProMaster,2017,122,4,Petrol,Automatic,FWD,4,Sedan,23023,546,Low
+281,Ram,3500,2024,241,4,Electric,Manual,FWD,5,Hatchback,46269,703,High
+282,Nissan,Altima,2018,181,4,Electric,Manual,AWD,4,Coupe,31942,505,Low
+283,Toyota,Camry,2020,138,4,Petrol,Automatic,FWD,2,Sedan,32124,450,Low
+284,Ferrari,Portofino,2016,245,6,Diesel,Automatic,FWD,4,Sedan,32162,491,Low
+285,Genesis,GV70,2024,311,6,Petrol,CVT,FWD,2,SUV,46443,599,Medium
+286,BMW,3 Series,2015,149,4,Hybrid,CVT,FWD,4,Sedan,18993,468,Low
+287,Jeep,Cherokee,2018,259,6,Petrol,Automatic,AWD,5,Truck,31909,579,Medium
+288,Mazda,Mazda3,2015,224,4,Petrol,Manual,FWD,4,Hatchback,24547,641,Medium
+289,Toyota,Highlander,2017,164,4,Petrol,CVT,AWD,4,Sedan,21800,510,Low
+290,Jeep,Grand Cherokee,2019,174,4,Petrol,Automatic,FWD,4,Sedan,31184,537,Low
+291,Kia,Sorento,2023,319,6,Electric,Automatic,FWD,4,SUV,46096,767,High
+292,Aston Martin,Vantage,2020,174,4,Petrol,Manual,AWD,4,SUV,36912,559,Low
+293,Ram,2500,2015,150,4,Petrol,Automatic,FWD,5,Truck,26942,486,Low
+294,Jeep,Compass,2022,273,6,Hybrid,Automatic,RWD,4,Sedan,40257,638,Medium
+295,Honda,Civic,2016,238,6,Diesel,Automatic,FWD,4,SUV,32975,688,High
+296,Chevrolet,Silverado,2024,282,6,Petrol,Automatic,FWD,5,SUV,48885,616,Medium
+297,Toyota,Corolla,2020,186,4,Electric,CVT,RWD,4,SUV,27318,652,High
+298,Honda,Pilot,2018,161,4,Petrol,Automatic,AWD,4,Hatchback,33638,578,Medium
+299,Mercedes,C-Class,2024,158,4,Petrol,Automatic,FWD,4,SUV,35897,638,Medium
+300,Volkswagen,Tiguan,2023,143,4,Petrol,Automatic,RWD,5,SUV,35295,569,Low
+301,Ford,Escape,2015,135,4,Petrol,Automatic,RWD,4,Coupe,26581,472,Low
+302,Porsche,Panamera,2020,174,4,Petrol,Automatic,RWD,4,SUV,32293,652,High
+303,BMW,5 Series,2020,263,4,Petrol,CVT,FWD,5,SUV,37967,616,Medium
+304,Mercedes,GLC,2021,315,6,Electric,Automatic,FWD,4,Coupe,39565,617,Medium
+305,Alfa Romeo,Stelvio,2015,175,4,Diesel,Automatic,FWD,5,SUV,23856,505,Low
+306,Tesla,Model Y,2017,172,4,Petrol,Automatic,FWD,4,Sedan,24220,474,Low
+307,Mini,Countryman,2015,418,8,Hybrid,Automatic,RWD,4,Sedan,29060,589,Medium
+308,Alfa Romeo,Giulia,2023,249,6,Diesel,CVT,FWD,2,SUV,43328,666,High
+309,Porsche,Cayenne,2017,159,4,Petrol,Automatic,AWD,4,Coupe,26658,491,Low
+310,Ram,ProMaster,2020,162,4,Petrol,CVT,AWD,5,Truck,35209,732,High
+311,Mini,Cooper,2015,94,4,Hybrid,Automatic,RWD,4,SUV,16703,479,Low
+312,Lexus,RX,2019,260,6,Petrol,CVT,AWD,5,SUV,39229,557,Low
+313,Lexus,NX,2021,283,6,Diesel,Automatic,FWD,4,SUV,32883,557,Low
+314,Ford,Explorer,2023,285,6,Hybrid,Automatic,AWD,4,SUV,43878,777,High
+315,Lexus,NX,2019,449,8,Diesel,Automatic,AWD,4,Van,42208,646,Medium
+316,Volvo,S90,2016,287,6,Hybrid,Automatic,AWD,4,SUV,28349,664,High
+317,Ford,Mustang,2023,180,4,Petrol,Manual,FWD,4,Coupe,45077,569,Low
+318,Ford,F-150,2018,417,8,Diesel,CVT,FWD,4,SUV,46878,702,High
+319,Cadillac,XT5,2023,306,6,Petrol,Automatic,FWD,5,SUV,39475,690,High
+320,Genesis,GV70,2020,425,8,Petrol,CVT,AWD,5,SUV,43653,653,High
+321,Ford,F-150,2018,192,4,Petrol,Automatic,AWD,4,Coupe,29586,599,Medium
+322,Mazda,CX-5,2022,419,8,Hybrid,Automatic,RWD,5,SUV,43285,743,High
+323,Honda,Accord,2015,617,12,Hybrid,CVT,AWD,4,SUV,42605,735,High
+324,Ferrari,Portofino,2015,101,4,Petrol,Automatic,FWD,4,SUV,19472,555,Low
+325,Ram,2500,2018,126,4,Petrol,CVT,RWD,4,SUV,29039,610,Medium
+326,Buick,Enclave,2021,259,6,Petrol,Manual,AWD,4,SUV,35756,702,High
+327,Mercedes,E-Class,2023,288,6,Petrol,Manual,AWD,4,Sedan,38552,621,Medium
+328,Audi,A6,2023,167,4,Petrol,Automatic,FWD,4,Sedan,40370,618,Medium
+329,Mercedes,GLE,2024,397,8,Diesel,Automatic,FWD,4,Sedan,50314,769,High
+330,Volvo,S60,2017,141,4,Hybrid,CVT,FWD,4,Sedan,34467,542,Low
+331,Mazda,CX-5,2019,183,4,Petrol,Automatic,AWD,4,SUV,25686,658,High
+332,Lexus,ES,2022,90,4,Petrol,Manual,FWD,4,Truck,37594,666,High
+333,Honda,Civic,2016,225,4,Diesel,Automatic,AWD,5,Coupe,28364,531,Low
+334,Suzuki,Swift,2022,390,8,Electric,Automatic,RWD,4,Hatchback,48041,674,High
+335,Ferrari,Portofino,2017,271,6,Hybrid,CVT,AWD,4,SUV,35267,614,Medium
+336,Genesis,GV80,2022,123,4,Petrol,Automatic,AWD,4,Sedan,34580,593,Medium
+337,Kia,Sorento,2017,159,4,Petrol,Automatic,AWD,4,SUV,28898,599,Medium
+338,BMW,3 Series,2024,132,4,Petrol,Automatic,FWD,5,SUV,40699,624,Medium
+339,Ferrari,488 GTB,2024,282,6,Hybrid,Automatic,RWD,4,Sedan,37701,623,Medium
+340,Cadillac,XT5,2024,129,4,Diesel,CVT,AWD,4,SUV,38739,733,High
+341,Toyota,Highlander,2016,287,6,Diesel,Automatic,AWD,4,Sedan,25043,471,Low
+342,BMW,5 Series,2015,151,4,Diesel,Automatic,AWD,5,SUV,26811,536,Low
+343,Subaru,Outback,2018,139,4,Petrol,Automatic,AWD,5,SUV,27844,692,High
+344,Lexus,RX,2017,96,4,Electric,Automatic,FWD,4,SUV,27821,565,Low
+345,Ram,ProMaster,2015,279,6,Petrol,Automatic,RWD,4,SUV,24236,600,Medium
+346,Audi,A4,2017,170,4,Petrol,Automatic,FWD,4,Sedan,31560,599,Medium
+347,Honda,Civic,2019,152,4,Diesel,Automatic,AWD,4,SUV,24685,639,Medium
+348,Nissan,Murano,2017,137,4,Petrol,CVT,FWD,2,Truck,22325,561,Low
+349,Alfa Romeo,Giulia,2022,153,4,Electric,Manual,AWD,5,Truck,35676,651,High
+350,Tesla,Model S,2020,409,8,Diesel,Automatic,FWD,4,Sedan,42966,633,Medium
+351,Tesla,Model 3,2018,318,6,Hybrid,CVT,RWD,5,SUV,40454,668,High
+352,Nissan,Altima,2018,230,4,Diesel,Automatic,FWD,4,Hatchback,28735,471,Low
+353,Lexus,ES,2020,410,8,Petrol,CVT,RWD,4,SUV,50288,673,High
+354,Volkswagen,Jetta,2021,142,4,Petrol,Manual,FWD,4,SUV,32438,449,Low
+355,Honda,Pilot,2023,94,4,Petrol,CVT,AWD,4,Sedan,33217,661,High
+356,Honda,Civic,2018,169,4,Petrol,Automatic,FWD,4,Sedan,26019,582,Medium
+357,Ferrari,Portofino,2016,250,6,Petrol,Manual,FWD,2,Sedan,26263,489,Low
+358,Subaru,Forester,2020,217,4,Petrol,Manual,FWD,4,Van,34900,610,Medium
+359,Honda,Pilot,2018,118,4,Petrol,Manual,FWD,4,Sedan,22577,610,Medium
+360,Audi,A6,2020,168,4,Petrol,Automatic,FWD,4,Sedan,35578,590,Medium
+361,Lexus,RX,2020,118,4,Petrol,Manual,AWD,4,Sedan,34322,602,Medium
+362,Ferrari,488 GTB,2021,274,6,Petrol,CVT,RWD,4,SUV,35422,649,High
+363,Cadillac,Escalade,2018,397,8,Petrol,Automatic,FWD,5,SUV,38961,652,High
+364,Genesis,G80,2024,269,6,Diesel,Automatic,AWD,5,SUV,43466,641,Medium
+365,Ferrari,Portofino,2022,131,4,Diesel,Manual,AWD,4,Coupe,35659,600,Medium
+366,Jeep,Compass,2019,133,4,Petrol,Automatic,RWD,4,Sedan,23751,526,Low
+367,Genesis,G70,2018,320,6,Electric,Automatic,RWD,2,Sedan,33763,595,Medium
+368,BMW,3 Series,2017,171,4,Diesel,Automatic,RWD,5,SUV,23717,606,Medium
+369,Alfa Romeo,Stelvio,2015,273,6,Hybrid,CVT,RWD,4,Hatchback,27678,597,Medium
+370,Hyundai,Sonata,2020,406,8,Petrol,Automatic,AWD,5,Truck,35369,580,Medium
+371,Tesla,Model X,2019,288,6,Electric,Automatic,RWD,4,SUV,36403,684,High
+372,Cadillac,Escalade,2022,281,6,Petrol,Automatic,FWD,4,SUV,45190,655,High
+373,Subaru,Forester,2019,163,4,Diesel,Automatic,FWD,4,Sedan,36416,585,Medium
+374,Mercedes,GLC,2020,149,4,Hybrid,Automatic,RWD,4,Sedan,31018,672,High
+375,Ferrari,488 GTB,2022,622,12,Petrol,Automatic,RWD,4,Van,52794,712,High
+376,Ford,Escape,2021,113,4,Electric,CVT,FWD,4,Sedan,35112,555,Low
+377,Lexus,NX,2023,142,4,Petrol,Manual,AWD,4,Sedan,41485,516,Low
+378,Volvo,XC60,2022,263,6,Petrol,Manual,FWD,4,Coupe,44454,644,Medium
+379,Lexus,ES,2016,320,6,Petrol,CVT,RWD,4,Sedan,30882,568,Low
+380,Buick,Encore,2021,162,4,Diesel,Automatic,AWD,2,Coupe,32306,647,High
+381,Nissan,Murano,2023,354,6,Diesel,Automatic,AWD,4,SUV,42878,558,Low
+382,Toyota,Highlander,2016,436,8,Petrol,Automatic,FWD,4,Hatchback,35000,449,Low
+383,Ferrari,Portofino,2017,637,12,Electric,Automatic,AWD,4,SUV,48709,728,High
+384,Mitsubishi,Eclipse Cross,2024,90,4,Hybrid,CVT,FWD,2,SUV,34682,722,High
+385,Toyota,Highlander,2018,359,6,Petrol,CVT,FWD,5,Sedan,37700,568,Low
+386,Honda,Civic,2015,256,6,Hybrid,Automatic,FWD,4,SUV,20491,629,Medium
+387,Aston Martin,DB11,2018,165,4,Petrol,Automatic,FWD,5,SUV,31935,580,Medium
+388,Suzuki,Swift,2015,303,6,Electric,Automatic,AWD,4,Hatchback,38373,496,Low
+389,Mercedes,GLE,2020,121,4,Hybrid,CVT,AWD,4,Truck,35391,688,High
+390,Honda,Accord,2015,125,4,Petrol,CVT,FWD,4,SUV,18301,496,Low
+391,Mitsubishi,Eclipse Cross,2023,171,4,Hybrid,Automatic,FWD,4,Sedan,32297,612,Medium
+392,Kia,Sorento,2019,253,6,Petrol,Automatic,RWD,5,Coupe,38167,562,Low
+393,Ford,Explorer,2019,219,4,Petrol,Automatic,FWD,4,Sedan,34896,559,Low
+394,Toyota,Highlander,2020,140,4,Petrol,Automatic,AWD,5,SUV,35535,505,Low
+395,Mercedes,C-Class,2022,170,4,Diesel,Automatic,FWD,4,Coupe,35391,557,Low
+396,Mitsubishi,Eclipse Cross,2015,164,4,Petrol,Automatic,AWD,4,Hatchback,30021,523,Low
+397,Mitsubishi,Outlander,2016,176,4,Hybrid,Automatic,FWD,2,SUV,23254,522,Low
+398,Mercedes,E-Class,2020,171,4,Petrol,Automatic,FWD,2,SUV,34444,484,Low
+399,Porsche,911,2020,401,8,Petrol,Automatic,FWD,2,SUV,42981,564,Low
+400,Subaru,Crosstrek,2018,173,4,Diesel,Manual,AWD,5,SUV,30318,572,Low
+401,Ford,Explorer,2020,167,4,Hybrid,Automatic,FWD,4,Truck,34577,627,Medium
+402,Jeep,Cherokee,2024,134,4,Electric,Automatic,RWD,2,SUV,33034,731,High
+403,Suzuki,Swift,2024,171,4,Diesel,Automatic,FWD,5,SUV,36299,641,Medium
+404,Tesla,Model X,2020,367,8,Electric,Manual,FWD,4,SUV,38211,709,High
+405,Toyota,RAV4,2019,282,6,Petrol,Automatic,FWD,4,Sedan,37572,497,Low
+406,Tesla,Model X,2023,124,4,Petrol,Automatic,FWD,4,Hatchback,42577,638,Medium
+407,Mini,Countryman,2023,290,6,Diesel,Automatic,RWD,4,SUV,37783,643,Medium
+408,Chevrolet,Malibu,2020,140,4,Diesel,CVT,FWD,4,Sedan,35535,532,Low
+409,Volkswagen,Tiguan,2017,620,12,Petrol,Automatic,FWD,2,Coupe,47879,579,Medium
+410,Mitsubishi,Lancer,2022,264,6,Petrol,Automatic,AWD,4,Sedan,41242,647,High
+411,Mitsubishi,Outlander,2015,256,6,Diesel,Automatic,AWD,4,SUV,27446,520,Low
+412,Honda,Pilot,2019,162,4,Diesel,Automatic,AWD,5,Coupe,31556,624,Medium
+413,Jeep,Wrangler,2023,123,4,Petrol,Automatic,FWD,4,Van,32162,478,Low
+414,Mazda,Mazda6,2021,354,8,Electric,Automatic,RWD,4,Hatchback,45101,649,High
+415,Cadillac,XT5,2018,258,6,Petrol,Automatic,FWD,4,SUV,34759,666,High
+416,Ferrari,Portofino,2021,395,8,Petrol,Automatic,AWD,4,Sedan,43414,682,High
+417,Kia,Sorento,2017,232,6,Petrol,Automatic,RWD,4,Sedan,30185,585,Medium
+418,Toyota,Corolla,2017,639,12,Electric,Automatic,FWD,4,Hatchback,42987,497,Low
+419,Buick,Enclave,2023,211,4,Diesel,Automatic,RWD,5,SUV,43247,706,High
+420,Suzuki,Vitara,2018,417,8,Petrol,Automatic,FWD,2,SUV,37321,417,Low
+421,Ford,Explorer,2015,352,8,Electric,Manual,AWD,5,Van,32034,609,Medium
+422,Cadillac,Escalade,2022,160,4,Petrol,Automatic,AWD,4,Coupe,43123,638,Medium
+423,Mini,Cooper,2024,163,4,Petrol,Automatic,FWD,4,Sedan,38543,637,Medium
+424,Volvo,XC90,2024,304,6,Petrol,Automatic,RWD,4,Sedan,45698,668,High
+425,Volvo,S90,2015,135,4,Hybrid,Automatic,RWD,4,SUV,27366,421,Low
+426,Alfa Romeo,Giulia,2022,298,6,Petrol,Automatic,RWD,4,Sedan,40863,683,High
+427,Toyota,RAV4,2019,174,6,Hybrid,Manual,FWD,4,SUV,25397,527,Low
+428,Mazda,CX-5,2024,128,4,Electric,Automatic,RWD,5,SUV,39702,681,High
+429,Lexus,NX,2017,263,6,Diesel,Automatic,FWD,4,Sedan,28303,501,Low
+430,Hyundai,Sonata,2021,127,4,Electric,CVT,RWD,5,Hatchback,22005,562,Low
+431,Chevrolet,Tahoe,2015,211,4,Electric,Automatic,FWD,4,SUV,25801,570,Low
+432,Mercedes,E-Class,2015,165,4,Hybrid,Automatic,FWD,4,SUV,23415,507,Low
+433,Tesla,Model Y,2024,91,4,Petrol,Automatic,RWD,4,SUV,39855,692,High
+434,Genesis,GV80,2019,124,4,Petrol,Automatic,AWD,5,SUV,26703,644,Medium
+435,Volkswagen,Tiguan,2023,163,4,Petrol,Automatic,FWD,5,SUV,40638,566,Low
+436,Kia,Sorento,2016,284,6,Petrol,Automatic,FWD,5,Hatchback,27607,596,Medium
+437,Chevrolet,Malibu,2021,181,4,Petrol,Automatic,AWD,4,Hatchback,32110,572,Low
+438,Audi,A4,2019,314,6,Petrol,Automatic,RWD,4,SUV,35110,622,Medium
+439,Nissan,Murano,2018,102,4,Diesel,Automatic,FWD,5,Hatchback,30122,490,Low
+440,Aston Martin,DB11,2017,152,4,Petrol,Automatic,RWD,4,Sedan,27498,548,Low
+441,Tesla,Model S,2017,175,4,Hybrid,Automatic,RWD,5,Sedan,22082,458,Low
+442,Chevrolet,Silverado,2018,385,8,Petrol,CVT,AWD,4,Truck,38892,677,High
+443,Buick,Encore,2019,157,4,Petrol,Automatic,AWD,4,Coupe,30178,591,Medium
+444,Volvo,S60,2016,131,4,Hybrid,Automatic,FWD,5,Sedan,28513,516,Low
+445,Mini,Cooper,2020,246,6,Diesel,Automatic,FWD,5,Sedan,32287,498,Low
+446,Cadillac,Escalade,2017,115,4,Hybrid,Automatic,FWD,4,Sedan,26075,646,Medium
+447,Kia,Sorento,2015,276,6,Diesel,Manual,FWD,5,SUV,32227,485,Low
+448,Suzuki,Swift,2024,403,8,Petrol,Automatic,FWD,4,SUV,44458,630,Medium
+449,Honda,Accord,2015,432,8,Hybrid,Automatic,RWD,4,Sedan,36843,662,High
+450,Mercedes,GLC,2021,340,6,Petrol,Manual,FWD,5,SUV,40525,666,High
+451,Tesla,Model 3,2017,295,6,Petrol,Automatic,RWD,4,SUV,31578,504,Low
+452,Buick,Enclave,2021,281,6,Diesel,Automatic,FWD,4,Sedan,38110,670,High
+453,Tesla,Model Y,2021,143,4,Electric,Automatic,AWD,5,Sedan,37856,683,High
+454,Audi,A4,2024,123,4,Hybrid,Automatic,AWD,4,SUV,46891,755,High
+455,Hyundai,Elantra,2020,275,6,Diesel,Manual,FWD,4,SUV,32059,545,Low
+456,Volvo,XC60,2018,91,4,Petrol,Automatic,FWD,4,SUV,29628,632,Medium
+457,Ford,F-150,2018,262,6,Petrol,Automatic,FWD,2,Truck,33717,573,Low
+458,Ferrari,Portofino,2017,133,4,Hybrid,Automatic,FWD,5,SUV,25528,587,Medium
+459,Cadillac,XT5,2020,168,4,Petrol,Automatic,AWD,4,Sedan,35737,607,Medium
+460,BMW,5 Series,2021,312,6,Electric,Manual,AWD,4,Hatchback,40236,618,Medium
+461,Kia,Sportage,2019,256,6,Diesel,Manual,FWD,4,Truck,36311,650,High
+462,Mercedes,E-Class,2019,358,8,Petrol,Manual,FWD,4,Hatchback,41043,531,Low
+463,Alfa Romeo,Giulia,2018,333,8,Electric,Automatic,AWD,4,SUV,40220,715,High
+464,Honda,Accord,2015,155,4,Diesel,Automatic,FWD,5,Truck,20341,571,Low
+465,Genesis,GV70,2018,299,6,Petrol,Automatic,AWD,4,Hatchback,34303,625,Medium
+466,BMW,X3,2015,183,4,Diesel,Automatic,FWD,2,Coupe,19815,484,Low
+467,Tesla,Model Y,2023,351,6,Diesel,Automatic,FWD,4,Truck,46769,767,High
+468,Mitsubishi,Outlander,2020,147,4,Petrol,Automatic,FWD,4,Sedan,34341,620,Medium
+469,Honda,Pilot,2019,172,4,Electric,CVT,FWD,4,SUV,31237,705,High
+470,Honda,Accord,2020,126,4,Petrol,Automatic,FWD,4,Sedan,35358,566,Low
+471,Alfa Romeo,Giulia,2019,183,4,Hybrid,Automatic,FWD,4,SUV,31299,594,Medium
+472,Kia,K5,2017,203,4,Diesel,Automatic,FWD,4,Hatchback,29934,565,Low
+473,Suzuki,Swift,2022,379,8,Diesel,Automatic,FWD,4,SUV,44583,616,Medium
+474,Nissan,Sentra,2015,109,4,Hybrid,CVT,RWD,5,Hatchback,24935,482,Low
+475,Mitsubishi,Lancer,2020,283,6,Petrol,Automatic,AWD,4,Van,32148,658,High
+476,Mini,Countryman,2020,151,4,Diesel,Automatic,FWD,5,Coupe,29868,503,Low
+477,Audi,A6,2017,152,4,Diesel,Automatic,AWD,4,Sedan,38037,538,Low
+478,Hyundai,Tucson,2019,166,4,Petrol,Automatic,FWD,4,Sedan,30744,565,Low
+479,Honda,Pilot,2021,358,8,Petrol,Automatic,FWD,4,Truck,38219,658,High
+480,Mitsubishi,Outlander,2017,173,4,Petrol,Automatic,RWD,4,Hatchback,24499,491,Low
+481,Buick,Encore,2020,168,4,Petrol,Automatic,AWD,4,Sedan,34212,600,Medium
+482,Jeep,Cherokee,2024,369,8,Diesel,Automatic,FWD,5,SUV,47117,609,Medium
+483,Buick,Enclave,2024,146,4,Hybrid,CVT,FWD,4,Van,45004,685,High
+484,Ram,2500,2017,241,6,Petrol,CVT,FWD,4,Hatchback,26007,588,Medium
+485,Honda,Civic,2016,180,4,Electric,Automatic,FWD,5,SUV,23683,652,High
+486,Kia,Telluride,2021,224,4,Diesel,Automatic,FWD,4,SUV,32637,657,High
+487,Mercedes,GLC,2023,171,4,Hybrid,Automatic,FWD,5,SUV,35151,672,High
+488,Volkswagen,Passat,2018,126,4,Hybrid,Manual,AWD,4,Truck,29323,619,Medium
+489,Volkswagen,Golf,2019,302,6,Petrol,Automatic,FWD,5,Sedan,33890,540,Low
+490,Suzuki,Swift,2023,255,6,Electric,Automatic,AWD,4,SUV,40141,750,High
+491,Mitsubishi,Lancer,2016,438,8,Diesel,Automatic,RWD,4,Sedan,31986,626,Medium
+492,Mitsubishi,Outlander,2015,376,8,Hybrid,Automatic,RWD,3,SUV,27081,677,High
+493,Ram,1500,2016,185,4,Petrol,Automatic,AWD,2,Sedan,20005,565,Low
+494,Alfa Romeo,Stelvio,2023,135,4,Petrol,Automatic,FWD,4,Sedan,44414,614,Medium
+495,Ferrari,488 GTB,2018,143,4,Petrol,Automatic,RWD,4,SUV,26467,589,Medium
+496,Porsche,Cayenne,2016,252,6,Petrol,Automatic,FWD,5,Sedan,28465,635,Medium
+497,Subaru,Outback,2017,175,4,Diesel,Automatic,AWD,4,Sedan,33111,524,Low
+498,Cadillac,Escalade,2020,156,4,Hybrid,Automatic,FWD,4,SUV,30460,695,High
+499,Porsche,Cayenne,2020,275,6,Petrol,CVT,RWD,4,SUV,34332,693,High
+500,BMW,3 Series,2021,480,8,Petrol,Automatic,RWD,4,Truck,41481,682,High
+501,Alfa Romeo,Stelvio,2017,284,6,Petrol,Automatic,AWD,4,Sedan,27476,615,Medium
+502,Ford,F-150,2024,254,6,Hybrid,Automatic,RWD,4,SUV,51170,675,High
+503,Lexus,ES,2017,117,4,Diesel,Automatic,AWD,4,Sedan,25053,518,Low
+504,Mazda,Mazda3,2020,141,4,Diesel,Manual,AWD,5,SUV,32674,543,Low
+505,Subaru,Outback,2022,183,4,Hybrid,Automatic,RWD,4,Sedan,42662,797,High
+506,Honda,CR-V,2019,167,4,Diesel,Automatic,FWD,4,Coupe,29810,615,Medium
+507,Mazda,CX-5,2016,137,4,Petrol,Manual,RWD,4,Coupe,19381,505,Low
+508,Mini,Countryman,2022,140,4,Diesel,Automatic,RWD,3,SUV,35066,673,High
+509,Porsche,911,2018,170,4,Petrol,CVT,AWD,4,Coupe,30823,573,Low
+510,Ford,F-150,2017,207,6,Petrol,CVT,RWD,5,SUV,30978,516,Low
+511,Tesla,Model S,2024,166,4,Diesel,Automatic,FWD,5,SUV,38532,710,High
+512,Toyota,Highlander,2015,107,4,Hybrid,CVT,RWD,4,SUV,24825,621,Medium
+513,Buick,Encore,2023,185,4,Hybrid,Manual,FWD,5,SUV,39696,616,Medium
+514,Toyota,RAV4,2021,302,6,Diesel,CVT,RWD,4,Sedan,42831,530,Low
+515,Honda,CR-V,2022,187,4,Petrol,CVT,AWD,5,SUV,40263,684,High
+516,Hyundai,Santa Fe,2023,298,6,Electric,Automatic,AWD,4,Coupe,40806,590,Medium
+517,Jeep,Cherokee,2022,426,8,Diesel,Manual,FWD,5,Truck,43024,619,Medium
+518,Mitsubishi,Outlander,2022,198,4,Diesel,Automatic,RWD,4,Sedan,39252,408,Low
+519,Mazda,CX-50,2018,300,6,Petrol,Automatic,AWD,5,Sedan,38233,601,Medium
+520,Genesis,GV70,2020,255,6,Petrol,CVT,AWD,4,Hatchback,30357,596,Medium
+521,Suzuki,Vitara,2023,155,4,Hybrid,Automatic,FWD,4,Hatchback,36826,623,Medium
+522,Jeep,Compass,2018,173,4,Diesel,Automatic,RWD,4,Coupe,25404,526,Low
+523,Mitsubishi,Lancer,2020,136,4,Diesel,Automatic,RWD,5,SUV,38046,574,Low
+524,Ram,2500,2023,272,6,Petrol,Automatic,FWD,4,Sedan,43974,736,High
+525,Kia,K5,2018,305,6,Diesel,Manual,AWD,4,SUV,35330,574,Low
+526,Hyundai,Santa Fe,2020,244,4,Electric,CVT,FWD,4,Hatchback,28259,573,Low
+527,Audi,A6,2015,405,8,Diesel,Automatic,RWD,4,SUV,34815,542,Low
+528,Ram,3500,2018,334,8,Hybrid,Automatic,FWD,4,SUV,38791,702,High
+529,Chevrolet,Malibu,2021,91,4,Hybrid,Automatic,FWD,4,Hatchback,27413,595,Medium
+530,Audi,A6,2016,393,8,Petrol,CVT,RWD,4,Hatchback,36822,446,Low
+531,Cadillac,XT5,2020,151,4,Hybrid,Manual,FWD,5,SUV,34568,717,High
+532,Hyundai,Sonata,2016,599,12,Petrol,Automatic,FWD,4,SUV,38583,492,Low
+533,Hyundai,Santa Fe,2019,194,4,Hybrid,Automatic,RWD,4,Hatchback,29904,535,Low
+534,Aston Martin,Vantage,2017,138,4,Petrol,Automatic,RWD,4,SUV,21918,610,Medium
+535,Porsche,Panamera,2016,416,8,Petrol,Automatic,FWD,4,SUV,38285,652,High
+536,Subaru,WRX,2015,160,4,Diesel,Automatic,FWD,4,SUV,23421,483,Low
+537,Kia,K5,2021,126,4,Hybrid,Automatic,RWD,5,SUV,33308,565,Low
+538,Aston Martin,Vantage,2017,335,6,Petrol,Automatic,RWD,4,SUV,37666,666,High
+539,Nissan,Rogue,2015,145,4,Electric,Automatic,FWD,4,Truck,23329,512,Low
+540,Porsche,Panamera,2023,378,8,Hybrid,Automatic,FWD,4,Sedan,43272,715,High
+541,Cadillac,XT5,2022,438,8,Hybrid,Automatic,FWD,4,Sedan,48756,714,High
+542,Mitsubishi,Lancer,2024,632,12,Electric,Automatic,AWD,5,Hatchback,66160,834,High
+543,BMW,5 Series,2018,175,4,Petrol,Manual,AWD,5,Truck,34617,576,Low
+544,Subaru,WRX,2015,276,6,Electric,Automatic,FWD,4,Sedan,29319,586,Medium
+545,Lexus,ES,2023,157,4,Petrol,Manual,FWD,4,Hatchback,39876,637,Medium
+546,Ford,Escape,2019,186,4,Hybrid,Automatic,FWD,4,Sedan,34230,623,Medium
+547,BMW,3 Series,2023,293,6,Diesel,Automatic,FWD,5,Sedan,45340,547,Low
+548,Honda,CR-V,2023,267,4,Petrol,Automatic,AWD,2,Sedan,36325,709,High
+549,Nissan,Sentra,2015,328,6,Diesel,Automatic,RWD,4,Hatchback,26086,431,Low
+550,Aston Martin,DB11,2016,170,4,Diesel,Manual,FWD,4,Truck,26703,557,Low
+551,Ford,Explorer,2023,207,4,Petrol,Automatic,RWD,4,Sedan,40349,674,High
+552,Ford,F-150,2017,293,6,Hybrid,Automatic,FWD,4,Truck,31441,584,Medium
+553,BMW,X5,2016,176,4,Diesel,Automatic,RWD,5,SUV,14451,563,Low
+554,Genesis,G70,2018,124,4,Petrol,Manual,FWD,2,Sedan,23365,558,Low
+555,Volkswagen,Golf,2020,353,8,Diesel,Automatic,FWD,4,Coupe,40096,578,Medium
+556,Mazda,CX-50,2019,597,12,Hybrid,Automatic,FWD,4,Sedan,47119,716,High
+557,Mercedes,C-Class,2022,315,6,Petrol,Automatic,RWD,5,Sedan,40209,663,High
+558,Mazda,Mazda6,2022,177,4,Petrol,CVT,RWD,4,SUV,35257,572,Low
+559,Nissan,Altima,2017,212,4,Hybrid,Manual,AWD,4,SUV,28067,580,Medium
+560,Ram,2500,2016,90,4,Petrol,Automatic,RWD,4,SUV,29962,511,Low
+561,Subaru,Outback,2019,427,8,Petrol,CVT,FWD,4,Sedan,46562,752,High
+562,Lexus,IS,2021,125,4,Petrol,Automatic,FWD,3,Truck,37496,610,Medium
+563,Suzuki,Swift,2017,200,4,Petrol,CVT,AWD,4,Sedan,24201,496,Low
+564,Ford,Explorer,2015,269,6,Petrol,CVT,FWD,5,Sedan,34523,583,Medium
+565,Porsche,Panamera,2015,147,4,Hybrid,Automatic,RWD,5,Sedan,22450,585,Medium
+566,Honda,Pilot,2023,343,6,Petrol,CVT,FWD,5,Coupe,48706,767,High
+567,Ford,F-150,2022,389,8,Diesel,Automatic,AWD,4,SUV,44304,663,High
+568,Honda,Civic,2021,410,8,Petrol,Automatic,FWD,5,Truck,43946,685,High
+569,Tesla,Model Y,2022,90,4,Diesel,Automatic,FWD,5,Sedan,33689,558,Low
+570,Porsche,Cayenne,2019,156,4,Petrol,CVT,RWD,4,Coupe,34487,494,Low
+571,Ford,Explorer,2022,429,8,Electric,CVT,FWD,4,SUV,43553,728,High
+572,Alfa Romeo,Giulia,2022,207,4,Petrol,Automatic,FWD,5,SUV,36103,638,Medium
+573,Tesla,Model Y,2016,395,8,Petrol,Automatic,FWD,4,Coupe,33085,640,Medium
+574,Genesis,GV80,2017,206,4,Petrol,CVT,FWD,4,Coupe,27010,521,Low
+575,BMW,3 Series,2023,185,4,Petrol,CVT,FWD,4,SUV,38548,704,High
+576,Mitsubishi,Eclipse Cross,2022,138,4,Diesel,CVT,FWD,4,Sedan,39721,673,High
+577,Ferrari,488 GTB,2017,264,6,Petrol,Manual,AWD,4,Truck,30972,602,Medium
+578,Mercedes,C-Class,2023,286,6,Petrol,Automatic,RWD,5,Sedan,38854,652,High
+579,Chevrolet,Tahoe,2016,150,4,Petrol,Manual,AWD,4,SUV,27546,632,Medium
+580,Porsche,Macan,2019,443,8,Hybrid,CVT,FWD,4,Coupe,40221,689,High
+581,Hyundai,Elantra,2017,158,4,Petrol,Automatic,AWD,4,Coupe,28186,454,Low
+582,Mitsubishi,Outlander,2022,93,4,Diesel,CVT,FWD,5,Truck,32406,669,High
+583,Aston Martin,Vantage,2020,152,4,Petrol,Automatic,FWD,4,SUV,31706,567,Low
+584,Genesis,G70,2024,384,8,Petrol,Automatic,FWD,5,Sedan,52452,671,High
+585,Cadillac,XT5,2015,198,4,Petrol,Automatic,RWD,5,SUV,25700,563,Low
+586,Toyota,Highlander,2024,155,4,Diesel,Automatic,AWD,4,Sedan,38901,556,Low
+587,Genesis,GV80,2021,192,4,Petrol,CVT,FWD,2,Sedan,41831,566,Low
+588,Tesla,Model 3,2015,229,4,Electric,Automatic,FWD,4,Sedan,24715,597,Medium
+589,Mitsubishi,Outlander,2023,180,4,Electric,Automatic,FWD,5,Sedan,34988,686,High
+590,Cadillac,XT5,2017,399,8,Petrol,Automatic,FWD,5,Sedan,45082,610,Medium
+591,Volkswagen,Golf,2016,393,8,Petrol,Automatic,RWD,4,SUV,35299,524,Low
+592,Jeep,Grand Cherokee,2021,99,4,Diesel,Automatic,AWD,5,Truck,26559,631,Medium
+593,BMW,5 Series,2019,207,4,Petrol,CVT,AWD,4,Sedan,35358,515,Low
+594,Aston Martin,Vantage,2018,166,4,Petrol,Manual,FWD,2,Sedan,30758,605,Medium
+595,Honda,CR-V,2023,215,4,Petrol,Manual,AWD,4,SUV,47782,669,High
+596,Mazda,Mazda3,2023,159,4,Petrol,CVT,FWD,2,SUV,39313,605,Medium
+597,Porsche,Cayenne,2017,290,6,Diesel,Manual,AWD,4,Hatchback,42124,669,High
+598,Mini,Cooper,2018,135,4,Hybrid,Automatic,FWD,4,Sedan,26025,545,Low
+599,Kia,Sorento,2021,593,12,Diesel,Automatic,RWD,4,SUV,56791,709,High
+600,Volkswagen,Tiguan,2023,198,4,Hybrid,Automatic,AWD,5,SUV,43102,787,High
+601,Kia,Sorento,2020,130,4,Diesel,Automatic,FWD,5,Sedan,33509,582,Medium
+602,Porsche,911,2023,192,4,Petrol,CVT,AWD,4,SUV,43370,689,High
+603,Suzuki,Swift,2019,209,4,Petrol,Automatic,AWD,4,Sedan,25738,604,Medium
+604,Subaru,WRX,2019,139,4,Diesel,Automatic,FWD,4,Hatchback,31520,607,Medium
+605,Cadillac,Escalade,2022,402,8,Diesel,Automatic,FWD,4,SUV,51171,708,High
+606,Toyota,Corolla,2017,325,6,Diesel,CVT,RWD,5,Hatchback,27521,510,Low
+607,Porsche,911,2022,93,4,Diesel,Automatic,FWD,2,Sedan,29427,643,Medium
+608,Subaru,Forester,2021,132,4,Petrol,Automatic,AWD,4,Sedan,35703,661,High
+609,Audi,Q7,2015,329,6,Electric,Automatic,FWD,4,Hatchback,34001,609,Medium
+610,Volkswagen,Golf,2020,90,4,Electric,Automatic,FWD,4,SUV,24453,576,Low
+611,Nissan,Rogue,2021,116,4,Diesel,Automatic,FWD,4,Coupe,35558,541,Low
+612,Porsche,911,2021,269,6,Hybrid,Automatic,RWD,4,SUV,35693,706,High
+613,Buick,Enclave,2022,248,6,Electric,Automatic,AWD,4,SUV,39414,730,High
+614,BMW,X5,2021,169,4,Petrol,CVT,RWD,5,SUV,39176,577,Low
+615,Toyota,RAV4,2023,275,6,Hybrid,Automatic,RWD,4,Van,38781,646,Medium
+616,Volvo,XC90,2024,395,8,Hybrid,CVT,AWD,4,SUV,48378,776,High
+617,Ferrari,488 GTB,2024,116,4,Hybrid,Automatic,FWD,4,Sedan,43131,727,High
+618,Mercedes,GLE,2024,143,4,Petrol,Automatic,FWD,4,Sedan,42447,566,Low
+619,Lexus,RX,2019,207,4,Petrol,Automatic,FWD,4,Coupe,37513,558,Low
+620,Mazda,Mazda3,2023,453,8,Electric,Automatic,FWD,4,SUV,54188,712,High
+621,Mercedes,C-Class,2016,151,4,Electric,Manual,RWD,5,SUV,22716,497,Low
+622,Chevrolet,Malibu,2023,257,6,Hybrid,CVT,FWD,5,SUV,48834,740,High
+623,Jeep,Wrangler,2017,305,6,Hybrid,Automatic,FWD,4,SUV,30281,589,Medium
+624,Kia,Sportage,2024,142,4,Hybrid,Automatic,RWD,4,Coupe,38440,775,High
+625,Hyundai,Tucson,2022,192,4,Diesel,Automatic,FWD,5,Coupe,32571,548,Low
+626,Porsche,Macan,2024,93,4,Diesel,Automatic,FWD,4,SUV,36878,593,Medium
+627,BMW,X5,2020,142,4,Petrol,Automatic,RWD,4,SUV,32685,498,Low
+628,Audi,Q7,2024,258,6,Petrol,CVT,FWD,5,Coupe,49277,660,High
+629,Mitsubishi,Lancer,2018,289,6,Diesel,Manual,FWD,2,Sedan,31478,556,Low
+630,Mini,Cooper,2023,236,6,Petrol,CVT,AWD,5,Truck,39691,654,High
+631,Subaru,WRX,2023,217,4,Petrol,Automatic,FWD,5,Sedan,40683,707,High
+632,Nissan,Rogue,2015,221,4,Diesel,CVT,AWD,4,SUV,23412,441,Low
+633,Buick,Encore,2015,209,4,Petrol,Automatic,FWD,4,Sedan,25784,520,Low
+634,Jeep,Wrangler,2016,147,4,Petrol,CVT,AWD,4,SUV,22167,434,Low
+635,Mercedes,GLC,2018,141,4,Petrol,Automatic,AWD,4,SUV,26582,560,Low
+636,Hyundai,Elantra,2015,151,4,Hybrid,Automatic,AWD,4,Coupe,17824,501,Low
+637,Mini,Cooper,2019,181,4,Electric,Manual,AWD,5,Hatchback,27043,598,Medium
+638,Mitsubishi,Outlander,2022,146,4,Petrol,Automatic,FWD,4,Hatchback,34291,567,Low
+639,Chevrolet,Equinox,2018,146,4,Petrol,Automatic,FWD,4,Sedan,26199,567,Low
+640,Lexus,ES,2018,148,4,Electric,Automatic,RWD,4,Hatchback,28545,579,Medium
+641,Mercedes,E-Class,2021,181,4,Petrol,CVT,AWD,4,Van,40783,655,High
+642,Kia,K5,2019,202,6,Petrol,Automatic,FWD,4,Sedan,39049,568,Low
+643,Mazda,Mazda6,2022,334,6,Petrol,CVT,AWD,4,Hatchback,39389,635,Medium
+644,Genesis,G70,2024,269,6,Hybrid,Automatic,AWD,5,Sedan,40027,645,Medium
+645,Lexus,RX,2022,401,8,Petrol,Automatic,FWD,4,Sedan,49937,719,High
+646,Jeep,Cherokee,2018,128,4,Petrol,CVT,AWD,4,Sedan,28111,424,Low
+647,Honda,Civic,2019,131,4,Petrol,Automatic,RWD,4,Sedan,35578,605,Medium
+648,Ferrari,Portofino,2016,452,8,Hybrid,Automatic,FWD,4,Sedan,40238,611,Medium
+649,Lexus,ES,2015,174,4,Diesel,Automatic,AWD,4,SUV,20979,617,Medium
+650,Genesis,GV80,2017,180,4,Petrol,Automatic,RWD,4,SUV,28035,589,Medium
+651,BMW,X5,2024,207,4,Petrol,Automatic,FWD,4,Hatchback,41816,667,High
+652,Cadillac,Escalade,2020,169,4,Hybrid,CVT,FWD,5,Hatchback,35598,705,High
+653,Tesla,Model S,2020,442,8,Diesel,Automatic,FWD,4,Truck,49050,679,High
+654,Suzuki,Vitara,2020,96,4,Diesel,Manual,FWD,4,Truck,31270,503,Low
+655,Toyota,Highlander,2017,304,6,Hybrid,Automatic,RWD,4,Coupe,33877,541,Low
+656,Ford,F-150,2024,406,8,Hybrid,Manual,RWD,4,SUV,46043,743,High
+657,Jeep,Compass,2024,283,6,Petrol,CVT,RWD,4,SUV,44481,607,Medium
+658,Subaru,Forester,2015,372,6,Petrol,Automatic,FWD,4,SUV,30575,582,Medium
+659,Buick,Enclave,2024,211,4,Petrol,Manual,FWD,4,Truck,46019,717,High
+660,Mazda,Mazda3,2017,163,4,Petrol,CVT,FWD,4,SUV,27175,480,Low
+661,Ford,Explorer,2024,237,6,Petrol,CVT,FWD,4,SUV,50586,662,High
+662,Ford,F-150,2015,157,4,Electric,Automatic,RWD,4,Coupe,22254,584,Medium
+663,Chevrolet,Malibu,2022,381,8,Hybrid,Automatic,FWD,4,Hatchback,43030,757,High
+664,Cadillac,Escalade,2020,425,8,Diesel,Automatic,FWD,5,SUV,47653,700,High
+665,Ferrari,488 GTB,2015,161,4,Hybrid,Automatic,FWD,2,Sedan,20789,478,Low
+666,Mitsubishi,Lancer,2023,397,8,Petrol,Automatic,AWD,5,SUV,49840,679,High
+667,Lexus,IS,2015,580,12,Diesel,Automatic,FWD,5,Coupe,38346,634,Medium
+668,Cadillac,XT5,2017,318,8,Petrol,Manual,FWD,4,SUV,30989,631,Medium
+669,Aston Martin,Vantage,2016,288,6,Electric,CVT,RWD,4,Sedan,29988,719,High
+670,Volkswagen,Golf,2017,414,8,Electric,CVT,AWD,4,Sedan,33168,644,Medium
+671,Audi,Q5,2018,230,4,Diesel,CVT,RWD,5,Hatchback,32044,578,Medium
+672,Porsche,Macan,2015,453,8,Electric,Manual,FWD,4,Hatchback,33661,682,High
+673,Volkswagen,Passat,2019,156,4,Diesel,Automatic,FWD,4,Truck,29146,549,Low
+674,Hyundai,Elantra,2022,160,4,Petrol,Automatic,FWD,5,Van,31502,500,Low
+675,Mitsubishi,Lancer,2018,122,4,Diesel,Manual,RWD,5,Sedan,25942,413,Low
+676,Ferrari,Portofino,2023,325,6,Diesel,Automatic,RWD,2,Coupe,44479,763,High
+677,Ram,ProMaster,2018,111,4,Petrol,Automatic,FWD,4,Sedan,30121,552,Low
+678,Nissan,Murano,2016,151,4,Petrol,Automatic,FWD,4,Truck,15243,476,Low
+679,Hyundai,Tucson,2024,138,4,Diesel,CVT,RWD,4,SUV,41243,599,Medium
+680,Buick,Encore,2021,124,4,Petrol,Automatic,AWD,4,SUV,33528,597,Medium
+681,Hyundai,Elantra,2016,193,4,Petrol,CVT,FWD,4,Truck,23665,518,Low
+682,Honda,Civic,2018,155,4,Electric,CVT,FWD,2,SUV,31368,680,High
+683,Lexus,IS,2018,90,4,Electric,Automatic,FWD,4,Truck,24414,485,Low
+684,Buick,Encore,2017,258,6,Petrol,Automatic,AWD,5,SUV,30638,545,Low
+685,Mini,Cooper,2015,149,4,Electric,Automatic,AWD,4,SUV,25326,525,Low
+686,Ram,1500,2022,441,8,Petrol,Automatic,FWD,4,SUV,46975,685,High
+687,Toyota,Corolla,2023,90,4,Hybrid,CVT,RWD,4,Sedan,29391,631,Medium
+688,Nissan,Altima,2015,394,8,Petrol,Automatic,RWD,4,Sedan,33685,464,Low
+689,Suzuki,Vitara,2017,298,6,Petrol,Automatic,AWD,5,Hatchback,28264,495,Low
+690,Aston Martin,Vantage,2021,404,8,Petrol,Automatic,AWD,4,SUV,35695,680,High
+691,Ferrari,Portofino,2019,90,4,Diesel,Automatic,AWD,5,Van,23384,596,Medium
+692,Cadillac,Escalade,2015,378,8,Petrol,Automatic,FWD,4,Sedan,34105,554,Low
+693,Audi,A6,2020,188,4,Hybrid,Manual,RWD,4,SUV,34829,707,High
+694,Tesla,Model 3,2016,207,4,Petrol,Automatic,FWD,5,SUV,25806,581,Medium
+695,Lexus,ES,2023,394,6,Petrol,Automatic,AWD,2,SUV,50379,650,High
+696,Hyundai,Sonata,2021,147,4,Diesel,Automatic,FWD,4,Hatchback,34374,554,Low
+697,Honda,Civic,2019,138,4,Petrol,CVT,AWD,5,SUV,32068,629,Medium
+698,Suzuki,Swift,2023,174,4,Electric,CVT,FWD,5,Sedan,27865,655,High
+699,Volkswagen,Tiguan,2024,192,4,Petrol,Automatic,FWD,5,SUV,42970,634,Medium
+700,Honda,Pilot,2015,660,12,Diesel,Automatic,FWD,5,Sedan,44775,624,Medium
+701,Tesla,Model X,2017,184,4,Electric,Automatic,AWD,4,Sedan,28473,601,Medium
+702,Mazda,CX-50,2021,266,6,Petrol,CVT,FWD,4,Sedan,33349,571,Low
+703,Mercedes,GLC,2021,255,6,Petrol,CVT,FWD,4,SUV,37759,619,Medium
+704,Kia,Sportage,2020,283,6,Electric,Automatic,RWD,4,SUV,44682,722,High
+705,Mini,Cooper,2016,322,8,Petrol,CVT,RWD,3,Coupe,35222,525,Low
+706,Genesis,G80,2022,140,4,Hybrid,Automatic,FWD,4,Sedan,35362,634,Medium
+707,Mercedes,C-Class,2022,317,6,Hybrid,Automatic,RWD,4,Hatchback,49656,677,High
+708,Mitsubishi,Lancer,2021,133,4,Petrol,Automatic,AWD,4,Sedan,31849,550,Low
+709,Toyota,Highlander,2015,163,4,Petrol,Automatic,FWD,4,Hatchback,18497,451,Low
+710,Toyota,Camry,2018,307,6,Petrol,Automatic,FWD,4,Coupe,30437,499,Low
+711,Honda,CR-V,2016,135,4,Diesel,Automatic,FWD,5,SUV,28045,629,Medium
+712,Jeep,Compass,2024,160,4,Diesel,CVT,RWD,4,Van,39922,472,Low
+713,Buick,Encore,2024,366,8,Petrol,CVT,FWD,4,SUV,47136,785,High
+714,BMW,5 Series,2016,170,4,Petrol,Automatic,FWD,4,Sedan,16022,488,Low
+715,Mercedes,GLE,2017,90,4,Diesel,Automatic,FWD,4,SUV,23347,536,Low
+716,Mazda,CX-50,2017,416,8,Diesel,Automatic,AWD,2,Hatchback,41877,604,Medium
+717,Honda,Accord,2024,151,4,Petrol,Automatic,AWD,4,Hatchback,37592,785,High
+718,Toyota,Corolla,2021,230,4,Diesel,Manual,AWD,5,Hatchback,34085,586,Medium
+719,Mazda,Mazda3,2023,379,8,Electric,Automatic,FWD,5,Truck,44127,798,High
+720,Cadillac,Escalade,2015,168,4,Petrol,Automatic,FWD,5,SUV,24710,576,Low
+721,Mini,Cooper,2022,301,6,Hybrid,CVT,RWD,5,Coupe,46029,657,High
+722,Audi,Q5,2022,269,6,Petrol,Automatic,FWD,4,Truck,50118,777,High
+723,Nissan,Murano,2022,620,12,Diesel,Automatic,FWD,4,SUV,43140,658,High
+724,Chevrolet,Tahoe,2015,443,8,Petrol,Automatic,AWD,4,Truck,42524,537,Low
+725,Lexus,RX,2021,119,4,Hybrid,CVT,AWD,5,SUV,32491,613,Medium
+726,Buick,Enclave,2021,135,4,Diesel,Automatic,AWD,4,Sedan,34682,666,High
+727,Mazda,Mazda3,2020,114,4,Petrol,CVT,RWD,2,Sedan,25474,537,Low
+728,Volvo,XC90,2015,259,6,Petrol,CVT,AWD,4,SUV,21930,587,Medium
+729,Hyundai,Sonata,2024,175,4,Hybrid,Manual,RWD,4,Truck,33379,580,Medium
+730,Genesis,G70,2021,159,4,Petrol,CVT,RWD,4,SUV,36092,705,High
+731,Ford,Explorer,2024,216,6,Petrol,Automatic,AWD,4,SUV,49530,654,High
+732,Volkswagen,Jetta,2019,311,6,Diesel,Automatic,RWD,5,Hatchback,34542,589,Medium
+733,Lexus,ES,2015,235,6,Petrol,Automatic,FWD,4,SUV,32138,547,Low
+734,Mercedes,C-Class,2023,101,4,Petrol,Automatic,RWD,5,SUV,42688,553,Low
+735,Audi,A6,2018,145,4,Diesel,Automatic,FWD,4,Coupe,31632,655,High
+736,Nissan,Murano,2024,255,6,Diesel,Automatic,FWD,5,SUV,42644,622,Medium
+737,Audi,Q7,2022,105,4,Petrol,Automatic,AWD,4,SUV,33875,628,Medium
+738,Cadillac,XT5,2016,384,8,Electric,Automatic,RWD,4,SUV,36326,595,Medium
+739,Audi,Q5,2020,125,4,Petrol,Automatic,FWD,4,Truck,36666,644,Medium
+740,Volvo,XC60,2017,176,4,Hybrid,Automatic,FWD,5,SUV,30460,627,Medium
+741,Hyundai,Tucson,2016,280,6,Petrol,CVT,RWD,4,Sedan,22672,507,Low
+742,Honda,Pilot,2024,250,6,Diesel,Automatic,FWD,5,Van,49469,703,High
+743,Ford,Escape,2015,208,4,Petrol,Automatic,FWD,5,Hatchback,29848,497,Low
+744,Audi,Q5,2022,247,6,Petrol,Manual,AWD,5,Coupe,44162,720,High
+745,Genesis,GV80,2018,176,4,Petrol,CVT,AWD,4,SUV,37551,531,Low
+746,Kia,Sorento,2019,270,6,Petrol,Automatic,FWD,4,SUV,40086,802,High
+747,Subaru,Crosstrek,2015,328,6,Petrol,Automatic,FWD,2,SUV,30820,541,Low
+748,Chevrolet,Tahoe,2022,180,4,Diesel,Automatic,FWD,5,Truck,36605,613,Medium
+749,Mercedes,GLC,2020,381,8,Hybrid,Automatic,FWD,2,SUV,38029,725,High
+750,Mercedes,GLE,2021,251,6,Hybrid,Automatic,FWD,4,Sedan,39841,661,High
+751,Suzuki,Swift,2016,109,4,Hybrid,Automatic,RWD,4,SUV,20941,522,Low
+752,Ford,F-150,2015,119,4,Electric,CVT,AWD,4,SUV,20678,507,Low
+753,Buick,Enclave,2016,192,4,Electric,Automatic,FWD,4,Van,26742,520,Low
+754,Ford,Mustang,2019,261,6,Petrol,Automatic,RWD,4,Coupe,34688,582,Medium
+755,Tesla,Model 3,2020,117,4,Petrol,Automatic,FWD,5,SUV,34141,606,Medium
+756,Subaru,Outback,2019,248,6,Petrol,Automatic,RWD,5,Van,36537,625,Medium
+757,Porsche,Macan,2023,444,8,Hybrid,Automatic,AWD,5,Coupe,51814,749,High
+758,Hyundai,Tucson,2015,356,8,Electric,CVT,FWD,3,SUV,26372,513,Low
+759,Volkswagen,Jetta,2020,281,6,Petrol,CVT,RWD,2,Sedan,36451,568,Low
+760,Mini,Cooper,2019,298,6,Electric,Automatic,AWD,4,SUV,40401,656,High
+761,Subaru,Crosstrek,2021,149,4,Hybrid,CVT,FWD,4,Van,34459,715,High
+762,Buick,Encore,2021,283,6,Electric,Automatic,RWD,5,SUV,41363,716,High
+763,Tesla,Model X,2018,176,4,Hybrid,Automatic,FWD,4,Sedan,34165,597,Medium
+764,Suzuki,Swift,2015,180,4,Hybrid,Automatic,AWD,5,Truck,25156,490,Low
+765,Mercedes,GLC,2024,124,4,Electric,Automatic,RWD,4,Truck,38112,671,High
+766,Mini,Countryman,2016,235,6,Diesel,Automatic,RWD,4,Truck,29177,522,Low
+767,Tesla,Model Y,2024,90,4,Diesel,CVT,FWD,4,Sedan,45927,672,High
+768,Mazda,Mazda6,2016,408,8,Hybrid,Automatic,AWD,4,SUV,31905,681,High
+769,Mitsubishi,Eclipse Cross,2017,100,4,Electric,Manual,FWD,4,Sedan,29321,604,Medium
+770,Tesla,Model X,2022,235,6,Hybrid,Automatic,RWD,4,Hatchback,41682,673,High
+771,Ram,ProMaster,2022,158,4,Hybrid,Automatic,FWD,5,Sedan,35150,658,High
+772,Subaru,WRX,2021,300,6,Diesel,CVT,AWD,4,Truck,41162,721,High
+773,Volvo,XC60,2016,281,6,Petrol,Automatic,FWD,5,SUV,34512,509,Low
+774,Jeep,Wrangler,2020,147,4,Hybrid,Automatic,FWD,5,Coupe,26018,576,Low
+775,Tesla,Model X,2015,160,4,Electric,Automatic,FWD,4,Coupe,25619,580,Medium
+776,Genesis,GV70,2021,122,4,Petrol,Automatic,RWD,4,Sedan,34866,555,Low
+777,BMW,X3,2021,153,4,Petrol,Automatic,AWD,4,Hatchback,35585,583,Medium
+778,Jeep,Grand Cherokee,2016,184,4,Petrol,Automatic,RWD,2,SUV,26672,436,Low
+779,Kia,K5,2018,333,6,Petrol,Automatic,RWD,4,Truck,38966,560,Low
+780,Mercedes,C-Class,2016,135,4,Diesel,Automatic,FWD,4,Van,19332,495,Low
+781,Subaru,Outback,2021,285,6,Electric,Manual,FWD,5,Sedan,44129,723,High
+782,Ram,ProMaster,2022,286,6,Petrol,Automatic,AWD,5,Sedan,42650,679,High
+783,Toyota,Camry,2023,164,4,Petrol,Manual,FWD,5,SUV,43244,580,Medium
+784,Ford,Mustang,2017,292,6,Petrol,Automatic,FWD,4,Sedan,29862,496,Low
+785,Genesis,G80,2016,273,6,Hybrid,Manual,FWD,4,Sedan,26681,603,Medium
+786,Chevrolet,Tahoe,2022,269,6,Petrol,CVT,AWD,4,Sedan,47546,646,Medium
+787,Nissan,Rogue,2019,288,6,Petrol,Automatic,FWD,5,SUV,31382,556,Low
+788,Genesis,GV80,2020,128,4,Diesel,CVT,AWD,4,Coupe,29166,680,High
+789,Ford,Escape,2017,142,4,Petrol,Automatic,FWD,4,Sedan,29529,526,Low
+790,Mazda,Mazda3,2022,621,12,Diesel,Manual,FWD,5,Coupe,51690,655,High
+791,Subaru,Forester,2022,457,8,Petrol,Automatic,FWD,5,Sedan,57543,624,Medium
+792,Jeep,Grand Cherokee,2018,321,8,Electric,CVT,FWD,5,SUV,30336,556,Low
+793,Ford,Mustang,2019,169,4,Petrol,Automatic,FWD,5,SUV,34352,554,Low
+794,Buick,Encore,2023,602,12,Diesel,CVT,AWD,4,Hatchback,56618,746,High
+795,Nissan,Altima,2019,278,6,Hybrid,CVT,AWD,5,Truck,35877,556,Low
+796,Lexus,NX,2015,321,6,Petrol,Manual,RWD,5,Sedan,27674,562,Low
+797,Ford,Escape,2020,302,6,Diesel,CVT,RWD,5,Van,37787,603,Medium
+798,Porsche,Cayenne,2020,159,4,Electric,CVT,FWD,4,Sedan,29751,577,Low
+799,Honda,CR-V,2019,151,4,Petrol,Automatic,RWD,4,Hatchback,30401,609,Medium
+800,Kia,K5,2023,278,6,Petrol,Automatic,AWD,5,SUV,34285,668,High
+801,Porsche,Panamera,2022,109,4,Hybrid,Automatic,AWD,4,SUV,33741,671,High
+802,Kia,K5,2016,143,4,Electric,Automatic,FWD,5,Sedan,28713,513,Low
+803,Audi,Q7,2018,138,4,Diesel,Automatic,FWD,4,SUV,27162,533,Low
+804,Mazda,CX-5,2022,156,4,Petrol,Automatic,FWD,5,Truck,31043,720,High
+805,Hyundai,Elantra,2016,643,12,Hybrid,CVT,FWD,2,SUV,41138,637,Medium
+806,Mitsubishi,Lancer,2022,285,6,Petrol,Automatic,FWD,4,SUV,36002,568,Low
+807,Chevrolet,Malibu,2018,353,6,Diesel,Manual,RWD,4,SUV,35025,671,High
+808,BMW,X5,2020,131,4,Electric,Automatic,AWD,4,Hatchback,35824,630,Medium
+809,Toyota,Camry,2024,226,6,Diesel,Automatic,RWD,4,Hatchback,34197,630,Medium
+810,Aston Martin,DB11,2015,169,4,Electric,Automatic,FWD,4,SUV,29724,681,High
+811,Aston Martin,Vantage,2021,442,8,Petrol,Automatic,FWD,2,Coupe,51907,691,High
+812,Toyota,RAV4,2019,275,6,Electric,Automatic,AWD,5,SUV,34091,633,Medium
+813,Kia,Telluride,2024,393,8,Petrol,Automatic,RWD,5,Hatchback,45834,734,High
+814,Alfa Romeo,Giulia,2018,423,8,Petrol,Automatic,AWD,4,SUV,33994,634,Medium
+815,Nissan,Rogue,2021,90,4,Petrol,Automatic,FWD,5,SUV,25983,497,Low
+816,Mini,Cooper,2023,416,8,Diesel,CVT,FWD,5,Hatchback,43457,630,Medium
+817,BMW,5 Series,2021,141,4,Diesel,Automatic,FWD,4,SUV,29237,687,High
+818,Ford,Mustang,2023,304,6,Petrol,Automatic,FWD,4,Sedan,44639,602,Medium
+819,Hyundai,Santa Fe,2023,340,6,Petrol,Automatic,RWD,4,Sedan,44425,688,High
+820,Nissan,Altima,2020,640,12,Petrol,Automatic,RWD,4,Coupe,52994,665,High
+821,Suzuki,Vitara,2018,626,12,Petrol,Automatic,FWD,4,Hatchback,48410,498,Low
+822,Cadillac,Escalade,2021,639,12,Hybrid,Automatic,AWD,5,Sedan,58906,783,High
+823,Honda,Civic,2022,138,4,Diesel,Manual,RWD,4,SUV,35806,609,Medium
+824,Ferrari,Portofino,2017,332,6,Petrol,Automatic,FWD,4,SUV,28791,438,Low
+825,Tesla,Model 3,2024,195,4,Electric,Automatic,FWD,4,SUV,47807,771,High
+826,Porsche,Cayenne,2019,110,4,Diesel,Automatic,FWD,4,Sedan,28869,599,Medium
+827,Alfa Romeo,Stelvio,2024,166,4,Petrol,Automatic,FWD,4,Sedan,36689,631,Medium
+828,Aston Martin,DB11,2022,291,6,Hybrid,Automatic,FWD,4,SUV,36011,725,High
+829,Lexus,RX,2017,139,4,Petrol,Automatic,AWD,4,SUV,31448,573,Low
+830,Mazda,Mazda6,2017,244,6,Electric,Automatic,FWD,4,Sedan,34121,726,High
+831,Mini,Countryman,2016,671,12,Petrol,Automatic,RWD,2,Hatchback,43481,589,Medium
+832,Nissan,Murano,2015,247,6,Diesel,CVT,FWD,4,SUV,26294,456,Low
+833,Hyundai,Sonata,2019,216,4,Petrol,Automatic,RWD,4,SUV,25606,599,Medium
+834,Volkswagen,Tiguan,2022,314,6,Hybrid,Automatic,RWD,5,SUV,52637,676,High
+835,Genesis,G70,2023,129,4,Hybrid,Automatic,AWD,5,Hatchback,36340,681,High
+836,Volvo,S60,2021,96,4,Hybrid,Manual,FWD,5,Truck,28634,656,High
+837,Chevrolet,Silverado,2016,376,8,Diesel,Automatic,FWD,4,Hatchback,31774,577,Low
+838,Nissan,Murano,2016,357,8,Diesel,Manual,AWD,4,Sedan,31105,570,Low
+839,Cadillac,Escalade,2024,171,4,Diesel,Automatic,RWD,4,SUV,40610,714,High
+840,Volkswagen,Passat,2022,171,4,Hybrid,Automatic,FWD,4,SUV,34052,659,High
+841,Toyota,Highlander,2021,262,6,Petrol,Automatic,RWD,4,Hatchback,37709,505,Low
+842,Kia,Sportage,2015,177,4,Hybrid,Automatic,RWD,4,SUV,20313,578,Medium
+843,Mini,Cooper,2020,192,4,Hybrid,Automatic,FWD,5,SUV,35083,591,Medium
+844,Subaru,Forester,2021,162,4,Hybrid,Automatic,AWD,5,Hatchback,37253,773,High
+845,Ram,1500,2024,254,6,Petrol,CVT,FWD,4,Sedan,44911,734,High
+846,Alfa Romeo,Giulia,2019,196,4,Electric,CVT,FWD,2,SUV,31254,692,High
+847,Mitsubishi,Outlander,2021,275,6,Hybrid,Automatic,RWD,4,Coupe,42042,623,Medium
+848,Volvo,S90,2019,117,4,Hybrid,Automatic,FWD,4,Sedan,29614,537,Low
+849,Tesla,Model Y,2024,153,4,Petrol,Automatic,FWD,4,Hatchback,39193,685,High
+850,Suzuki,Swift,2019,153,4,Diesel,Automatic,AWD,4,Sedan,29399,491,Low
+851,Lexus,ES,2024,354,6,Petrol,Automatic,FWD,4,SUV,41874,722,High
+852,Audi,Q5,2023,312,6,Diesel,Automatic,FWD,4,SUV,46690,682,High
+853,Hyundai,Elantra,2016,587,12,Petrol,Automatic,RWD,4,Sedan,34692,555,Low
+854,Honda,Pilot,2018,566,12,Diesel,Automatic,FWD,4,Truck,39463,683,High
+855,Mitsubishi,Lancer,2017,278,6,Petrol,CVT,AWD,4,Truck,27848,504,Low
+856,Ford,Escape,2015,118,4,Electric,Automatic,RWD,4,SUV,23991,579,Medium
+857,Lexus,NX,2016,252,6,Petrol,Automatic,FWD,4,Hatchback,31133,543,Low
+858,Volkswagen,Jetta,2018,109,4,Electric,Automatic,FWD,4,Sedan,25472,501,Low
+859,Suzuki,Swift,2017,312,6,Diesel,CVT,RWD,5,SUV,24455,485,Low
+860,Honda,Civic,2024,591,12,Petrol,Automatic,RWD,4,Coupe,60429,725,High
+861,Alfa Romeo,Giulia,2016,277,6,Petrol,Automatic,FWD,4,SUV,27521,539,Low
+862,Ford,Explorer,2015,290,6,Diesel,Automatic,FWD,5,Sedan,24799,528,Low
+863,Mazda,Mazda6,2022,90,4,Diesel,Automatic,RWD,4,Sedan,28022,634,Medium
+864,Suzuki,Vitara,2023,413,8,Petrol,Automatic,AWD,4,Coupe,43748,623,Medium
+865,Chevrolet,Silverado,2019,180,4,Petrol,Automatic,RWD,4,Sedan,33225,555,Low
+866,Ferrari,488 GTB,2020,374,6,Electric,Automatic,AWD,4,SUV,37013,649,High
+867,Toyota,RAV4,2015,276,6,Hybrid,Automatic,AWD,5,Coupe,20029,597,Medium
+868,Volkswagen,Jetta,2024,277,6,Hybrid,CVT,FWD,4,SUV,45434,691,High
+869,Genesis,G70,2016,359,8,Petrol,CVT,RWD,4,SUV,27731,528,Low
+870,Mini,Cooper,2016,271,6,Hybrid,CVT,FWD,2,Truck,31874,591,Medium
+871,Audi,A6,2023,135,4,Hybrid,CVT,AWD,5,Hatchback,36378,661,High
+872,Tesla,Model 3,2019,142,4,Diesel,Automatic,FWD,4,SUV,36535,620,Medium
+873,Ford,Escape,2015,342,8,Hybrid,Manual,FWD,4,Sedan,32821,533,Low
+874,Nissan,Murano,2019,145,4,Petrol,Automatic,FWD,4,Van,25852,467,Low
+875,Mitsubishi,Eclipse Cross,2024,284,6,Diesel,CVT,FWD,5,Hatchback,38843,662,High
+876,Honda,CR-V,2023,112,4,Hybrid,CVT,RWD,4,SUV,44185,696,High
+877,Volvo,S60,2024,144,4,Petrol,CVT,FWD,2,SUV,38060,496,Low
+878,Jeep,Grand Cherokee,2020,146,4,Diesel,Automatic,AWD,5,Coupe,33358,533,Low
+879,Ferrari,Portofino,2023,148,4,Petrol,Automatic,FWD,5,SUV,42869,597,Medium
+880,Toyota,Camry,2022,189,4,Petrol,Automatic,FWD,4,Coupe,38745,461,Low
+881,Genesis,G80,2020,261,6,Petrol,Manual,RWD,4,Hatchback,35679,554,Low
+882,Mercedes,C-Class,2020,242,6,Petrol,Automatic,FWD,5,Sedan,37504,557,Low
+883,BMW,3 Series,2021,142,4,Petrol,Manual,FWD,2,SUV,37960,517,Low
+884,Buick,Encore,2021,172,4,Petrol,Automatic,FWD,4,SUV,33938,591,Medium
+885,Toyota,Highlander,2015,153,4,Electric,CVT,AWD,4,SUV,23174,570,Low
+886,Tesla,Model X,2019,149,4,Hybrid,Automatic,AWD,4,Hatchback,26477,668,High
+887,Cadillac,Escalade,2024,265,6,Petrol,Automatic,RWD,4,SUV,48034,718,High
+888,Toyota,Highlander,2017,343,6,Petrol,Automatic,FWD,3,SUV,32330,524,Low
+889,Ford,Explorer,2020,135,4,Electric,Manual,FWD,2,Hatchback,33841,653,High
+890,Audi,Q5,2017,180,4,Hybrid,CVT,FWD,4,Sedan,31218,722,High
+891,Mitsubishi,Eclipse Cross,2022,136,4,Electric,Automatic,RWD,2,Truck,33433,681,High
+892,Mini,Cooper,2021,444,8,Petrol,Automatic,AWD,4,SUV,42927,674,High
+893,Kia,K5,2023,95,4,Diesel,CVT,FWD,4,SUV,37815,543,Low
+894,Buick,Enclave,2017,269,6,Diesel,Manual,FWD,5,Coupe,35476,569,Low
+895,Honda,Pilot,2021,147,4,Petrol,CVT,FWD,4,Sedan,32712,590,Medium
+896,Mercedes,GLC,2022,301,6,Petrol,Manual,AWD,4,SUV,41702,698,High
+897,Suzuki,Vitara,2019,366,6,Petrol,Automatic,FWD,4,SUV,33894,572,Low
+898,Aston Martin,Vantage,2015,218,4,Petrol,Automatic,FWD,4,Coupe,29991,478,Low
+899,Jeep,Cherokee,2016,338,6,Hybrid,Manual,FWD,4,Sedan,32433,564,Low
+900,Ferrari,Portofino,2023,393,8,Petrol,Automatic,FWD,4,SUV,50807,701,High
+901,Kia,Sorento,2016,173,4,Petrol,Automatic,AWD,4,Sedan,24986,560,Low
+902,Aston Martin,DB11,2016,220,4,Hybrid,Automatic,FWD,4,Truck,28755,632,Medium
+903,Hyundai,Santa Fe,2022,148,4,Petrol,Automatic,AWD,4,Sedan,35635,555,Low
+904,Jeep,Compass,2020,233,6,Hybrid,Manual,AWD,5,Truck,32000,647,High
+905,Toyota,Camry,2019,300,6,Diesel,Automatic,FWD,4,SUV,35916,553,Low
+906,Toyota,Corolla,2021,107,4,Hybrid,Automatic,FWD,4,Coupe,29774,484,Low
+907,Suzuki,Swift,2015,271,6,Electric,Automatic,AWD,4,Sedan,25957,575,Low
+908,Mini,Countryman,2016,249,6,Diesel,Automatic,AWD,4,SUV,27473,570,Low
+909,Jeep,Compass,2023,292,6,Hybrid,Automatic,RWD,4,Sedan,41687,551,Low
+910,Jeep,Cherokee,2015,592,12,Petrol,Automatic,AWD,5,Truck,38505,611,Medium
+911,Kia,Sportage,2024,408,8,Petrol,Automatic,FWD,4,Hatchback,49432,681,High
+912,Lexus,RX,2019,133,4,Petrol,Automatic,FWD,4,Sedan,30540,595,Medium
+913,Ford,Mustang,2018,412,8,Petrol,Automatic,AWD,4,Sedan,39109,554,Low
+914,Toyota,Corolla,2023,170,4,Petrol,Automatic,AWD,2,Sedan,32863,493,Low
+915,Buick,Enclave,2015,181,4,Petrol,Automatic,RWD,5,SUV,23103,614,Medium
+916,Nissan,Rogue,2020,153,4,Electric,CVT,AWD,5,Sedan,32896,576,Low
+917,BMW,3 Series,2017,271,6,Petrol,Automatic,FWD,4,Hatchback,34728,511,Low
+918,Toyota,RAV4,2015,257,6,Petrol,Automatic,FWD,5,Sedan,18629,462,Low
+919,Alfa Romeo,Giulia,2015,321,6,Diesel,CVT,RWD,5,SUV,34042,635,Medium
+920,Tesla,Model Y,2017,110,4,Petrol,Manual,FWD,2,SUV,29684,497,Low
+921,Toyota,Corolla,2015,220,6,Hybrid,Automatic,RWD,4,Coupe,21555,537,Low
+922,Honda,Civic,2018,249,6,Hybrid,Automatic,FWD,5,Sedan,36445,558,Low
+923,Mazda,CX-50,2017,148,4,Petrol,Automatic,FWD,5,Sedan,27490,554,Low
+924,Mini,Cooper,2024,399,8,Petrol,Automatic,FWD,5,SUV,46967,728,High
+925,Ferrari,488 GTB,2015,228,4,Petrol,Automatic,FWD,4,Hatchback,22282,413,Low
+926,Porsche,Cayenne,2018,142,4,Petrol,Automatic,FWD,2,Van,23175,588,Medium
+927,Ferrari,Portofino,2016,155,4,Electric,CVT,RWD,4,SUV,21038,514,Low
+928,Honda,Accord,2021,253,6,Petrol,Automatic,AWD,4,SUV,42015,623,Medium
+929,Volvo,XC60,2020,90,4,Hybrid,Automatic,FWD,4,SUV,35652,679,High
+930,Volkswagen,Golf,2020,668,12,Petrol,CVT,RWD,4,SUV,50218,580,Medium
+931,BMW,5 Series,2018,387,8,Petrol,CVT,RWD,2,Sedan,47865,560,Low
+932,Kia,Telluride,2022,271,6,Electric,Manual,AWD,4,Hatchback,44063,807,High
+933,Suzuki,Swift,2017,169,4,Diesel,Automatic,FWD,4,SUV,22002,491,Low
+934,BMW,X5,2021,173,4,Petrol,Automatic,FWD,4,Van,34233,582,Medium
+935,Audi,A6,2022,314,6,Diesel,Automatic,RWD,2,Coupe,45466,661,High
+936,Mitsubishi,Outlander,2018,311,6,Diesel,Automatic,FWD,4,Truck,37206,608,Medium
+937,Subaru,Forester,2015,94,4,Electric,CVT,AWD,4,SUV,24187,577,Low
+938,Jeep,Grand Cherokee,2017,192,4,Petrol,Automatic,RWD,4,Truck,18846,500,Low
+939,Genesis,GV80,2016,137,4,Petrol,Automatic,RWD,4,Sedan,26507,446,Low
+940,Toyota,Highlander,2021,173,4,Petrol,Automatic,AWD,4,Truck,35751,537,Low
+941,Nissan,Altima,2024,276,6,Diesel,Manual,AWD,3,Sedan,47927,606,Medium
+942,Mini,Cooper,2016,90,4,Hybrid,Automatic,FWD,4,SUV,22869,541,Low
+943,Genesis,GV70,2017,342,8,Petrol,Automatic,FWD,4,Sedan,34469,619,Medium
+944,Mazda,CX-50,2015,181,4,Petrol,Automatic,AWD,5,Sedan,21853,506,Low
+945,Volvo,XC60,2016,129,4,Electric,Automatic,FWD,4,Truck,22039,662,High
+946,Volkswagen,Golf,2021,304,6,Hybrid,Automatic,FWD,4,SUV,38151,561,Low
+947,Honda,Accord,2015,266,6,Diesel,Automatic,FWD,4,Truck,31830,564,Low
+948,Porsche,Cayenne,2024,379,8,Hybrid,Manual,RWD,5,SUV,49685,821,High
+949,Tesla,Model 3,2021,145,4,Petrol,Automatic,FWD,4,Coupe,35655,625,Medium
+950,Alfa Romeo,Giulia,2019,142,4,Hybrid,Automatic,AWD,4,SUV,33095,612,Medium
+951,Mercedes,C-Class,2024,125,4,Hybrid,CVT,FWD,2,Hatchback,42789,649,High
+952,Suzuki,Vitara,2016,330,6,Petrol,Automatic,AWD,4,Truck,28578,504,Low
+953,Mazda,CX-5,2023,299,6,Hybrid,Automatic,FWD,3,Hatchback,43751,613,Medium
+954,Subaru,Outback,2021,346,6,Electric,Automatic,RWD,2,Hatchback,45297,697,High
+955,Subaru,WRX,2017,140,4,Petrol,CVT,AWD,5,Hatchback,31085,668,High
+956,Nissan,Murano,2024,455,8,Hybrid,Automatic,FWD,5,Sedan,48894,696,High
+957,Ram,2500,2024,237,6,Petrol,Automatic,AWD,4,SUV,40018,679,High
+958,Cadillac,Escalade,2021,186,4,Petrol,CVT,RWD,4,Sedan,36944,671,High
+959,Kia,Sorento,2021,362,8,Hybrid,CVT,RWD,4,SUV,42745,645,Medium
+960,Genesis,G80,2019,425,8,Petrol,Automatic,FWD,4,Coupe,44948,587,Medium
+961,Ram,3500,2024,320,6,Petrol,Automatic,FWD,2,Sedan,45112,643,Medium
+962,Hyundai,Elantra,2022,336,8,Diesel,Automatic,AWD,3,SUV,38353,583,Medium
+963,Cadillac,Escalade,2021,292,6,Hybrid,CVT,RWD,5,Hatchback,39402,747,High
+964,Mini,Countryman,2016,146,4,Diesel,CVT,AWD,5,SUV,21674,578,Medium
+965,Lexus,NX,2024,295,6,Diesel,Automatic,AWD,4,SUV,49601,731,High
+966,Tesla,Model S,2022,108,4,Diesel,Automatic,FWD,2,Sedan,41353,594,Medium
+967,Volvo,XC90,2022,439,8,Petrol,Manual,AWD,5,Sedan,52450,639,Medium
+968,Genesis,GV70,2018,473,8,Hybrid,Manual,AWD,5,SUV,34316,687,High
+969,Ford,F-150,2018,183,4,Diesel,Automatic,RWD,4,Hatchback,28114,599,Medium
+970,BMW,X5,2021,160,4,Hybrid,Automatic,FWD,4,SUV,38728,644,Medium
+971,Kia,Sportage,2019,270,6,Petrol,Automatic,AWD,4,Coupe,41870,504,Low
+972,Audi,Q7,2017,628,12,Hybrid,Automatic,FWD,2,Sedan,43199,704,High
+973,Aston Martin,DB11,2016,304,6,Petrol,Automatic,AWD,5,Sedan,32698,630,Medium
+974,Hyundai,Tucson,2017,129,4,Electric,Automatic,RWD,4,Coupe,26511,409,Low
+975,Genesis,G70,2017,159,4,Electric,Manual,FWD,4,SUV,21053,550,Low
+976,Volvo,S90,2019,331,6,Petrol,Automatic,RWD,4,Sedan,39710,554,Low
+977,Genesis,G80,2022,257,6,Petrol,CVT,FWD,5,Coupe,40968,594,Medium
+978,Subaru,Forester,2019,319,6,Hybrid,CVT,FWD,4,Coupe,44311,702,High
+979,Mitsubishi,Lancer,2018,122,4,Diesel,Automatic,FWD,2,Coupe,32328,545,Low
+980,Suzuki,Vitara,2017,578,12,Diesel,Automatic,RWD,4,Hatchback,44891,614,Medium
+981,Mercedes,C-Class,2020,449,8,Petrol,Manual,FWD,4,Hatchback,44387,663,High
+982,Kia,Telluride,2022,90,4,Petrol,Automatic,FWD,4,SUV,37363,593,Medium
+983,Toyota,Highlander,2023,355,8,Hybrid,Automatic,RWD,4,Truck,46611,553,Low
+984,Suzuki,Swift,2015,240,6,Diesel,Automatic,FWD,4,Sedan,26979,469,Low
+985,Volkswagen,Golf,2017,354,6,Hybrid,Automatic,FWD,4,Hatchback,32773,602,Medium
+986,Jeep,Grand Cherokee,2024,180,4,Petrol,CVT,AWD,5,Hatchback,44070,593,Medium
+987,Ferrari,Portofino,2018,319,6,Electric,CVT,AWD,4,SUV,38276,620,Medium
+988,Ferrari,488 GTB,2021,305,6,Petrol,Automatic,AWD,4,SUV,40140,652,High
+989,Mazda,Mazda6,2021,139,4,Petrol,Automatic,RWD,4,SUV,34289,592,Medium
+990,Genesis,GV80,2017,120,4,Electric,Automatic,AWD,4,Coupe,25204,501,Low
+991,Suzuki,Vitara,2018,246,6,Diesel,CVT,AWD,2,Hatchback,25653,471,Low
+992,Suzuki,Vitara,2021,193,4,Electric,Automatic,AWD,4,SUV,30604,634,Medium
+993,Mazda,Mazda3,2016,308,6,Petrol,CVT,AWD,5,Sedan,31798,592,Medium
+994,Chevrolet,Silverado,2024,147,4,Petrol,CVT,RWD,5,Truck,36882,698,High
+995,Cadillac,XT5,2024,181,4,Hybrid,Automatic,RWD,5,Truck,37691,750,High
+996,Ford,F-150,2018,380,8,Petrol,Automatic,AWD,4,Sedan,36319,590,Medium
+997,Porsche,911,2017,149,4,Petrol,Automatic,AWD,4,SUV,34687,685,High
+998,Buick,Enclave,2018,644,12,Petrol,Manual,RWD,4,Coupe,51710,638,Medium
+999,Genesis,G70,2018,534,12,Hybrid,Automatic,AWD,4,SUV,42355,662,High
+1000,Suzuki,Swift,2015,245,6,Petrol,Automatic,AWD,3,Coupe,19516,498,Low
+1001,Mini,Cooper,2019,159,4,Petrol,Automatic,RWD,4,SUV,32046,500,Low
+1002,Subaru,WRX,2021,299,8,Diesel,Automatic,FWD,5,SUV,45109,599,Medium
+1003,Mini,Countryman,2017,170,4,Petrol,CVT,AWD,5,Hatchback,22223,501,Low
+1004,Kia,Sportage,2017,333,6,Petrol,Automatic,RWD,4,Sedan,33060,584,Medium
+1005,Ford,Mustang,2017,277,6,Petrol,Manual,AWD,5,Sedan,34990,532,Low
+1006,Audi,Q7,2024,413,8,Diesel,Manual,AWD,5,Hatchback,59235,760,High
+1007,Ferrari,Portofino,2020,143,4,Petrol,Automatic,AWD,4,Sedan,27770,648,High
+1008,Honda,Accord,2018,372,8,Petrol,Automatic,FWD,4,Sedan,33313,615,Medium
+1009,Volvo,XC60,2015,167,4,Petrol,Manual,AWD,4,Coupe,17898,544,Low
+1010,Tesla,Model X,2021,377,8,Petrol,Automatic,AWD,4,Sedan,50322,673,High
+1011,Nissan,Sentra,2020,314,6,Petrol,Automatic,FWD,4,Sedan,35394,497,Low
+1012,Ram,2500,2022,197,4,Electric,Manual,AWD,5,SUV,39867,615,Medium
+1013,Ford,F-150,2022,220,4,Petrol,Automatic,AWD,4,Sedan,39586,651,High
+1014,Chevrolet,Silverado,2022,226,4,Petrol,Automatic,FWD,4,SUV,39509,678,High
+1015,Buick,Enclave,2020,125,4,Petrol,Automatic,RWD,4,Sedan,33337,616,Medium
+1016,Ferrari,488 GTB,2017,196,4,Petrol,Automatic,FWD,4,SUV,31404,530,Low
+1017,Honda,CR-V,2023,122,4,Electric,CVT,FWD,4,Hatchback,40249,719,High
+1018,Chevrolet,Malibu,2023,295,6,Hybrid,Automatic,RWD,4,Van,48588,701,High
+1019,Porsche,Cayenne,2017,405,8,Petrol,Automatic,FWD,4,SUV,41805,683,High
+1020,Volkswagen,Golf,2015,295,6,Petrol,Automatic,FWD,4,Hatchback,23699,501,Low
+1021,Toyota,Corolla,2023,630,12,Diesel,CVT,FWD,4,Sedan,42857,787,High
+1022,Tesla,Model X,2017,335,6,Petrol,Automatic,FWD,4,SUV,32542,568,Low
+1023,Ferrari,488 GTB,2015,162,4,Petrol,Automatic,FWD,4,SUV,26336,582,Medium
+1024,Suzuki,Vitara,2019,395,8,Petrol,Automatic,AWD,4,Hatchback,40692,635,Medium
+1025,Subaru,WRX,2016,602,12,Petrol,Manual,AWD,4,SUV,46144,638,Medium
+1026,Subaru,Outback,2020,128,4,Petrol,Automatic,AWD,4,SUV,27490,569,Low
+1027,Mazda,CX-50,2023,272,6,Hybrid,Automatic,FWD,5,Hatchback,42400,693,High
+1028,Volvo,S90,2019,322,6,Petrol,Automatic,FWD,4,Sedan,35198,602,Medium
+1029,Mitsubishi,Eclipse Cross,2022,266,4,Hybrid,CVT,AWD,4,SUV,37377,748,High
+1030,Suzuki,Vitara,2016,166,4,Electric,Automatic,FWD,5,Hatchback,26422,448,Low
+1031,Audi,A6,2022,389,8,Petrol,Automatic,FWD,2,SUV,47004,692,High
+1032,Ram,2500,2020,442,8,Electric,Automatic,FWD,5,Sedan,44359,690,High
+1033,Toyota,Camry,2019,119,4,Diesel,Automatic,AWD,5,SUV,22936,535,Low
+1034,Mazda,CX-5,2018,144,4,Petrol,Manual,FWD,4,Hatchback,24243,446,Low
+1035,Volvo,XC90,2016,360,6,Petrol,Automatic,AWD,5,Sedan,33691,589,Medium
+1036,Toyota,Highlander,2016,274,6,Petrol,Manual,AWD,4,SUV,25360,454,Low
+1037,Volvo,S90,2023,90,4,Petrol,Manual,AWD,4,Sedan,37898,537,Low
+1038,Hyundai,Santa Fe,2018,557,12,Petrol,Automatic,RWD,4,Sedan,40552,569,Low
+1039,Mini,Countryman,2015,225,6,Hybrid,Automatic,RWD,2,Sedan,19007,434,Low
+1040,Tesla,Model Y,2016,344,6,Hybrid,CVT,FWD,4,Hatchback,35921,638,Medium
+1041,Volkswagen,Jetta,2017,304,6,Petrol,CVT,RWD,4,Coupe,35831,444,Low
+1042,Genesis,GV80,2020,351,8,Diesel,Automatic,FWD,4,SUV,43732,662,High
+1043,Porsche,911,2023,653,12,Petrol,CVT,AWD,2,SUV,62177,805,High
+1044,Chevrolet,Tahoe,2022,91,4,Petrol,CVT,AWD,5,Sedan,30351,632,Medium
+1045,Audi,A6,2024,228,6,Petrol,Automatic,FWD,4,Coupe,48398,671,High
+1046,Audi,Q7,2024,106,4,Petrol,Automatic,FWD,3,Sedan,40459,665,High
+1047,Mini,Cooper,2023,192,4,Petrol,Automatic,FWD,4,Hatchback,34742,623,Medium
+1048,Suzuki,Swift,2018,103,4,Electric,Automatic,RWD,4,SUV,24063,506,Low
+1049,Tesla,Model 3,2022,207,6,Electric,CVT,AWD,2,SUV,37496,764,High
+1050,Porsche,Cayenne,2018,195,4,Hybrid,Automatic,RWD,4,SUV,28296,691,High
+1051,Jeep,Compass,2016,602,12,Hybrid,Automatic,FWD,4,Coupe,36677,605,Medium
+1052,Subaru,Crosstrek,2021,117,4,Diesel,Automatic,AWD,2,Sedan,38627,656,High
+1053,Nissan,Murano,2019,159,4,Hybrid,CVT,AWD,5,Sedan,34046,590,Medium
+1054,Mercedes,C-Class,2022,179,4,Petrol,Automatic,AWD,5,SUV,30226,632,Medium
+1055,Mini,Countryman,2017,171,4,Petrol,Automatic,RWD,2,SUV,18360,482,Low
+1056,Honda,CR-V,2018,369,8,Hybrid,Automatic,AWD,4,Van,35540,600,Medium
+1057,Kia,Telluride,2015,155,4,Petrol,Automatic,AWD,4,Hatchback,17555,443,Low
+1058,Cadillac,Escalade,2024,459,8,Hybrid,Automatic,AWD,4,SUV,54663,803,High
+1059,Alfa Romeo,Stelvio,2017,167,4,Petrol,Automatic,AWD,4,SUV,24551,591,Medium
+1060,Ferrari,488 GTB,2018,137,4,Diesel,Automatic,FWD,2,Sedan,29952,576,Low
+1061,Mitsubishi,Lancer,2015,168,4,Petrol,Automatic,FWD,4,Sedan,22726,580,Medium
+1062,Volkswagen,Golf,2024,157,4,Diesel,Automatic,RWD,4,Sedan,35236,629,Medium
+1063,BMW,5 Series,2022,329,6,Diesel,Automatic,RWD,5,SUV,44006,631,Medium
+1064,Mitsubishi,Lancer,2019,246,6,Hybrid,Automatic,RWD,4,SUV,30966,707,High
+1065,Chevrolet,Tahoe,2024,594,12,Petrol,Automatic,RWD,4,Sedan,62287,820,High
+1066,Mini,Cooper,2021,285,6,Petrol,Automatic,FWD,4,Sedan,36459,647,High
+1067,Subaru,Outback,2017,426,8,Diesel,CVT,RWD,2,Truck,39668,700,High
+1068,Subaru,Crosstrek,2019,253,6,Petrol,Automatic,FWD,4,Sedan,38107,544,Low
+1069,Kia,K5,2017,321,6,Diesel,Automatic,AWD,5,Hatchback,38078,654,High
+1070,Volkswagen,Tiguan,2022,158,4,Petrol,Manual,RWD,4,Sedan,34559,498,Low
+1071,Toyota,Camry,2015,274,6,Diesel,CVT,RWD,5,SUV,31939,458,Low
+1072,Mini,Cooper,2015,100,4,Petrol,Automatic,AWD,2,Sedan,20009,475,Low
+1073,Ferrari,Portofino,2016,131,4,Petrol,Automatic,FWD,4,SUV,21745,432,Low
+1074,Buick,Enclave,2023,467,8,Petrol,CVT,AWD,5,Coupe,49828,581,Medium
+1075,Ram,ProMaster,2022,270,6,Petrol,Automatic,FWD,5,Coupe,40571,611,Medium
+1076,Ford,Mustang,2021,374,8,Diesel,CVT,AWD,4,Coupe,42539,766,High
+1077,Audi,A6,2016,348,6,Petrol,Automatic,RWD,4,Hatchback,38714,590,Medium
+1078,Mitsubishi,Outlander,2016,287,6,Petrol,Automatic,FWD,5,Sedan,22993,504,Low
+1079,Hyundai,Sonata,2020,129,4,Hybrid,Automatic,AWD,4,Sedan,26407,598,Medium
+1080,Audi,Q5,2023,99,4,Petrol,Automatic,FWD,4,SUV,34832,615,Medium
+1081,Jeep,Cherokee,2024,132,4,Hybrid,Automatic,FWD,5,Sedan,43630,518,Low
+1082,Tesla,Model S,2018,151,4,Electric,Automatic,FWD,4,Truck,24404,709,High
+1083,Toyota,Highlander,2023,215,4,Petrol,Manual,AWD,5,SUV,38851,663,High
+1084,Kia,K5,2015,246,6,Diesel,CVT,FWD,4,SUV,26719,569,Low
+1085,Ford,Mustang,2018,433,8,Petrol,Automatic,AWD,4,Sedan,37522,602,Medium
+1086,Ford,F-150,2022,321,6,Petrol,Automatic,AWD,4,Sedan,41611,632,Medium
+1087,Lexus,ES,2018,422,8,Petrol,Automatic,FWD,5,Coupe,41037,589,Medium
+1088,BMW,X3,2024,138,4,Diesel,Automatic,FWD,4,Sedan,34335,653,High
+1089,Aston Martin,DB11,2016,163,4,Electric,CVT,FWD,4,Truck,25823,631,Medium
+1090,Honda,CR-V,2021,152,4,Petrol,Automatic,FWD,4,SUV,31922,693,High
+1091,Volvo,S60,2016,198,4,Petrol,Automatic,RWD,4,Coupe,24305,535,Low
+1092,Subaru,Forester,2019,291,6,Petrol,Automatic,FWD,4,Coupe,33435,613,Medium
+1093,Genesis,G80,2016,349,8,Electric,CVT,FWD,4,Sedan,32826,562,Low
+1094,Kia,Sportage,2023,404,8,Petrol,Automatic,AWD,5,Hatchback,50195,614,Medium
+1095,Ford,Escape,2018,144,4,Petrol,Automatic,FWD,4,Sedan,30037,529,Low
+1096,Genesis,GV70,2016,393,8,Hybrid,Manual,AWD,2,SUV,27885,673,High
+1097,Honda,Civic,2019,604,12,Petrol,Automatic,RWD,5,SUV,54076,757,High
+1098,Subaru,Forester,2023,236,4,Petrol,Automatic,AWD,5,SUV,45384,704,High
+1099,BMW,3 Series,2016,142,4,Diesel,Automatic,FWD,4,Sedan,24399,509,Low
+1100,Tesla,Model S,2022,394,8,Hybrid,Automatic,AWD,4,SUV,55967,742,High
+1101,Mini,Cooper,2015,223,6,Hybrid,Automatic,FWD,4,SUV,22957,590,Medium
+1102,Tesla,Model 3,2022,339,6,Petrol,Automatic,FWD,4,Hatchback,45203,625,Medium
+1103,BMW,X3,2015,383,8,Electric,Automatic,FWD,5,Hatchback,41220,592,Medium
+1104,Suzuki,Swift,2023,285,6,Diesel,Automatic,RWD,4,Sedan,41772,624,Medium
+1105,Toyota,Corolla,2024,222,6,Petrol,Automatic,AWD,4,SUV,43304,686,High
+1106,Honda,Civic,2020,149,4,Petrol,Automatic,AWD,4,Sedan,29264,646,Medium
+1107,Ferrari,Portofino,2021,287,6,Diesel,Manual,AWD,5,Sedan,34527,544,Low
+1108,Mini,Cooper,2024,147,4,Diesel,Automatic,FWD,4,SUV,29644,570,Low
+1109,Ford,Explorer,2016,192,4,Hybrid,Automatic,RWD,4,SUV,27979,641,Medium
+1110,Alfa Romeo,Stelvio,2019,178,4,Petrol,Automatic,FWD,5,SUV,24500,658,High
+1111,Mazda,Mazda3,2016,117,4,Petrol,Automatic,RWD,4,Sedan,22662,499,Low
+1112,Ram,1500,2018,90,4,Petrol,Manual,RWD,5,SUV,27120,617,Medium
+1113,Mazda,CX-50,2016,194,4,Electric,Automatic,AWD,4,SUV,20564,576,Low
+1114,Ferrari,488 GTB,2017,449,8,Electric,Manual,RWD,4,SUV,38197,597,Medium
+1115,Mercedes,C-Class,2020,141,4,Electric,Automatic,FWD,2,Sedan,26824,525,Low
+1116,Mini,Countryman,2017,318,6,Petrol,Automatic,FWD,4,SUV,29466,551,Low
+1117,Mitsubishi,Eclipse Cross,2018,227,4,Hybrid,Manual,FWD,4,Sedan,35620,525,Low
+1118,Mini,Cooper,2021,169,4,Electric,Automatic,RWD,4,SUV,34776,660,High
+1119,Alfa Romeo,Stelvio,2024,269,6,Electric,CVT,FWD,4,Sedan,46310,691,High
+1120,Toyota,Highlander,2017,120,4,Diesel,CVT,AWD,4,Sedan,26027,425,Low
+1121,Genesis,G70,2020,138,4,Petrol,Automatic,FWD,5,SUV,24760,625,Medium
+1122,BMW,5 Series,2021,246,6,Hybrid,Automatic,FWD,5,Coupe,35261,626,Medium
+1123,Mercedes,GLE,2019,248,6,Petrol,CVT,FWD,4,Sedan,34487,533,Low
+1124,Ford,Mustang,2017,176,4,Hybrid,Automatic,FWD,2,SUV,28774,551,Low
+1125,Ferrari,488 GTB,2019,419,8,Diesel,Manual,AWD,4,SUV,38715,630,Medium
+1126,Mercedes,E-Class,2015,149,4,Petrol,CVT,RWD,5,SUV,18933,462,Low
+1127,Mitsubishi,Eclipse Cross,2015,136,4,Electric,Automatic,FWD,4,SUV,17857,559,Low
+1128,Mercedes,E-Class,2017,258,6,Petrol,Automatic,RWD,4,Sedan,28644,588,Medium
+1129,Ferrari,Portofino,2017,264,6,Petrol,Automatic,FWD,4,Sedan,34978,529,Low
+1130,Chevrolet,Malibu,2018,589,12,Petrol,Automatic,AWD,4,SUV,50179,704,High
+1131,Subaru,Outback,2022,400,8,Petrol,Manual,FWD,4,SUV,48651,662,High
+1132,Mazda,CX-50,2015,199,4,Diesel,Automatic,FWD,4,Coupe,21118,519,Low
+1133,Mazda,CX-50,2018,546,12,Petrol,Automatic,AWD,4,Sedan,45463,603,Medium
+1134,Aston Martin,DB11,2017,94,4,Petrol,Automatic,RWD,5,SUV,22436,610,Medium
+1135,Tesla,Model X,2022,242,6,Hybrid,Automatic,FWD,4,Coupe,41786,658,High
+1136,Nissan,Sentra,2022,393,8,Electric,Automatic,FWD,5,SUV,39556,718,High
+1137,Ram,ProMaster,2016,163,4,Hybrid,Automatic,AWD,4,SUV,29006,656,High
+1138,Mini,Cooper,2022,330,6,Electric,Automatic,RWD,4,SUV,39733,623,Medium
+1139,Ferrari,Portofino,2019,113,4,Diesel,Manual,AWD,4,SUV,27141,498,Low
+1140,Hyundai,Tucson,2019,408,8,Petrol,Automatic,FWD,4,Sedan,29383,582,Medium
+1141,Hyundai,Elantra,2019,173,4,Hybrid,CVT,FWD,5,SUV,26810,517,Low
+1142,Subaru,Forester,2015,266,6,Petrol,CVT,FWD,5,Sedan,27188,602,Medium
+1143,Honda,Civic,2021,93,4,Diesel,CVT,FWD,2,Sedan,29760,534,Low
+1144,Hyundai,Elantra,2016,281,6,Petrol,Automatic,AWD,4,SUV,27473,524,Low
+1145,Lexus,ES,2020,272,6,Diesel,Automatic,FWD,5,Sedan,43148,621,Medium
+1146,Jeep,Grand Cherokee,2017,296,6,Petrol,Automatic,FWD,4,Coupe,34353,487,Low
+1147,Honda,CR-V,2015,628,12,Petrol,Automatic,AWD,4,SUV,41046,631,Medium
+1148,Audi,Q5,2023,290,6,Electric,Automatic,AWD,4,Coupe,46629,681,High
+1149,Porsche,Panamera,2023,153,4,Hybrid,Automatic,FWD,4,Truck,36468,682,High
+1150,Alfa Romeo,Giulia,2022,178,4,Petrol,Automatic,FWD,5,SUV,36189,682,High
+1151,Ford,F-150,2016,137,4,Diesel,Automatic,RWD,4,Coupe,25648,482,Low
+1152,Volkswagen,Jetta,2015,229,4,Hybrid,Manual,AWD,4,SUV,21831,561,Low
+1153,Mini,Countryman,2022,157,4,Diesel,Automatic,RWD,2,Sedan,39291,621,Medium
+1154,Volvo,XC90,2024,254,6,Petrol,Automatic,RWD,4,Truck,39050,658,High
+1155,Genesis,G70,2021,182,4,Petrol,Automatic,FWD,5,Hatchback,34016,565,Low
+1156,Honda,CR-V,2021,322,6,Hybrid,CVT,FWD,5,Sedan,43992,663,High
+1157,Ford,Escape,2017,144,4,Electric,Automatic,RWD,5,SUV,23527,559,Low
+1158,BMW,5 Series,2020,141,4,Hybrid,Manual,RWD,4,Van,31666,588,Medium
+1159,Honda,Pilot,2022,287,6,Diesel,CVT,FWD,4,SUV,43966,665,High
+1160,Ford,Mustang,2016,419,8,Petrol,Manual,AWD,4,SUV,38787,593,Medium
+1161,Kia,Telluride,2016,331,6,Petrol,CVT,AWD,5,SUV,31167,641,Medium
+1162,Genesis,G80,2023,147,4,Petrol,Automatic,RWD,4,SUV,47710,701,High
+1163,Genesis,G80,2022,626,12,Petrol,CVT,AWD,4,SUV,55008,687,High
+1164,Hyundai,Sonata,2024,142,4,Electric,Automatic,AWD,4,SUV,39128,613,Medium
+1165,Mercedes,GLC,2024,176,4,Diesel,Manual,FWD,4,SUV,46972,585,Medium
+1166,Aston Martin,DB11,2017,117,4,Petrol,Automatic,FWD,4,SUV,28530,551,Low
+1167,Chevrolet,Equinox,2017,144,4,Petrol,CVT,FWD,4,Sedan,28757,573,Low
+1168,Hyundai,Tucson,2019,674,12,Hybrid,Automatic,RWD,5,Hatchback,46921,770,High
+1169,Toyota,RAV4,2018,138,4,Petrol,CVT,AWD,2,Sedan,23824,548,Low
+1170,Honda,Accord,2022,330,6,Petrol,Automatic,AWD,2,SUV,39325,726,High
+1171,Nissan,Altima,2016,404,8,Petrol,CVT,FWD,5,SUV,29590,511,Low
+1172,Chevrolet,Tahoe,2019,341,6,Diesel,Automatic,AWD,4,SUV,46244,667,High
+1173,Audi,Q7,2016,253,6,Petrol,Automatic,FWD,5,SUV,33750,631,Medium
+1174,Honda,CR-V,2018,153,4,Petrol,Automatic,FWD,4,Sedan,29219,535,Low
+1175,Alfa Romeo,Stelvio,2021,215,4,Electric,CVT,FWD,4,Coupe,36054,581,Medium
+1176,Volvo,S60,2024,91,4,Petrol,CVT,FWD,4,SUV,35486,654,High
+1177,Mazda,Mazda3,2020,163,4,Electric,Automatic,AWD,4,Sedan,30057,620,Medium
+1178,Volvo,XC60,2021,147,4,Diesel,Automatic,FWD,5,SUV,40907,670,High
+1179,Subaru,Outback,2019,241,4,Diesel,Automatic,AWD,4,Sedan,34777,574,Low
+1180,Ram,ProMaster,2019,281,6,Petrol,Automatic,FWD,4,Hatchback,38556,627,Medium
+1181,Mazda,Mazda3,2022,126,4,Hybrid,CVT,FWD,5,Sedan,30483,603,Medium
+1182,Honda,CR-V,2016,413,8,Diesel,CVT,RWD,4,Sedan,36959,585,Medium
+1183,Alfa Romeo,Stelvio,2016,220,6,Diesel,Automatic,FWD,4,Hatchback,26544,623,Medium
+1184,Alfa Romeo,Giulia,2016,155,4,Petrol,CVT,AWD,2,Sedan,22834,530,Low
+1185,Ferrari,488 GTB,2016,166,4,Petrol,Automatic,AWD,4,SUV,28458,512,Low
+1186,Subaru,Outback,2023,153,4,Petrol,Automatic,AWD,4,SUV,38030,640,Medium
+1187,Chevrolet,Malibu,2017,620,12,Petrol,CVT,FWD,4,Sedan,53178,725,High
+1188,Ferrari,Portofino,2019,454,8,Petrol,Automatic,RWD,4,Sedan,38189,611,Medium
+1189,Hyundai,Elantra,2024,159,4,Petrol,Automatic,RWD,5,Hatchback,36773,545,Low
+1190,Toyota,RAV4,2020,139,4,Petrol,Automatic,FWD,5,SUV,32242,436,Low
+1191,Chevrolet,Malibu,2018,424,8,Petrol,CVT,RWD,4,SUV,38385,675,High
+1192,Mercedes,GLE,2020,192,4,Diesel,Automatic,FWD,5,SUV,31251,563,Low
+1193,Mitsubishi,Lancer,2017,90,4,Diesel,Automatic,FWD,4,SUV,23100,557,Low
+1194,Alfa Romeo,Giulia,2024,90,4,Electric,Automatic,AWD,2,SUV,42289,722,High
+1195,Chevrolet,Equinox,2021,194,4,Electric,Automatic,FWD,4,SUV,36331,673,High
+1196,Subaru,Forester,2019,304,6,Petrol,Automatic,AWD,4,SUV,40221,591,Medium
+1197,Kia,Telluride,2020,142,4,Petrol,CVT,FWD,5,SUV,29378,545,Low
+1198,Aston Martin,Vantage,2022,272,6,Diesel,Automatic,FWD,4,SUV,43368,660,High
+1199,Jeep,Grand Cherokee,2023,612,12,Electric,Automatic,FWD,5,Sedan,52608,738,High
+1200,Ram,2500,2015,309,6,Petrol,Automatic,FWD,4,Hatchback,26826,571,Low
+1201,Mini,Countryman,2024,287,6,Diesel,CVT,FWD,2,SUV,41589,685,High
+1202,Kia,Sportage,2019,140,4,Petrol,CVT,AWD,2,Sedan,25678,627,Medium
+1203,Ford,Escape,2023,479,8,Hybrid,Automatic,AWD,5,Truck,58558,835,High
+1204,Lexus,RX,2017,96,4,Petrol,Manual,FWD,2,SUV,24855,482,Low
+1205,Mazda,Mazda6,2018,308,6,Diesel,Manual,RWD,2,Coupe,33806,552,Low
+1206,Mitsubishi,Outlander,2022,378,8,Petrol,Automatic,FWD,2,SUV,49571,623,Medium
+1207,Tesla,Model Y,2024,275,6,Hybrid,Automatic,FWD,2,Truck,47506,829,High
+1208,Mercedes,C-Class,2017,173,4,Petrol,Automatic,FWD,4,Sedan,33747,562,Low
+1209,Suzuki,Swift,2017,210,6,Petrol,Automatic,FWD,5,SUV,26339,507,Low
+1210,Mini,Cooper,2024,333,6,Petrol,Automatic,AWD,4,Sedan,40870,683,High
+1211,Volkswagen,Tiguan,2021,389,8,Petrol,Automatic,FWD,4,Sedan,44418,596,Medium
+1212,Suzuki,Swift,2019,158,4,Electric,Automatic,AWD,2,SUV,32693,577,Low
+1213,Mercedes,GLE,2020,189,4,Hybrid,Automatic,RWD,2,SUV,32163,583,Medium
+1214,Honda,Pilot,2017,285,6,Petrol,Automatic,RWD,5,Sedan,35575,619,Medium
+1215,Subaru,Outback,2021,287,6,Electric,Automatic,FWD,4,Sedan,39493,702,High
+1216,Ford,F-150,2020,584,12,Petrol,Automatic,AWD,4,SUV,50948,722,High
+1217,Honda,Pilot,2022,403,8,Petrol,Automatic,FWD,4,Coupe,50265,652,High
+1218,Suzuki,Swift,2018,128,4,Hybrid,Automatic,FWD,5,SUV,27896,500,Low
+1219,Volvo,S90,2023,228,6,Petrol,Automatic,FWD,5,Sedan,38074,652,High
+1220,Honda,Accord,2017,389,8,Diesel,Automatic,AWD,5,Sedan,31841,701,High
+1221,BMW,3 Series,2017,162,4,Hybrid,CVT,FWD,4,Sedan,27641,599,Medium
+1222,Aston Martin,Vantage,2024,108,4,Diesel,CVT,AWD,4,Sedan,37402,676,High
+1223,Jeep,Cherokee,2022,131,4,Petrol,Automatic,AWD,4,Sedan,34844,572,Low
+1224,Suzuki,Vitara,2019,625,12,Hybrid,Automatic,FWD,4,SUV,46033,615,Medium
+1225,Chevrolet,Silverado,2022,275,6,Petrol,Manual,RWD,4,Sedan,51252,698,High
+1226,Suzuki,Swift,2018,300,6,Diesel,Manual,FWD,4,Sedan,32114,559,Low
+1227,Nissan,Rogue,2017,437,8,Petrol,Automatic,RWD,5,Sedan,41916,532,Low
+1228,Genesis,G80,2021,249,6,Hybrid,CVT,FWD,4,Coupe,38458,668,High
+1229,BMW,5 Series,2023,334,8,Petrol,Automatic,FWD,2,Sedan,45428,628,Medium
+1230,Mitsubishi,Outlander,2019,178,4,Petrol,Automatic,RWD,5,Sedan,28831,544,Low
+1231,BMW,3 Series,2018,91,4,Petrol,CVT,RWD,4,Sedan,27622,489,Low
+1232,Mazda,CX-50,2022,127,4,Diesel,CVT,RWD,4,Hatchback,27597,653,High
+1233,Lexus,IS,2024,146,4,Petrol,Automatic,FWD,4,Sedan,48745,557,Low
+1234,BMW,X5,2020,125,4,Petrol,Automatic,FWD,4,Sedan,35825,588,Medium
+1235,Ford,Explorer,2018,90,4,Petrol,CVT,FWD,3,SUV,27533,518,Low
+1236,Chevrolet,Tahoe,2024,142,4,Petrol,Automatic,AWD,4,SUV,39729,675,High
+1237,Volvo,XC60,2015,227,6,Petrol,Automatic,AWD,5,Van,26760,488,Low
+1238,Alfa Romeo,Stelvio,2021,90,4,Petrol,Automatic,AWD,5,SUV,29546,604,Medium
+1239,Lexus,NX,2020,315,6,Hybrid,Automatic,AWD,5,SUV,42684,764,High
+1240,Tesla,Model S,2023,169,4,Petrol,CVT,AWD,4,Sedan,34040,669,High
+1241,Hyundai,Tucson,2018,317,6,Diesel,Automatic,FWD,4,SUV,33325,565,Low
+1242,Tesla,Model S,2023,135,4,Petrol,CVT,FWD,4,SUV,40732,650,High
+1243,Cadillac,Escalade,2022,289,6,Petrol,Automatic,RWD,4,Hatchback,43521,605,Medium
+1244,Volvo,XC90,2015,125,4,Petrol,Automatic,FWD,5,Sedan,19076,474,Low
+1245,Toyota,Corolla,2018,279,6,Electric,Manual,AWD,4,Coupe,32422,565,Low
+1246,Cadillac,Escalade,2017,387,8,Electric,CVT,FWD,5,Sedan,41448,687,High
+1247,Mazda,Mazda3,2015,138,4,Petrol,Automatic,AWD,5,Hatchback,19925,507,Low
+1248,Ford,Escape,2020,284,6,Diesel,Automatic,FWD,5,Sedan,43802,596,Medium
+1249,Chevrolet,Malibu,2017,246,4,Petrol,Automatic,AWD,4,SUV,29167,646,Medium
+1250,Subaru,WRX,2019,97,4,Petrol,Automatic,AWD,4,Truck,32145,641,Medium
+1251,Buick,Enclave,2020,121,4,Petrol,Automatic,AWD,4,Coupe,39199,577,Low
+1252,Tesla,Model 3,2020,615,12,Electric,Automatic,FWD,5,Truck,56372,781,High
+1253,Mitsubishi,Eclipse Cross,2018,151,4,Petrol,Automatic,FWD,4,SUV,26136,562,Low
+1254,Mazda,CX-5,2019,134,4,Petrol,Automatic,FWD,5,Sedan,33446,506,Low
+1255,Ferrari,Portofino,2022,170,4,Petrol,CVT,RWD,4,SUV,40491,686,High
+1256,Cadillac,Escalade,2020,339,6,Petrol,Automatic,FWD,5,SUV,42786,660,High
+1257,Volkswagen,Tiguan,2022,197,4,Petrol,Automatic,AWD,2,Truck,33984,620,Medium
+1258,Buick,Encore,2023,594,12,Diesel,Automatic,FWD,5,Sedan,62029,743,High
+1259,Chevrolet,Malibu,2023,626,12,Petrol,Automatic,FWD,5,Hatchback,58413,707,High
+1260,BMW,X5,2023,136,4,Electric,CVT,AWD,4,Sedan,40180,618,Medium
+1261,Nissan,Sentra,2015,684,12,Hybrid,Automatic,AWD,2,SUV,41302,683,High
+1262,Hyundai,Sonata,2019,165,4,Petrol,Automatic,AWD,4,Sedan,36176,589,Medium
+1263,Aston Martin,Vantage,2024,278,6,Electric,Automatic,AWD,5,Hatchback,47253,763,High
+1264,Nissan,Sentra,2023,281,6,Petrol,Automatic,FWD,4,SUV,46982,513,Low
+1265,Mitsubishi,Outlander,2018,267,6,Petrol,Automatic,RWD,4,Truck,40116,550,Low
+1266,Lexus,NX,2023,267,6,Hybrid,CVT,FWD,5,Truck,45433,749,High
+1267,Cadillac,XT5,2024,465,8,Petrol,Manual,RWD,4,Sedan,56393,786,High
+1268,Mitsubishi,Eclipse Cross,2018,123,4,Diesel,CVT,AWD,4,Coupe,30672,636,Medium
+1269,Lexus,IS,2019,122,4,Petrol,Automatic,FWD,4,SUV,31149,578,Medium
+1270,Genesis,G80,2018,139,4,Petrol,Automatic,FWD,4,SUV,28933,547,Low
+1271,Nissan,Sentra,2022,172,4,Electric,Automatic,FWD,4,Truck,38608,666,High
+1272,Mitsubishi,Eclipse Cross,2017,177,4,Diesel,CVT,FWD,4,Sedan,24722,627,Medium
+1273,Toyota,Highlander,2021,168,4,Petrol,Automatic,FWD,4,SUV,29028,461,Low
+1274,Alfa Romeo,Giulia,2017,338,8,Electric,CVT,RWD,5,SUV,26660,657,High
+1275,Mini,Cooper,2020,137,4,Diesel,Automatic,RWD,5,SUV,29816,604,Medium
+1276,Hyundai,Tucson,2019,467,8,Petrol,Automatic,AWD,5,Hatchback,37913,651,High
+1277,Volvo,S60,2023,277,6,Petrol,Automatic,RWD,5,SUV,49449,649,High
+1278,Volvo,S60,2020,90,4,Petrol,Automatic,AWD,4,Sedan,25012,515,Low
+1279,Kia,Sportage,2024,171,4,Petrol,Automatic,AWD,5,Sedan,43159,646,Medium
+1280,Buick,Enclave,2022,151,4,Petrol,CVT,RWD,4,Truck,40545,655,High
+1281,Ferrari,488 GTB,2015,172,4,Hybrid,Automatic,FWD,4,SUV,22878,511,Low
+1282,Genesis,GV80,2015,162,4,Petrol,CVT,AWD,4,Van,26282,498,Low
+1283,Volkswagen,Passat,2024,110,4,Hybrid,Automatic,FWD,4,Truck,36327,627,Medium
+1284,Toyota,Camry,2015,398,8,Petrol,Automatic,RWD,4,SUV,28381,609,Medium
+1285,Toyota,Camry,2024,674,12,Petrol,Automatic,FWD,5,SUV,59960,668,High
+1286,Ram,ProMaster,2021,394,8,Hybrid,Automatic,RWD,5,Hatchback,41794,742,High
+1287,Genesis,GV80,2021,150,4,Diesel,Automatic,FWD,4,Coupe,35048,610,Medium
+1288,Honda,Accord,2018,160,4,Electric,Automatic,RWD,5,SUV,29239,701,High
+1289,Honda,Civic,2020,613,12,Diesel,Automatic,FWD,5,SUV,55438,743,High
+1290,Nissan,Rogue,2015,119,4,Hybrid,Automatic,AWD,3,SUV,25225,528,Low
+1291,Porsche,Panamera,2021,444,8,Petrol,Automatic,RWD,4,Sedan,48616,613,Medium
+1292,Volvo,S90,2015,141,4,Petrol,Automatic,FWD,5,SUV,18266,525,Low
+1293,Subaru,Forester,2018,161,4,Petrol,Manual,AWD,5,Hatchback,30477,608,Medium
+1294,Honda,Civic,2024,293,6,Petrol,CVT,FWD,4,Sedan,50777,720,High
+1295,Audi,Q5,2022,376,8,Electric,CVT,AWD,4,SUV,56090,806,High
+1296,Subaru,WRX,2017,234,6,Electric,Automatic,RWD,4,Coupe,33418,641,Medium
+1297,Tesla,Model Y,2019,130,4,Petrol,Automatic,FWD,4,Truck,23365,608,Medium
+1298,Ford,Escape,2016,281,6,Petrol,Automatic,AWD,5,Truck,32618,589,Medium
+1299,Nissan,Altima,2021,90,4,Petrol,Manual,AWD,3,SUV,36876,548,Low
+1300,Mercedes,C-Class,2024,320,6,Petrol,CVT,FWD,4,Sedan,42713,671,High
+1301,Suzuki,Swift,2023,90,4,Hybrid,Automatic,RWD,4,Coupe,32216,598,Medium
+1302,BMW,3 Series,2021,126,4,Hybrid,Automatic,RWD,5,Hatchback,33496,565,Low
+1303,Mitsubishi,Eclipse Cross,2017,134,4,Petrol,Automatic,FWD,4,SUV,25606,547,Low
+1304,Jeep,Grand Cherokee,2016,170,4,Petrol,CVT,FWD,2,Sedan,22240,432,Low
+1305,Subaru,Outback,2023,155,4,Petrol,Automatic,RWD,5,Sedan,37512,704,High
+1306,Suzuki,Vitara,2018,160,4,Hybrid,Automatic,AWD,5,Sedan,20731,420,Low
+1307,Chevrolet,Silverado,2024,151,4,Electric,Automatic,AWD,4,Coupe,44212,711,High
+1308,Alfa Romeo,Giulia,2024,604,12,Diesel,Automatic,RWD,4,SUV,63657,718,High
+1309,Kia,Telluride,2018,187,4,Hybrid,CVT,RWD,5,Truck,32188,585,Medium
+1310,Honda,CR-V,2020,147,4,Electric,Automatic,FWD,5,Truck,31960,725,High
+1311,Porsche,Macan,2023,127,4,Diesel,Automatic,FWD,3,Sedan,36142,627,Medium
+1312,Suzuki,Vitara,2021,247,6,Petrol,CVT,FWD,4,SUV,31275,597,Medium
+1313,Genesis,G70,2020,197,6,Petrol,Automatic,AWD,5,SUV,38493,497,Low
+1314,Mercedes,E-Class,2021,140,4,Petrol,Automatic,AWD,4,SUV,30300,620,Medium
+1315,Genesis,G70,2017,278,6,Petrol,CVT,AWD,5,Truck,32582,530,Low
+1316,Hyundai,Santa Fe,2020,235,6,Hybrid,CVT,RWD,5,Truck,37974,582,Medium
+1317,Mitsubishi,Lancer,2024,110,4,Petrol,Automatic,FWD,5,Sedan,33132,633,Medium
+1318,Ford,F-150,2021,294,6,Electric,Automatic,AWD,4,Hatchback,35619,655,High
+1319,Mercedes,GLE,2015,358,8,Hybrid,Automatic,RWD,5,SUV,29963,607,Medium
+1320,Genesis,G80,2021,295,6,Petrol,CVT,FWD,5,Truck,36345,714,High
+1321,Subaru,WRX,2021,147,4,Petrol,CVT,FWD,4,Sedan,31852,648,High
+1322,Tesla,Model 3,2015,179,4,Petrol,CVT,FWD,4,SUV,27234,520,Low
+1323,Ferrari,488 GTB,2015,333,6,Hybrid,Automatic,RWD,5,Hatchback,31522,566,Low
+1324,Alfa Romeo,Stelvio,2017,267,6,Hybrid,CVT,AWD,3,Coupe,30942,639,Medium
+1325,BMW,X3,2023,183,4,Diesel,CVT,RWD,4,Sedan,37068,573,Low
+1326,Volkswagen,Jetta,2020,265,6,Petrol,Automatic,AWD,4,SUV,33378,512,Low
+1327,Toyota,Highlander,2018,416,8,Petrol,Automatic,RWD,4,Coupe,44002,573,Low
+1328,Chevrolet,Equinox,2022,151,4,Petrol,Automatic,RWD,4,Coupe,41218,579,Medium
+1329,Volvo,XC60,2020,252,6,Diesel,CVT,AWD,4,SUV,36604,583,Medium
+1330,Hyundai,Santa Fe,2018,424,8,Electric,CVT,FWD,5,Sedan,36766,595,Medium
+1331,Mercedes,GLC,2017,379,8,Petrol,Automatic,FWD,4,Sedan,34044,511,Low
+1332,Suzuki,Vitara,2015,235,6,Petrol,CVT,FWD,4,SUV,21721,443,Low
+1333,Mazda,Mazda6,2023,438,8,Petrol,Automatic,AWD,5,Truck,50026,711,High
+1334,Chevrolet,Equinox,2016,466,8,Diesel,Manual,RWD,4,Sedan,43045,606,Medium
+1335,Toyota,Highlander,2020,107,4,Electric,Automatic,AWD,2,Sedan,28811,535,Low
+1336,Tesla,Model 3,2018,223,4,Diesel,Automatic,AWD,4,Hatchback,34134,673,High
+1337,Buick,Encore,2019,332,6,Hybrid,Automatic,AWD,4,SUV,36789,659,High
+1338,Honda,Accord,2019,213,4,Diesel,Manual,FWD,4,SUV,34954,507,Low
+1339,Mitsubishi,Lancer,2021,164,4,Hybrid,Automatic,RWD,4,Sedan,28775,583,Medium
+1340,Kia,K5,2016,133,4,Petrol,Automatic,FWD,4,SUV,21549,586,Medium
+1341,Porsche,911,2019,281,6,Electric,Automatic,FWD,5,Sedan,35167,717,High
+1342,Mini,Cooper,2021,261,6,Hybrid,CVT,FWD,5,SUV,40614,678,High
+1343,Buick,Enclave,2015,105,4,Petrol,Automatic,AWD,4,Sedan,23935,539,Low
+1344,Jeep,Grand Cherokee,2016,135,4,Diesel,Automatic,FWD,4,SUV,28735,466,Low
+1345,Audi,A6,2023,175,4,Petrol,Automatic,FWD,4,Sedan,37836,691,High
+1346,Subaru,Crosstrek,2019,149,4,Petrol,CVT,FWD,5,Sedan,30618,586,Medium
+1347,Mercedes,C-Class,2020,462,8,Diesel,Automatic,AWD,4,Sedan,50878,688,High
+1348,Mitsubishi,Eclipse Cross,2022,154,4,Petrol,Automatic,FWD,4,SUV,38404,651,High
+1349,Ford,Escape,2015,655,12,Diesel,Automatic,AWD,4,Hatchback,39591,600,Medium
+1350,Subaru,WRX,2023,144,4,Hybrid,Automatic,RWD,5,SUV,37207,760,High
+1351,Jeep,Cherokee,2023,411,8,Hybrid,Automatic,FWD,5,Truck,47189,705,High
+1352,Mini,Cooper,2023,296,6,Petrol,Automatic,AWD,4,Sedan,38590,719,High
+1353,BMW,X5,2018,613,12,Petrol,Automatic,FWD,4,Hatchback,43519,612,Medium
+1354,Nissan,Sentra,2023,121,4,Petrol,CVT,AWD,5,Coupe,41260,563,Low
+1355,Chevrolet,Silverado,2021,282,6,Electric,Automatic,FWD,4,Hatchback,34747,700,High
+1356,Nissan,Murano,2023,166,4,Hybrid,Manual,RWD,4,Truck,34539,610,Medium
+1357,Aston Martin,DB11,2023,444,8,Petrol,Automatic,AWD,5,Hatchback,52265,769,High
+1358,Hyundai,Santa Fe,2024,292,6,Petrol,Automatic,RWD,5,Hatchback,39505,588,Medium
+1359,Buick,Encore,2016,246,6,Diesel,Automatic,RWD,4,SUV,20506,643,Medium
+1360,Kia,Telluride,2022,203,4,Hybrid,Automatic,AWD,4,SUV,38772,770,High
+1361,Mini,Countryman,2020,612,12,Hybrid,Automatic,AWD,4,SUV,42009,737,High
+1362,Mazda,Mazda3,2021,91,4,Petrol,Automatic,AWD,4,SUV,32415,565,Low
+1363,Tesla,Model 3,2015,440,8,Petrol,Automatic,FWD,4,Sedan,29938,562,Low
+1364,Cadillac,Escalade,2016,136,4,Petrol,Automatic,FWD,5,SUV,23084,514,Low
+1365,Audi,A4,2022,97,4,Diesel,CVT,FWD,4,SUV,32339,615,Medium
+1366,Kia,Telluride,2024,171,4,Electric,CVT,FWD,4,Hatchback,46197,695,High
+1367,Ford,Escape,2016,169,4,Hybrid,Automatic,RWD,4,Sedan,20346,618,Medium
+1368,Mazda,CX-5,2021,132,4,Hybrid,Manual,AWD,4,Sedan,28026,670,High
+1369,Suzuki,Vitara,2022,274,6,Electric,Automatic,FWD,5,Sedan,44039,594,Medium
+1370,Kia,K5,2018,243,6,Hybrid,CVT,FWD,4,SUV,38256,703,High
+1371,Jeep,Grand Cherokee,2021,390,8,Petrol,Automatic,AWD,4,SUV,41396,583,Medium
+1372,Subaru,Outback,2022,163,4,Petrol,Automatic,RWD,4,SUV,38170,719,High
+1373,Mitsubishi,Lancer,2016,311,6,Diesel,CVT,FWD,4,Sedan,33483,638,Medium
+1374,Genesis,G70,2017,258,6,Hybrid,Manual,AWD,5,Truck,28496,642,Medium
+1375,Ford,F-150,2022,191,4,Hybrid,Automatic,FWD,2,Coupe,36264,664,High
+1376,Kia,Sportage,2024,165,4,Petrol,Automatic,FWD,4,Sedan,37935,592,Medium
+1377,Mitsubishi,Outlander,2015,236,6,Diesel,CVT,FWD,5,Hatchback,23037,566,Low
+1378,Ferrari,488 GTB,2023,109,4,Petrol,CVT,FWD,5,SUV,40336,679,High
+1379,Tesla,Model 3,2024,177,4,Petrol,Automatic,FWD,5,Sedan,40780,737,High
+1380,Mercedes,GLC,2021,90,4,Hybrid,Automatic,FWD,4,Hatchback,25560,543,Low
+1381,Lexus,RX,2022,134,4,Petrol,Manual,AWD,4,SUV,38818,584,Medium
+1382,Hyundai,Sonata,2016,242,6,Petrol,CVT,RWD,2,SUV,25844,583,Medium
+1383,Mercedes,C-Class,2023,227,6,Petrol,CVT,RWD,4,SUV,38330,660,High
+1384,Subaru,Crosstrek,2017,156,4,Diesel,CVT,AWD,3,SUV,32114,607,Medium
+1385,Hyundai,Sonata,2023,182,4,Diesel,CVT,RWD,5,Hatchback,34766,600,Medium
+1386,Buick,Enclave,2015,414,8,Petrol,Automatic,FWD,5,Sedan,35078,599,Medium
+1387,Suzuki,Vitara,2016,288,6,Petrol,Automatic,RWD,4,SUV,31767,543,Low
+1388,Mercedes,E-Class,2024,379,8,Petrol,CVT,FWD,4,SUV,44715,655,High
+1389,Buick,Encore,2017,254,4,Petrol,Automatic,AWD,4,Hatchback,36586,594,Medium
+1390,Subaru,WRX,2023,160,4,Petrol,Automatic,FWD,4,Sedan,40533,656,High
+1391,Genesis,G70,2015,288,6,Hybrid,Automatic,AWD,5,Sedan,24295,580,Medium
+1392,Ferrari,Portofino,2021,149,4,Electric,Automatic,FWD,5,SUV,28657,678,High
+1393,Hyundai,Tucson,2018,253,6,Electric,Manual,FWD,5,Hatchback,22504,588,Medium
+1394,Ram,1500,2020,283,6,Petrol,CVT,FWD,5,Sedan,36727,573,Low
+1395,Mazda,CX-5,2021,426,8,Diesel,Automatic,FWD,5,Sedan,50798,608,Medium
+1396,Porsche,Panamera,2016,100,4,Hybrid,Manual,RWD,4,Truck,25558,598,Medium
+1397,Mazda,Mazda3,2017,241,6,Hybrid,Automatic,FWD,4,SUV,27496,557,Low
+1398,BMW,X5,2022,451,8,Diesel,Manual,FWD,3,SUV,52984,654,High
+1399,Lexus,ES,2020,151,4,Hybrid,Manual,RWD,4,Sedan,30827,665,High
+1400,Mini,Cooper,2020,139,4,Electric,CVT,FWD,5,Hatchback,31726,612,Medium
+1401,Porsche,Panamera,2024,178,4,Petrol,Automatic,RWD,5,Sedan,49638,587,Medium
+1402,Ram,ProMaster,2021,114,4,Diesel,Automatic,RWD,4,Hatchback,37428,681,High
+1403,Honda,Accord,2024,239,6,Electric,Automatic,AWD,5,SUV,45013,754,High
+1404,Ferrari,Portofino,2017,332,6,Petrol,Automatic,AWD,2,SUV,27157,656,High
+1405,Ram,1500,2016,378,8,Diesel,Manual,FWD,4,Hatchback,34814,564,Low
+1406,Chevrolet,Malibu,2021,105,4,Petrol,Automatic,RWD,4,Sedan,30383,615,Medium
+1407,Lexus,IS,2019,160,4,Diesel,Automatic,RWD,4,SUV,32486,692,High
+1408,Mitsubishi,Lancer,2024,90,4,Petrol,Automatic,AWD,4,SUV,39404,677,High
+1409,Subaru,WRX,2021,286,6,Petrol,Automatic,RWD,4,Truck,42950,724,High
+1410,Audi,A4,2019,149,4,Petrol,Automatic,FWD,2,Hatchback,31537,605,Medium
+1411,Volvo,S60,2016,202,6,Hybrid,CVT,FWD,2,SUV,27666,606,Medium
+1412,Mini,Cooper,2024,242,6,Electric,Automatic,FWD,5,Coupe,36563,726,High
+1413,Suzuki,Vitara,2015,207,6,Diesel,Automatic,FWD,5,Sedan,27350,465,Low
+1414,Mazda,CX-5,2015,376,8,Petrol,Automatic,AWD,4,Sedan,36339,577,Low
+1415,Subaru,Forester,2022,386,8,Hybrid,CVT,FWD,4,Sedan,50588,726,High
+1416,Suzuki,Vitara,2021,164,4,Diesel,CVT,FWD,2,Van,34776,459,Low
+1417,Volvo,S60,2018,105,4,Hybrid,Automatic,RWD,5,Sedan,26350,533,Low
+1418,Audi,Q7,2018,265,6,Electric,CVT,FWD,4,Sedan,31751,618,Medium
+1419,Volkswagen,Passat,2024,127,4,Petrol,Automatic,RWD,5,SUV,39394,566,Low
+1420,Ram,2500,2020,149,4,Petrol,Automatic,RWD,4,SUV,31872,700,High
+1421,Genesis,GV80,2017,153,4,Electric,Automatic,RWD,4,SUV,30211,651,High
+1422,Genesis,GV70,2024,223,4,Diesel,Manual,FWD,5,Sedan,40577,619,Medium
+1423,Toyota,Camry,2020,176,4,Petrol,Automatic,FWD,5,SUV,28222,474,Low
+1424,Buick,Encore,2024,173,4,Petrol,Automatic,FWD,4,Sedan,47564,601,Medium
+1425,Mazda,CX-5,2024,293,6,Hybrid,CVT,FWD,2,Sedan,51196,634,Medium
+1426,Aston Martin,Vantage,2015,303,6,Petrol,Automatic,FWD,5,Hatchback,28915,599,Medium
+1427,Nissan,Sentra,2021,120,4,Hybrid,Automatic,FWD,5,SUV,26241,588,Medium
+1428,Genesis,G70,2016,352,8,Electric,Automatic,RWD,4,SUV,29812,689,High
+1429,Kia,Sportage,2016,681,12,Electric,Automatic,FWD,5,SUV,48180,722,High
+1430,Honda,Civic,2022,671,12,Petrol,CVT,FWD,5,SUV,65995,788,High
+1431,Nissan,Altima,2024,166,4,Electric,Manual,RWD,5,SUV,34137,625,Medium
+1432,Mini,Cooper,2015,187,4,Petrol,CVT,RWD,4,Truck,26205,642,Medium
+1433,Volkswagen,Passat,2021,106,4,Diesel,Automatic,AWD,4,Sedan,25020,550,Low
+1434,Kia,K5,2023,435,8,Hybrid,Manual,RWD,4,SUV,55908,753,High
+1435,Hyundai,Santa Fe,2021,619,12,Petrol,CVT,FWD,4,Truck,46253,586,Medium
+1436,Volvo,S60,2021,442,8,Hybrid,Automatic,FWD,4,SUV,40102,622,Medium
+1437,Kia,Sorento,2015,400,8,Diesel,Automatic,FWD,4,SUV,28592,544,Low
+1438,Mercedes,GLC,2015,115,4,Petrol,Automatic,RWD,4,SUV,22620,488,Low
+1439,Genesis,G70,2021,212,4,Petrol,Automatic,RWD,4,Van,38848,549,Low
+1440,Audi,A4,2015,283,6,Petrol,Automatic,AWD,4,SUV,23905,595,Medium
+1441,Honda,Pilot,2024,182,4,Petrol,Automatic,FWD,4,Sedan,40799,693,High
+1442,Subaru,WRX,2017,666,12,Petrol,Automatic,RWD,4,Truck,48641,818,High
+1443,Mercedes,GLE,2015,108,4,Electric,Automatic,FWD,4,Coupe,22510,473,Low
+1444,Mercedes,C-Class,2020,207,4,Petrol,Automatic,AWD,5,Sedan,40475,562,Low
+1445,Ferrari,Portofino,2024,353,8,Electric,Automatic,RWD,5,Hatchback,50363,705,High
+1446,Cadillac,Escalade,2017,141,4,Petrol,Manual,AWD,4,Sedan,30673,580,Medium
+1447,Chevrolet,Silverado,2018,409,8,Hybrid,Automatic,FWD,5,Coupe,42552,682,High
+1448,Mitsubishi,Eclipse Cross,2022,181,4,Petrol,Automatic,RWD,4,SUV,38615,662,High
+1449,Hyundai,Tucson,2015,146,4,Petrol,Automatic,FWD,4,SUV,24996,348,Low
+1450,Honda,Pilot,2017,288,6,Diesel,CVT,AWD,4,SUV,33506,647,High
+1451,Audi,Q7,2024,147,4,Petrol,CVT,FWD,4,Sedan,46028,576,Low
+1452,Chevrolet,Silverado,2018,165,4,Diesel,Automatic,FWD,4,Hatchback,32882,593,Medium
+1453,Mini,Cooper,2024,158,4,Petrol,Automatic,AWD,5,Hatchback,41316,625,Medium
+1454,BMW,3 Series,2021,265,6,Electric,Automatic,FWD,4,Sedan,37183,676,High
+1455,Mazda,CX-50,2022,377,8,Petrol,Automatic,AWD,4,SUV,40069,745,High
+1456,Mercedes,GLE,2015,233,4,Petrol,Manual,FWD,4,SUV,27804,459,Low
+1457,Audi,A4,2023,373,8,Electric,Automatic,FWD,4,Sedan,46342,598,Medium
+1458,Suzuki,Vitara,2017,364,8,Hybrid,Manual,FWD,2,Truck,34542,627,Medium
+1459,Hyundai,Elantra,2024,436,8,Hybrid,Automatic,FWD,2,Sedan,44942,625,Medium
+1460,BMW,3 Series,2017,152,4,Electric,Automatic,RWD,4,SUV,19714,545,Low
+1461,Audi,Q5,2020,158,4,Hybrid,Automatic,RWD,5,SUV,34028,586,Medium
+1462,Tesla,Model S,2017,174,4,Hybrid,Automatic,RWD,4,SUV,29704,618,Medium
+1463,Tesla,Model 3,2023,146,4,Petrol,CVT,AWD,4,Truck,34902,740,High
+1464,Mazda,Mazda3,2024,158,4,Hybrid,Automatic,FWD,5,SUV,36027,674,High
+1465,Hyundai,Sonata,2018,333,6,Petrol,Automatic,AWD,4,Coupe,37496,556,Low
+1466,Ford,Explorer,2021,137,4,Hybrid,CVT,FWD,5,Truck,37744,645,Medium
+1467,Jeep,Cherokee,2016,384,8,Hybrid,CVT,AWD,2,SUV,31637,599,Medium
+1468,Ferrari,Portofino,2021,121,4,Electric,CVT,FWD,4,Coupe,28332,598,Medium
+1469,Toyota,Corolla,2020,151,4,Petrol,Automatic,RWD,4,SUV,28293,604,Medium
+1470,Mazda,CX-5,2016,209,6,Petrol,Automatic,AWD,5,SUV,29094,563,Low
+1471,Genesis,G80,2022,372,8,Electric,Manual,AWD,4,SUV,41351,723,High
+1472,Jeep,Wrangler,2017,330,6,Petrol,Automatic,RWD,4,Sedan,31177,610,Medium
+1473,Alfa Romeo,Stelvio,2022,278,6,Petrol,Manual,AWD,4,Sedan,45750,682,High
+1474,Toyota,Corolla,2021,176,4,Petrol,CVT,AWD,4,Sedan,31367,546,Low
+1475,Genesis,GV70,2019,296,6,Petrol,Automatic,AWD,4,SUV,31799,576,Low
+1476,Toyota,Highlander,2019,167,4,Petrol,Automatic,FWD,4,Truck,29580,549,Low
+1477,BMW,5 Series,2018,196,4,Petrol,CVT,FWD,5,Sedan,26722,592,Medium
+1478,Nissan,Altima,2021,142,4,Hybrid,CVT,RWD,5,Sedan,31324,593,Medium
+1479,Lexus,NX,2023,168,4,Hybrid,Automatic,RWD,4,SUV,39959,743,High
+1480,Ford,F-150,2022,258,6,Electric,Automatic,RWD,4,Coupe,41411,801,High
+1481,Genesis,GV80,2021,145,4,Hybrid,Automatic,FWD,4,Sedan,33558,567,Low
+1482,Suzuki,Vitara,2024,136,4,Hybrid,Automatic,AWD,4,SUV,36027,609,Medium
+1483,Suzuki,Vitara,2016,212,6,Petrol,Manual,FWD,4,Hatchback,21116,447,Low
+1484,Honda,Pilot,2022,275,6,Electric,CVT,FWD,4,Truck,44126,685,High
+1485,Mitsubishi,Outlander,2021,572,12,Petrol,Automatic,FWD,5,Sedan,50341,660,High
+1486,Suzuki,Vitara,2019,267,6,Petrol,CVT,AWD,4,Sedan,36585,462,Low
+1487,Aston Martin,Vantage,2020,156,4,Petrol,Manual,RWD,4,Sedan,37458,607,Medium
+1488,Aston Martin,DB11,2017,411,8,Petrol,Automatic,AWD,4,Hatchback,40860,664,High
+1489,Ford,Escape,2017,171,4,Petrol,Automatic,FWD,4,SUV,19074,526,Low
+1490,Cadillac,XT5,2016,349,8,Petrol,Automatic,RWD,4,Sedan,31328,576,Low
+1491,Ford,Escape,2023,466,8,Petrol,Automatic,FWD,5,SUV,43573,613,Medium
+1492,Buick,Enclave,2024,99,4,Petrol,Automatic,FWD,4,Sedan,34559,567,Low
+1493,Mercedes,C-Class,2020,112,4,Petrol,Automatic,FWD,2,SUV,32116,535,Low
+1494,Tesla,Model X,2024,191,4,Diesel,Automatic,AWD,4,Truck,40939,736,High
+1495,Subaru,Outback,2015,255,6,Hybrid,Manual,AWD,5,Sedan,36894,589,Medium
+1496,Tesla,Model X,2023,320,6,Petrol,Automatic,RWD,4,SUV,48503,752,High
+1497,Volkswagen,Tiguan,2017,141,4,Petrol,Automatic,FWD,5,Sedan,19475,556,Low
+1498,Volkswagen,Jetta,2016,268,6,Petrol,CVT,RWD,5,SUV,29064,458,Low
+1499,Ram,2500,2021,148,4,Diesel,Automatic,RWD,4,Sedan,34293,620,Medium
+1500,Ford,Escape,2020,116,4,Electric,CVT,FWD,4,SUV,40036,617,Medium
+1501,Jeep,Grand Cherokee,2018,320,6,Petrol,CVT,AWD,4,Hatchback,40698,614,Medium
+1502,Mini,Cooper,2019,147,4,Diesel,Automatic,FWD,5,Sedan,30207,597,Medium
+1503,Mitsubishi,Eclipse Cross,2021,161,4,Diesel,CVT,AWD,4,SUV,33083,544,Low
+1504,Nissan,Altima,2023,130,4,Petrol,Automatic,FWD,4,SUV,37825,573,Low
+1505,Tesla,Model X,2022,138,4,Hybrid,Automatic,FWD,5,SUV,33618,655,High
+1506,Ferrari,Portofino,2018,199,4,Petrol,Automatic,FWD,4,SUV,30999,592,Medium
+1507,BMW,X5,2019,153,4,Diesel,Manual,FWD,4,Sedan,36923,598,Medium
+1508,Jeep,Cherokee,2018,188,4,Hybrid,Automatic,AWD,4,Hatchback,33678,579,Medium
+1509,Jeep,Wrangler,2019,193,4,Electric,Automatic,AWD,5,Hatchback,29014,574,Low
+1510,Volvo,S60,2015,275,6,Petrol,CVT,RWD,4,Sedan,31110,489,Low
+1511,Volvo,XC60,2019,185,4,Diesel,Automatic,AWD,5,Coupe,33893,550,Low
+1512,Aston Martin,DB11,2016,290,6,Petrol,Automatic,AWD,5,Van,34583,553,Low
+1513,Ram,ProMaster,2019,167,4,Petrol,Automatic,AWD,2,Sedan,34529,529,Low
+1514,Toyota,RAV4,2022,118,4,Diesel,Automatic,FWD,4,Coupe,26174,588,Medium
+1515,Subaru,Forester,2019,213,4,Petrol,Automatic,AWD,4,Truck,34008,611,Medium
+1516,Alfa Romeo,Giulia,2024,382,8,Diesel,CVT,RWD,5,Sedan,49204,675,High
+1517,Aston Martin,Vantage,2021,371,8,Petrol,Automatic,AWD,2,Hatchback,45229,650,High
+1518,Ford,Mustang,2023,395,8,Petrol,Automatic,FWD,4,Hatchback,47429,642,Medium
+1519,Jeep,Cherokee,2023,178,4,Petrol,Manual,FWD,4,Hatchback,39615,549,Low
+1520,Mini,Countryman,2018,115,4,Hybrid,Manual,AWD,5,Truck,23615,654,High
+1521,Chevrolet,Equinox,2018,314,6,Petrol,Automatic,AWD,4,SUV,39432,561,Low
+1522,Ram,1500,2015,144,4,Diesel,Automatic,FWD,4,SUV,23604,510,Low
+1523,Buick,Encore,2015,290,6,Petrol,Automatic,FWD,4,Sedan,29751,474,Low
+1524,Ferrari,Portofino,2019,193,4,Petrol,Automatic,AWD,4,Sedan,30828,635,Medium
+1525,Genesis,G70,2019,161,4,Petrol,Automatic,AWD,4,Sedan,30293,503,Low
+1526,BMW,X3,2021,397,8,Hybrid,Automatic,AWD,5,Sedan,44869,661,High
+1527,Honda,Accord,2018,239,6,Diesel,Automatic,AWD,4,Hatchback,28091,564,Low
+1528,Mercedes,E-Class,2024,465,8,Hybrid,CVT,FWD,4,Sedan,48832,805,High
+1529,Cadillac,XT5,2021,184,4,Petrol,Automatic,AWD,4,Truck,34200,674,High
+1530,Porsche,911,2022,162,4,Petrol,Manual,RWD,5,Truck,36225,740,High
+1531,Ford,Escape,2015,249,6,Electric,CVT,AWD,4,Sedan,24072,685,High
+1532,Honda,Pilot,2019,299,6,Hybrid,Automatic,FWD,4,Coupe,37679,596,Medium
+1533,Mitsubishi,Eclipse Cross,2017,251,6,Diesel,Automatic,FWD,5,SUV,32165,511,Low
+1534,Jeep,Grand Cherokee,2017,145,4,Petrol,CVT,RWD,5,Sedan,16173,501,Low
+1535,Volkswagen,Jetta,2021,146,4,Petrol,Automatic,FWD,2,Truck,37124,630,Medium
+1536,Mitsubishi,Eclipse Cross,2015,294,6,Diesel,Automatic,AWD,5,Sedan,20990,489,Low
+1537,Mini,Countryman,2016,144,4,Diesel,CVT,FWD,5,SUV,23780,535,Low
+1538,Ram,1500,2017,215,4,Petrol,CVT,AWD,4,SUV,30991,657,High
+1539,Lexus,ES,2023,212,4,Petrol,Automatic,FWD,4,Van,43477,636,Medium
+1540,Mazda,CX-5,2020,142,4,Hybrid,CVT,FWD,5,SUV,28626,612,Medium
+1541,Nissan,Murano,2019,179,4,Petrol,Automatic,FWD,5,Coupe,20784,597,Medium
+1542,Kia,Telluride,2020,349,8,Electric,Automatic,RWD,5,Van,41370,563,Low
+1543,Toyota,Highlander,2019,302,6,Diesel,Automatic,FWD,5,SUV,35172,589,Medium
+1544,Ferrari,Portofino,2022,206,4,Petrol,Automatic,AWD,4,Truck,40138,629,Medium
+1545,Honda,Civic,2024,195,4,Electric,Manual,FWD,5,SUV,46789,671,High
+1546,Buick,Encore,2015,328,6,Petrol,Automatic,AWD,5,SUV,36626,659,High
+1547,Honda,CR-V,2021,90,4,Electric,Automatic,RWD,5,Truck,31345,671,High
+1548,Mazda,Mazda3,2015,240,6,Hybrid,Manual,FWD,5,Sedan,32258,581,Medium
+1549,Audi,Q7,2018,177,4,Diesel,Automatic,AWD,2,Coupe,25193,669,High
+1550,Lexus,ES,2020,164,4,Electric,Manual,FWD,4,SUV,39533,623,Medium
+1551,Cadillac,Escalade,2020,164,4,Petrol,CVT,AWD,2,SUV,31490,583,Medium
+1552,Buick,Enclave,2015,358,8,Hybrid,Automatic,AWD,4,Truck,31981,714,High
+1553,Suzuki,Vitara,2015,151,4,Hybrid,Automatic,FWD,4,Coupe,22749,525,Low
+1554,Ferrari,488 GTB,2022,106,4,Electric,CVT,AWD,4,Sedan,33208,665,High
+1555,Toyota,Camry,2017,273,6,Petrol,Automatic,AWD,4,Sedan,30811,580,Medium
+1556,Volvo,XC60,2023,675,12,Petrol,Automatic,FWD,4,SUV,62179,687,High
+1557,Kia,Telluride,2016,277,6,Hybrid,Automatic,FWD,4,Hatchback,35041,663,High
+1558,Jeep,Compass,2016,256,6,Electric,Automatic,FWD,2,Sedan,30194,534,Low
+1559,Buick,Encore,2016,298,6,Diesel,Automatic,RWD,4,Sedan,31016,640,Medium
+1560,Subaru,Outback,2018,158,4,Petrol,Automatic,FWD,4,SUV,31687,536,Low
+1561,Ferrari,488 GTB,2023,390,8,Hybrid,Automatic,FWD,5,SUV,49557,755,High
+1562,Nissan,Murano,2024,178,4,Hybrid,CVT,FWD,4,SUV,38380,675,High
+1563,Ford,Mustang,2018,154,4,Petrol,CVT,FWD,5,Truck,28862,559,Low
+1564,Lexus,RX,2018,160,4,Diesel,Manual,FWD,4,SUV,29390,591,Medium
+1565,Lexus,RX,2020,156,4,Diesel,CVT,RWD,4,SUV,36614,590,Medium
+1566,Mercedes,GLE,2016,338,6,Petrol,CVT,FWD,4,Sedan,32953,475,Low
+1567,Tesla,Model X,2019,329,6,Electric,Automatic,AWD,4,Truck,36394,672,High
+1568,Ford,F-150,2015,308,6,Diesel,Automatic,AWD,4,SUV,28067,547,Low
+1569,Alfa Romeo,Stelvio,2015,372,8,Hybrid,Manual,AWD,5,SUV,32448,561,Low
+1570,Audi,Q5,2018,395,8,Hybrid,Automatic,AWD,2,Sedan,41405,769,High
+1571,Mini,Cooper,2015,298,6,Diesel,Automatic,FWD,2,Truck,28541,614,Medium
+1572,Kia,Telluride,2016,199,4,Petrol,Automatic,FWD,5,SUV,28358,550,Low
+1573,Toyota,RAV4,2017,323,6,Hybrid,CVT,FWD,4,SUV,35149,599,Medium
+1574,Toyota,Highlander,2024,90,4,Petrol,CVT,AWD,4,Coupe,36145,567,Low
+1575,Ferrari,488 GTB,2017,268,6,Diesel,Automatic,FWD,5,Sedan,27617,541,Low
+1576,Volvo,S90,2019,342,6,Hybrid,Automatic,RWD,4,SUV,36566,544,Low
+1577,Alfa Romeo,Giulia,2015,267,6,Petrol,Automatic,AWD,5,Coupe,28491,553,Low
+1578,Audi,A6,2024,323,6,Petrol,Automatic,FWD,5,Sedan,52477,702,High
+1579,Jeep,Wrangler,2017,347,6,Petrol,CVT,FWD,4,SUV,31719,514,Low
+1580,Toyota,Corolla,2018,406,8,Petrol,Automatic,RWD,4,Hatchback,34365,544,Low
+1581,Mazda,Mazda3,2018,339,6,Hybrid,Automatic,FWD,4,Hatchback,33996,602,Medium
+1582,Mitsubishi,Lancer,2024,134,4,Petrol,Automatic,RWD,4,Sedan,36267,632,Medium
+1583,Nissan,Sentra,2016,155,4,Petrol,Manual,FWD,5,Truck,23535,436,Low
+1584,Suzuki,Swift,2023,308,6,Diesel,Automatic,FWD,4,Sedan,45879,544,Low
+1585,Porsche,Macan,2022,325,6,Diesel,CVT,FWD,4,SUV,46963,708,High
+1586,Volkswagen,Jetta,2016,648,12,Hybrid,Manual,RWD,4,Coupe,33548,645,Medium
+1587,Alfa Romeo,Giulia,2018,134,4,Electric,Automatic,FWD,4,Sedan,22850,529,Low
+1588,Tesla,Model 3,2023,101,4,Hybrid,Automatic,FWD,4,Sedan,39744,638,Medium
+1589,Alfa Romeo,Stelvio,2017,464,8,Petrol,Manual,FWD,5,Coupe,45494,601,Medium
+1590,Buick,Enclave,2024,266,6,Diesel,CVT,FWD,5,Van,49607,647,High
+1591,Ferrari,488 GTB,2023,289,6,Electric,Automatic,AWD,4,Sedan,40276,654,High
+1592,Mini,Cooper,2015,277,6,Petrol,CVT,FWD,5,SUV,27372,573,Low
+1593,Volkswagen,Tiguan,2017,145,4,Hybrid,Automatic,FWD,4,SUV,22764,511,Low
+1594,Chevrolet,Equinox,2018,160,4,Hybrid,Automatic,AWD,4,SUV,32388,626,Medium
+1595,Mazda,Mazda3,2023,282,6,Petrol,Automatic,FWD,5,Sedan,42678,688,High
+1596,Lexus,IS,2019,441,8,Petrol,Automatic,AWD,4,Hatchback,46020,636,Medium
+1597,Suzuki,Vitara,2019,265,6,Petrol,CVT,AWD,5,SUV,32375,620,Medium
+1598,Ram,ProMaster,2019,299,6,Petrol,Automatic,AWD,2,Coupe,38273,568,Low
+1599,Mercedes,C-Class,2024,641,12,Petrol,Automatic,FWD,5,Sedan,50099,865,High
+1600,Chevrolet,Silverado,2020,169,4,Hybrid,Automatic,AWD,4,SUV,36422,685,High
+1601,Mazda,Mazda6,2019,149,4,Electric,Automatic,FWD,5,SUV,23677,596,Medium
+1602,Volvo,XC60,2020,390,8,Petrol,Automatic,FWD,4,SUV,44107,646,Medium
+1603,Mazda,CX-5,2021,133,4,Hybrid,Automatic,RWD,4,Sedan,35999,630,Medium
+1604,Hyundai,Elantra,2024,185,4,Petrol,Automatic,FWD,5,Sedan,35308,628,Medium
+1605,Ford,Escape,2021,165,4,Electric,Automatic,FWD,5,SUV,37240,565,Low
+1606,BMW,5 Series,2024,211,4,Hybrid,Automatic,AWD,5,Hatchback,44593,592,Medium
+1607,Porsche,911,2021,191,4,Petrol,Automatic,RWD,4,SUV,34159,658,High
+1608,Audi,A4,2019,157,4,Petrol,Automatic,FWD,4,Sedan,34470,572,Low
+1609,Subaru,Outback,2019,257,6,Petrol,Automatic,AWD,4,Coupe,38840,690,High
+1610,Honda,Pilot,2020,203,4,Diesel,Automatic,FWD,5,SUV,36604,537,Low
+1611,Genesis,G80,2023,442,8,Petrol,Automatic,AWD,4,SUV,52484,684,High
+1612,Alfa Romeo,Stelvio,2024,139,4,Diesel,Manual,FWD,2,Truck,47840,630,Medium
+1613,Kia,K5,2020,155,4,Petrol,Automatic,AWD,4,Hatchback,33303,581,Medium
+1614,Ferrari,488 GTB,2017,198,4,Electric,CVT,FWD,5,SUV,24338,601,Medium
+1615,Toyota,Camry,2021,225,6,Hybrid,CVT,AWD,5,Sedan,36901,623,Medium
+1616,Tesla,Model 3,2018,248,6,Petrol,Automatic,AWD,5,SUV,35592,611,Medium
+1617,Alfa Romeo,Giulia,2021,248,6,Petrol,Automatic,FWD,5,Sedan,34824,594,Medium
+1618,Nissan,Rogue,2022,335,6,Petrol,Manual,FWD,5,Hatchback,42483,473,Low
+1619,Buick,Encore,2024,247,6,Petrol,Automatic,AWD,4,Coupe,46776,766,High
+1620,Tesla,Model Y,2024,167,4,Electric,Automatic,AWD,5,SUV,44045,696,High
+1621,Volvo,S90,2017,445,8,Electric,CVT,RWD,5,Hatchback,33392,592,Medium
+1622,Alfa Romeo,Giulia,2022,285,6,Petrol,Manual,FWD,4,Hatchback,45896,593,Medium
+1623,Hyundai,Sonata,2016,119,4,Diesel,Automatic,AWD,4,Sedan,28270,564,Low
+1624,Cadillac,Escalade,2022,432,8,Petrol,Manual,FWD,5,Hatchback,49026,661,High
+1625,Porsche,Cayenne,2024,140,4,Diesel,Automatic,AWD,5,Sedan,48180,690,High
+1626,Porsche,911,2016,312,6,Diesel,Automatic,AWD,4,Truck,31900,646,Medium
+1627,Volvo,XC90,2023,316,6,Petrol,CVT,RWD,4,Truck,47000,691,High
+1628,Volvo,S60,2020,431,8,Petrol,CVT,FWD,4,Sedan,46636,647,High
+1629,Suzuki,Swift,2022,148,4,Hybrid,Automatic,AWD,5,Sedan,30617,619,Medium
+1630,Genesis,GV70,2024,183,4,Petrol,Automatic,AWD,4,SUV,42826,659,High
+1631,Porsche,Panamera,2024,234,6,Electric,Automatic,FWD,5,SUV,45269,734,High
+1632,Volkswagen,Passat,2018,157,4,Petrol,Automatic,RWD,5,SUV,25615,499,Low
+1633,Nissan,Rogue,2017,244,6,Petrol,Automatic,RWD,5,Coupe,30305,551,Low
+1634,Audi,A4,2015,160,4,Petrol,Automatic,AWD,4,SUV,31667,564,Low
+1635,Tesla,Model S,2018,187,4,Electric,Automatic,RWD,2,Sedan,35212,650,High
+1636,Kia,Sportage,2024,130,4,Petrol,Automatic,RWD,5,Sedan,41681,612,Medium
+1637,Cadillac,XT5,2023,372,8,Hybrid,Automatic,FWD,4,SUV,47756,837,High
+1638,Aston Martin,DB11,2019,342,6,Hybrid,CVT,AWD,4,Sedan,35689,652,High
+1639,Mini,Cooper,2022,226,6,Electric,CVT,FWD,2,Sedan,41946,605,Medium
+1640,Mazda,CX-50,2018,165,4,Hybrid,Automatic,FWD,4,SUV,31175,562,Low
+1641,Honda,CR-V,2017,112,4,Petrol,Automatic,FWD,2,Hatchback,28961,569,Low
+1642,Kia,K5,2016,141,4,Petrol,CVT,AWD,2,Sedan,23754,528,Low
+1643,Mercedes,E-Class,2023,376,8,Diesel,Automatic,FWD,4,Coupe,46916,659,High
+1644,Chevrolet,Silverado,2022,169,4,Petrol,Manual,AWD,2,SUV,44118,654,High
+1645,Ram,2500,2021,214,6,Petrol,Manual,FWD,2,SUV,36004,624,Medium
+1646,Genesis,G70,2020,381,8,Petrol,Automatic,FWD,4,Sedan,38896,504,Low
+1647,Tesla,Model X,2018,324,6,Diesel,Automatic,RWD,4,SUV,36490,604,Medium
+1648,BMW,5 Series,2021,144,4,Electric,Automatic,FWD,4,SUV,38406,680,High
+1649,Audi,Q7,2016,114,4,Electric,Automatic,AWD,4,SUV,24722,650,High
+1650,Chevrolet,Silverado,2018,422,8,Petrol,CVT,AWD,4,SUV,45694,714,High
+1651,Ford,Mustang,2017,91,4,Hybrid,Automatic,RWD,4,SUV,25040,615,Medium
+1652,Porsche,911,2017,158,4,Diesel,Manual,AWD,4,Sedan,25551,634,Medium
+1653,Subaru,Outback,2018,270,6,Petrol,Automatic,FWD,4,Sedan,40606,519,Low
+1654,Audi,Q5,2019,115,4,Diesel,CVT,RWD,4,Coupe,31485,576,Low
+1655,Hyundai,Sonata,2021,255,6,Petrol,Automatic,FWD,5,SUV,38995,563,Low
+1656,Toyota,Highlander,2017,146,4,Petrol,Automatic,RWD,2,SUV,24146,569,Low
+1657,Tesla,Model Y,2015,139,4,Diesel,Automatic,AWD,4,Sedan,19485,508,Low
+1658,Alfa Romeo,Giulia,2024,127,4,Petrol,Automatic,RWD,4,Sedan,36662,717,High
+1659,Suzuki,Swift,2015,117,4,Petrol,CVT,FWD,5,SUV,19253,419,Low
+1660,Mitsubishi,Eclipse Cross,2019,221,4,Petrol,Automatic,AWD,4,SUV,41119,608,Medium
+1661,Volvo,S60,2024,106,4,Petrol,Automatic,FWD,4,Hatchback,39396,570,Low
+1662,Ram,2500,2018,290,6,Petrol,CVT,AWD,4,SUV,30828,653,High
+1663,Porsche,Panamera,2023,234,6,Petrol,CVT,FWD,4,Van,40609,594,Medium
+1664,Suzuki,Swift,2015,160,4,Petrol,Automatic,FWD,4,Truck,15461,477,Low
+1665,Alfa Romeo,Stelvio,2022,115,4,Hybrid,Automatic,FWD,4,SUV,36620,620,Medium
+1666,Hyundai,Tucson,2015,395,8,Petrol,Automatic,AWD,5,SUV,34660,541,Low
+1667,Lexus,NX,2022,221,4,Diesel,Automatic,FWD,4,Hatchback,35094,586,Medium
+1668,Lexus,ES,2016,211,4,Electric,Manual,AWD,4,Coupe,26709,581,Medium
+1669,Lexus,RX,2018,303,6,Hybrid,Manual,RWD,4,Coupe,34689,697,High
+1670,Porsche,Cayenne,2020,610,12,Petrol,Automatic,AWD,4,Truck,54025,754,High
+1671,Honda,Civic,2024,167,4,Diesel,Automatic,FWD,4,SUV,45507,711,High
+1672,Honda,CR-V,2023,96,4,Petrol,Automatic,AWD,4,Sedan,42424,727,High
+1673,Lexus,ES,2023,316,6,Petrol,CVT,FWD,4,Coupe,48753,611,Medium
+1674,Cadillac,Escalade,2023,342,6,Petrol,Automatic,AWD,4,Coupe,48149,762,High
+1675,Porsche,Panamera,2021,184,4,Hybrid,Automatic,AWD,4,SUV,38637,684,High
+1676,Jeep,Cherokee,2015,404,8,Petrol,Automatic,AWD,4,Van,33679,455,Low
+1677,Toyota,RAV4,2015,182,4,Petrol,Automatic,FWD,4,Sedan,23187,393,Low
+1678,Ford,Explorer,2018,407,8,Petrol,Automatic,RWD,4,Sedan,41978,568,Low
+1679,Ferrari,Portofino,2020,232,6,Petrol,CVT,RWD,4,Sedan,35873,588,Medium
+1680,BMW,X3,2023,131,4,Diesel,Automatic,FWD,4,Sedan,31107,538,Low
+1681,Mitsubishi,Outlander,2022,130,4,Electric,Automatic,AWD,5,SUV,33754,645,Medium
+1682,Genesis,GV70,2017,302,6,Petrol,Automatic,AWD,4,Sedan,34471,524,Low
+1683,Audi,Q7,2023,355,6,Hybrid,Manual,FWD,4,SUV,46712,715,High
+1684,Volkswagen,Golf,2020,163,4,Hybrid,Automatic,RWD,5,Coupe,30300,645,Medium
+1685,Toyota,Camry,2021,161,4,Hybrid,Automatic,AWD,4,Sedan,33505,505,Low
+1686,Honda,Civic,2022,181,4,Petrol,Automatic,FWD,4,SUV,40314,647,High
+1687,Ram,3500,2018,135,4,Diesel,Automatic,AWD,4,Sedan,26666,647,High
+1688,Buick,Encore,2022,155,4,Petrol,Manual,RWD,4,Truck,39960,682,High
+1689,Ford,F-150,2024,238,6,Hybrid,CVT,FWD,4,Coupe,44016,667,High
+1690,Buick,Encore,2024,402,8,Petrol,Automatic,RWD,4,Sedan,52568,762,High
+1691,Ferrari,Portofino,2019,449,8,Petrol,Automatic,FWD,4,SUV,39266,597,Medium
+1692,Honda,Civic,2021,120,4,Petrol,Automatic,FWD,4,Sedan,36330,640,Medium
+1693,Tesla,Model Y,2017,366,8,Diesel,CVT,FWD,4,Sedan,34092,581,Medium
+1694,Ford,Escape,2017,117,4,Petrol,Automatic,AWD,4,Sedan,27257,608,Medium
+1695,Toyota,Camry,2024,338,8,Petrol,CVT,RWD,5,Sedan,46021,571,Low
+1696,Ferrari,Portofino,2018,168,4,Petrol,Automatic,FWD,4,SUV,28819,500,Low
+1697,Porsche,Cayenne,2022,258,6,Electric,Manual,RWD,5,Coupe,37253,659,High
+1698,Hyundai,Tucson,2021,362,8,Diesel,Automatic,RWD,4,SUV,38267,605,Medium
+1699,Mini,Countryman,2023,277,6,Petrol,Automatic,FWD,4,Sedan,44238,640,Medium
+1700,Mazda,Mazda3,2016,138,4,Petrol,CVT,AWD,5,Sedan,28913,511,Low
+1701,Ram,3500,2022,145,4,Diesel,CVT,FWD,5,Coupe,40474,706,High
+1702,Mini,Cooper,2016,99,4,Diesel,Manual,FWD,4,Sedan,24756,415,Low
+1703,Lexus,ES,2015,112,4,Petrol,Automatic,FWD,4,SUV,24076,484,Low
+1704,Porsche,Macan,2016,298,6,Hybrid,Manual,RWD,5,Sedan,30317,682,High
+1705,Buick,Encore,2024,242,6,Hybrid,Automatic,FWD,5,SUV,42439,774,High
+1706,BMW,3 Series,2020,100,4,Petrol,CVT,AWD,5,Sedan,33222,568,Low
+1707,Subaru,Forester,2024,94,4,Electric,Automatic,FWD,4,Truck,40203,688,High
+1708,Buick,Enclave,2020,286,6,Hybrid,Automatic,RWD,4,Hatchback,30125,682,High
+1709,Ford,Mustang,2018,263,6,Petrol,CVT,RWD,4,SUV,33812,594,Medium
+1710,Alfa Romeo,Stelvio,2015,305,6,Hybrid,Automatic,FWD,4,SUV,26297,609,Medium
+1711,BMW,X3,2019,606,12,Hybrid,Automatic,RWD,4,SUV,53637,614,Medium
+1712,Volvo,XC60,2016,134,4,Hybrid,Automatic,AWD,4,SUV,23490,613,Medium
+1713,Chevrolet,Silverado,2015,174,4,Petrol,Automatic,RWD,4,SUV,22239,541,Low
+1714,Chevrolet,Malibu,2019,266,6,Diesel,Manual,AWD,5,SUV,34797,614,Medium
+1715,Porsche,Macan,2015,233,6,Petrol,Automatic,RWD,4,Sedan,34231,582,Medium
+1716,BMW,X5,2017,424,8,Petrol,Automatic,RWD,5,SUV,31926,607,Medium
+1717,Suzuki,Swift,2021,324,6,Hybrid,CVT,AWD,4,Sedan,36924,613,Medium
+1718,Genesis,G70,2019,186,4,Hybrid,Automatic,FWD,4,SUV,30641,652,High
+1719,Ram,2500,2015,311,6,Diesel,Automatic,FWD,4,SUV,34858,646,Medium
+1720,Nissan,Rogue,2021,260,6,Hybrid,CVT,RWD,4,Truck,30438,632,Medium
+1721,Toyota,RAV4,2019,333,6,Petrol,Automatic,RWD,4,Coupe,40498,563,Low
+1722,Porsche,Cayenne,2020,173,4,Petrol,CVT,RWD,2,Coupe,31518,676,High
+1723,Chevrolet,Tahoe,2015,193,4,Petrol,Automatic,RWD,4,Sedan,21958,557,Low
+1724,Suzuki,Swift,2017,132,4,Petrol,Automatic,RWD,3,Sedan,22844,451,Low
+1725,Hyundai,Sonata,2018,163,4,Electric,Manual,FWD,5,Sedan,26022,547,Low
+1726,Mazda,CX-5,2023,292,6,Diesel,Automatic,AWD,5,Hatchback,41226,629,Medium
+1727,Ferrari,488 GTB,2017,302,6,Diesel,CVT,RWD,5,SUV,35902,624,Medium
+1728,Ford,Explorer,2021,634,12,Electric,Automatic,AWD,4,SUV,57073,804,High
+1729,Honda,Pilot,2021,171,4,Hybrid,Automatic,AWD,4,Hatchback,36450,641,Medium
+1730,Buick,Enclave,2017,311,6,Petrol,Automatic,FWD,4,SUV,25926,601,Medium
+1731,Ram,2500,2024,331,6,Diesel,Automatic,AWD,4,SUV,52304,790,High
+1732,Ford,Escape,2021,277,6,Petrol,Automatic,RWD,4,SUV,37791,641,Medium
+1733,Suzuki,Vitara,2018,600,12,Hybrid,Automatic,AWD,4,SUV,44868,688,High
+1734,Aston Martin,DB11,2018,131,4,Petrol,Automatic,RWD,4,SUV,21624,537,Low
+1735,Honda,Pilot,2022,255,6,Diesel,CVT,AWD,2,Coupe,43047,753,High
+1736,Genesis,GV70,2023,217,6,Hybrid,Automatic,FWD,2,SUV,35593,641,Medium
+1737,Audi,A4,2020,191,4,Petrol,Manual,FWD,4,Truck,34905,575,Low
+1738,Jeep,Compass,2018,198,4,Electric,CVT,FWD,4,Sedan,23498,652,High
+1739,Mercedes,GLC,2016,218,4,Petrol,Automatic,RWD,4,SUV,26645,501,Low
+1740,Audi,Q7,2023,208,6,Petrol,Automatic,FWD,2,Hatchback,43112,641,Medium
+1741,Hyundai,Santa Fe,2017,266,6,Petrol,CVT,AWD,5,Hatchback,35370,575,Low
+1742,Mercedes,GLC,2016,305,6,Diesel,Manual,AWD,5,SUV,32936,558,Low
+1743,Ford,Explorer,2021,152,4,Petrol,Automatic,RWD,4,Truck,36522,620,Medium
+1744,Mercedes,C-Class,2024,295,6,Diesel,Automatic,FWD,5,Sedan,43979,579,Medium
+1745,Mitsubishi,Eclipse Cross,2021,316,6,Petrol,CVT,RWD,4,Hatchback,43303,667,High
+1746,Mercedes,GLC,2015,257,6,Petrol,CVT,FWD,4,Sedan,28268,553,Low
+1747,Ferrari,488 GTB,2021,153,4,Petrol,CVT,FWD,5,Hatchback,26789,525,Low
+1748,Mitsubishi,Outlander,2021,138,4,Petrol,Automatic,AWD,4,Hatchback,37825,607,Medium
+1749,Mitsubishi,Outlander,2015,402,8,Diesel,Automatic,FWD,4,SUV,24751,608,Medium
+1750,Mazda,Mazda3,2022,144,4,Petrol,CVT,FWD,4,Truck,37245,581,Medium
+1751,Cadillac,Escalade,2023,158,4,Diesel,CVT,AWD,4,SUV,40834,722,High
+1752,Chevrolet,Tahoe,2017,206,4,Hybrid,CVT,AWD,5,Truck,28206,672,High
+1753,Volvo,S60,2018,628,12,Petrol,CVT,RWD,2,Hatchback,46173,475,Low
+1754,Mercedes,E-Class,2017,160,4,Petrol,Automatic,RWD,4,SUV,26063,579,Medium
+1755,Aston Martin,DB11,2023,147,4,Hybrid,Automatic,RWD,5,SUV,35941,744,High
+1756,Honda,Pilot,2023,124,4,Petrol,Manual,AWD,4,Truck,43826,646,Medium
+1757,Mini,Countryman,2019,202,4,Petrol,CVT,RWD,4,Sedan,33355,505,Low
+1758,Aston Martin,DB11,2023,183,4,Hybrid,Automatic,RWD,4,Truck,37982,737,High
+1759,Kia,K5,2024,113,4,Petrol,CVT,FWD,5,Truck,42297,756,High
+1760,Alfa Romeo,Giulia,2020,311,6,Diesel,Automatic,RWD,4,SUV,34500,584,Medium
+1761,Audi,Q7,2015,176,4,Electric,Automatic,FWD,5,Sedan,28559,570,Low
+1762,BMW,X3,2022,315,6,Diesel,Automatic,AWD,4,Coupe,37714,618,Medium
+1763,Hyundai,Elantra,2015,284,6,Petrol,Automatic,AWD,4,Sedan,22292,471,Low
+1764,Lexus,ES,2015,279,6,Petrol,Automatic,FWD,4,Sedan,28006,505,Low
+1765,Toyota,Corolla,2015,295,6,Petrol,Automatic,FWD,4,Van,23645,547,Low
+1766,Aston Martin,Vantage,2022,415,8,Diesel,CVT,FWD,5,SUV,47975,657,High
+1767,Mazda,CX-50,2016,129,4,Petrol,Automatic,FWD,4,SUV,22311,619,Medium
+1768,Kia,Sorento,2017,275,6,Hybrid,Automatic,FWD,4,SUV,27537,680,High
+1769,Lexus,IS,2015,268,6,Electric,CVT,FWD,4,Sedan,32679,627,Medium
+1770,Kia,Telluride,2017,428,8,Petrol,Automatic,AWD,4,Coupe,33291,615,Medium
+1771,Toyota,Camry,2022,377,8,Petrol,Automatic,AWD,5,SUV,43080,642,Medium
+1772,Genesis,G70,2023,138,4,Diesel,Automatic,FWD,4,Sedan,34578,603,Medium
+1773,Kia,Sportage,2019,124,4,Petrol,Automatic,RWD,5,SUV,25853,576,Low
+1774,Volkswagen,Jetta,2016,181,4,Electric,Automatic,FWD,4,SUV,22829,487,Low
+1775,Toyota,Camry,2016,197,4,Electric,Automatic,AWD,4,SUV,27695,563,Low
+1776,BMW,X5,2023,286,6,Petrol,Automatic,FWD,4,SUV,41513,629,Medium
+1777,Alfa Romeo,Giulia,2022,206,4,Hybrid,Automatic,RWD,2,Sedan,34954,597,Medium
+1778,Volvo,S60,2015,90,4,Diesel,Automatic,AWD,4,Hatchback,19248,400,Low
+1779,Audi,A6,2016,138,4,Hybrid,CVT,AWD,4,SUV,21834,620,Medium
+1780,Audi,Q7,2020,297,6,Petrol,Manual,AWD,4,Sedan,41468,645,Medium
+1781,Porsche,Panamera,2021,574,12,Petrol,Automatic,FWD,5,Sedan,47758,695,High
+1782,Jeep,Grand Cherokee,2018,131,4,Hybrid,Manual,AWD,4,Truck,26446,428,Low
+1783,Audi,A4,2022,273,6,Hybrid,Automatic,RWD,5,SUV,34948,773,High
+1784,Mini,Cooper,2015,114,4,Petrol,Automatic,RWD,2,Sedan,22246,439,Low
+1785,BMW,5 Series,2023,298,6,Petrol,Automatic,FWD,4,SUV,46926,712,High
+1786,Ford,Mustang,2021,362,8,Petrol,CVT,FWD,4,Sedan,47268,625,Medium
+1787,Porsche,911,2021,320,6,Petrol,Automatic,FWD,4,Sedan,43343,782,High
+1788,Volvo,S60,2015,308,6,Petrol,Automatic,FWD,5,Truck,25626,573,Low
+1789,Suzuki,Vitara,2017,336,6,Electric,Automatic,FWD,5,SUV,32225,558,Low
+1790,Suzuki,Swift,2022,354,8,Petrol,Automatic,FWD,4,Van,40213,506,Low
+1791,Volkswagen,Tiguan,2023,370,6,Hybrid,Automatic,RWD,5,SUV,47394,745,High
+1792,Genesis,GV70,2022,420,8,Petrol,Manual,RWD,5,Van,54699,511,Low
+1793,Mercedes,C-Class,2024,354,6,Petrol,Automatic,AWD,4,Sedan,46290,676,High
+1794,Ford,Explorer,2021,189,4,Petrol,Manual,RWD,4,Sedan,37972,569,Low
+1795,Ford,F-150,2020,297,6,Hybrid,Automatic,AWD,5,Coupe,40990,632,Medium
+1796,Kia,Telluride,2018,683,12,Petrol,Automatic,AWD,4,Sedan,56933,671,High
+1797,Subaru,Crosstrek,2017,445,8,Petrol,CVT,FWD,5,Sedan,35246,576,Low
+1798,Suzuki,Swift,2020,90,4,Diesel,Automatic,RWD,4,Truck,27216,583,Medium
+1799,Ford,Mustang,2022,590,12,Petrol,Manual,FWD,4,Van,57575,642,Medium
+1800,Toyota,RAV4,2021,270,6,Petrol,Automatic,AWD,5,SUV,31455,461,Low
+1801,Ferrari,Portofino,2015,202,4,Petrol,CVT,RWD,4,Van,28037,491,Low
+1802,Jeep,Grand Cherokee,2015,262,6,Petrol,CVT,AWD,5,Coupe,28027,433,Low
+1803,Kia,K5,2022,174,4,Petrol,Automatic,RWD,4,SUV,39043,652,High
+1804,Porsche,Macan,2019,275,6,Petrol,Automatic,FWD,5,Hatchback,32101,590,Medium
+1805,Ford,Escape,2022,628,12,Petrol,Automatic,RWD,4,SUV,58500,781,High
+1806,Subaru,Crosstrek,2023,197,4,Petrol,Manual,FWD,4,SUV,45138,669,High
+1807,Cadillac,XT5,2017,142,4,Hybrid,Automatic,FWD,4,Coupe,30175,604,Medium
+1808,Mitsubishi,Eclipse Cross,2017,282,6,Petrol,Automatic,FWD,4,SUV,26758,522,Low
+1809,Honda,Pilot,2018,272,6,Hybrid,Automatic,FWD,4,SUV,32022,594,Medium
+1810,Cadillac,XT5,2015,401,8,Electric,Automatic,AWD,5,Sedan,32762,734,High
+1811,Volvo,XC90,2019,252,6,Petrol,Manual,FWD,5,SUV,35426,480,Low
+1812,Mercedes,GLC,2021,141,4,Petrol,Automatic,RWD,4,Sedan,35682,607,Medium
+1813,BMW,5 Series,2019,182,4,Hybrid,Automatic,RWD,2,Sedan,27434,583,Medium
+1814,Ford,F-150,2018,178,4,Electric,Automatic,AWD,4,SUV,27525,633,Medium
+1815,Toyota,Highlander,2024,131,4,Petrol,Automatic,RWD,4,SUV,33436,606,Medium
+1816,Cadillac,XT5,2018,631,12,Diesel,Automatic,AWD,4,SUV,44988,805,High
+1817,Ram,3500,2023,226,4,Hybrid,Automatic,FWD,2,SUV,42264,712,High
+1818,Lexus,ES,2023,90,4,Hybrid,Automatic,FWD,2,Truck,37501,796,High
+1819,Cadillac,Escalade,2022,420,8,Petrol,Automatic,FWD,5,SUV,51008,716,High
+1820,Tesla,Model Y,2022,164,4,Petrol,Automatic,FWD,4,Truck,35408,685,High
+1821,Alfa Romeo,Stelvio,2021,392,8,Petrol,Automatic,FWD,5,Truck,47052,694,High
+1822,Honda,Pilot,2019,308,6,Petrol,Automatic,RWD,4,SUV,31080,622,Medium
+1823,Honda,Accord,2020,268,6,Petrol,Automatic,AWD,5,SUV,41218,590,Medium
+1824,Audi,Q5,2021,365,8,Diesel,Manual,AWD,5,SUV,40661,769,High
+1825,Ferrari,Portofino,2015,267,6,Petrol,CVT,AWD,5,Hatchback,24101,497,Low
+1826,Ford,Explorer,2023,320,6,Diesel,Automatic,RWD,4,Van,47252,714,High
+1827,BMW,X3,2016,260,6,Hybrid,Manual,FWD,4,Sedan,30595,619,Medium
+1828,Kia,Telluride,2016,120,4,Petrol,Automatic,FWD,4,Truck,19215,524,Low
+1829,Cadillac,Escalade,2021,347,8,Petrol,Automatic,FWD,4,Coupe,44604,614,Medium
+1830,Mini,Cooper,2016,123,4,Petrol,Manual,AWD,2,SUV,24614,513,Low
+1831,Volkswagen,Passat,2023,249,6,Hybrid,Automatic,AWD,4,SUV,42928,662,High
+1832,Kia,K5,2024,573,12,Petrol,CVT,AWD,4,Truck,60231,792,High
+1833,Audi,Q5,2024,177,4,Petrol,Automatic,RWD,4,Truck,42259,787,High
+1834,Tesla,Model 3,2016,104,4,Hybrid,Automatic,FWD,5,Hatchback,25366,586,Medium
+1835,Suzuki,Vitara,2015,169,4,Petrol,Automatic,FWD,4,SUV,19703,437,Low
+1836,Nissan,Murano,2022,487,8,Petrol,CVT,AWD,4,Van,44852,703,High
+1837,Chevrolet,Equinox,2018,122,4,Petrol,Manual,FWD,5,SUV,28469,621,Medium
+1838,Alfa Romeo,Stelvio,2016,173,4,Hybrid,Automatic,FWD,5,SUV,25463,546,Low
+1839,Subaru,Crosstrek,2021,189,4,Electric,Automatic,RWD,4,SUV,38580,697,High
+1840,Chevrolet,Malibu,2024,631,12,Petrol,Automatic,RWD,4,Hatchback,70638,807,High
+1841,Aston Martin,Vantage,2015,553,12,Petrol,Automatic,FWD,4,Sedan,42124,655,High
+1842,Porsche,911,2022,312,6,Petrol,Manual,FWD,4,Truck,46214,695,High
+1843,Hyundai,Elantra,2024,259,6,Petrol,Automatic,FWD,5,SUV,50304,714,High
+1844,Toyota,RAV4,2017,409,8,Diesel,CVT,FWD,4,Hatchback,34082,551,Low
+1845,Buick,Encore,2022,90,4,Diesel,Automatic,FWD,4,Sedan,42232,631,Medium
+1846,Chevrolet,Tahoe,2015,103,4,Petrol,Automatic,AWD,5,Hatchback,21940,460,Low
+1847,Genesis,GV70,2019,242,4,Hybrid,Automatic,FWD,5,Sedan,28830,583,Medium
+1848,Alfa Romeo,Stelvio,2023,312,6,Electric,Automatic,RWD,4,SUV,50721,730,High
+1849,Suzuki,Swift,2024,561,12,Petrol,Automatic,RWD,4,SUV,56777,688,High
+1850,Suzuki,Vitara,2023,240,6,Petrol,Automatic,AWD,2,Sedan,39078,727,High
+1851,Ford,F-150,2019,524,8,Petrol,Automatic,FWD,4,SUV,44416,678,High
+1852,Ferrari,Portofino,2024,272,6,Electric,Automatic,FWD,4,SUV,50815,696,High
+1853,Nissan,Altima,2024,283,6,Petrol,Automatic,FWD,4,SUV,46752,607,Medium
+1854,Toyota,Corolla,2015,119,4,Electric,Automatic,FWD,4,SUV,24208,427,Low
+1855,Honda,Civic,2020,170,4,Diesel,Automatic,RWD,2,Coupe,38034,542,Low
+1856,Suzuki,Vitara,2020,602,12,Hybrid,Automatic,RWD,4,SUV,43169,625,Medium
+1857,Chevrolet,Tahoe,2022,149,4,Petrol,Automatic,RWD,3,SUV,34847,648,High
+1858,Honda,CR-V,2021,258,4,Petrol,Automatic,FWD,2,SUV,37818,783,High
+1859,Subaru,WRX,2020,399,8,Petrol,Automatic,RWD,4,Truck,46183,785,High
+1860,Volvo,S90,2019,150,4,Petrol,CVT,RWD,5,SUV,25310,491,Low
+1861,Tesla,Model 3,2024,421,8,Petrol,Automatic,RWD,4,Coupe,54160,770,High
+1862,Aston Martin,Vantage,2022,363,8,Petrol,Automatic,FWD,5,SUV,43929,674,High
+1863,Tesla,Model 3,2023,625,12,Diesel,Automatic,AWD,2,Hatchback,57639,743,High
+1864,Mercedes,E-Class,2018,463,8,Diesel,Automatic,RWD,5,SUV,42531,595,Medium
+1865,Kia,Sportage,2019,156,4,Electric,CVT,AWD,5,SUV,35910,647,High
+1866,Aston Martin,Vantage,2015,241,6,Diesel,CVT,RWD,4,SUV,25593,548,Low
+1867,Volkswagen,Golf,2024,189,4,Diesel,Automatic,AWD,4,SUV,41220,692,High
+1868,Nissan,Altima,2019,415,8,Diesel,CVT,AWD,4,SUV,33668,617,Medium
+1869,Ford,Mustang,2024,312,6,Hybrid,Automatic,FWD,4,Hatchback,43863,721,High
+1870,Aston Martin,DB11,2015,169,4,Petrol,Automatic,FWD,4,SUV,19370,594,Medium
+1871,Chevrolet,Malibu,2022,196,4,Hybrid,CVT,FWD,4,Coupe,37662,716,High
+1872,Chevrolet,Malibu,2024,192,4,Petrol,Automatic,AWD,4,Sedan,42599,698,High
+1873,Aston Martin,Vantage,2015,300,6,Diesel,Automatic,AWD,4,Sedan,20935,573,Low
+1874,Audi,Q5,2024,122,4,Electric,CVT,FWD,3,Hatchback,40903,753,High
+1875,Alfa Romeo,Stelvio,2022,410,8,Diesel,Automatic,FWD,5,Coupe,42490,613,Medium
+1876,Volvo,XC60,2020,145,4,Petrol,CVT,FWD,4,SUV,31531,540,Low
+1877,Volkswagen,Tiguan,2022,121,4,Petrol,Automatic,FWD,5,Truck,39068,672,High
+1878,Volvo,XC60,2024,109,4,Petrol,Automatic,AWD,4,SUV,35787,688,High
+1879,Buick,Enclave,2020,96,4,Hybrid,Automatic,RWD,4,Hatchback,38636,671,High
+1880,Nissan,Sentra,2016,158,4,Petrol,Manual,AWD,5,SUV,18504,494,Low
+1881,Honda,CR-V,2017,265,6,Petrol,Automatic,RWD,4,Sedan,31717,567,Low
+1882,Ram,3500,2021,323,6,Petrol,Manual,FWD,4,Sedan,44785,718,High
+1883,Honda,Accord,2016,128,4,Petrol,Manual,FWD,5,SUV,19747,611,Medium
+1884,Lexus,ES,2019,384,8,Electric,Automatic,FWD,4,SUV,41006,677,High
+1885,Kia,K5,2019,203,4,Petrol,Automatic,RWD,4,Sedan,38870,659,High
+1886,Chevrolet,Tahoe,2021,312,6,Petrol,Automatic,RWD,3,Coupe,42979,599,Medium
+1887,Cadillac,Escalade,2017,260,6,Petrol,Automatic,FWD,5,SUV,29058,595,Medium
+1888,BMW,X3,2019,253,6,Petrol,Automatic,FWD,4,Truck,30584,499,Low
+1889,Ford,Mustang,2022,487,8,Hybrid,CVT,FWD,4,Sedan,54153,734,High
+1890,Suzuki,Vitara,2020,383,8,Hybrid,CVT,RWD,4,Coupe,43022,554,Low
+1891,Alfa Romeo,Stelvio,2024,152,4,Petrol,CVT,FWD,4,SUV,41647,628,Medium
+1892,Tesla,Model S,2016,304,6,Diesel,Automatic,FWD,4,Sedan,30212,652,High
+1893,Nissan,Rogue,2024,243,6,Petrol,Automatic,RWD,5,Van,34622,568,Low
+1894,Nissan,Altima,2021,277,6,Petrol,Automatic,FWD,4,Truck,37170,455,Low
+1895,Jeep,Cherokee,2024,263,6,Hybrid,Automatic,FWD,5,Hatchback,46666,684,High
+1896,Hyundai,Sonata,2024,288,6,Hybrid,Automatic,AWD,5,Sedan,44848,591,Medium
+1897,Cadillac,Escalade,2018,165,4,Diesel,CVT,FWD,4,SUV,31521,515,Low
+1898,Aston Martin,Vantage,2023,179,4,Hybrid,Automatic,FWD,4,Coupe,37655,675,High
+1899,Mazda,CX-50,2023,120,4,Hybrid,Automatic,FWD,4,Sedan,38846,702,High
+1900,Suzuki,Swift,2021,141,4,Petrol,CVT,FWD,4,Sedan,29521,603,Medium
+1901,Lexus,IS,2018,235,6,Petrol,Automatic,FWD,4,Truck,26639,561,Low
+1902,Honda,Pilot,2016,131,4,Petrol,Automatic,RWD,4,Coupe,28624,519,Low
+1903,Volkswagen,Passat,2020,208,4,Electric,Automatic,AWD,5,SUV,36447,673,High
+1904,Ferrari,488 GTB,2019,437,8,Diesel,Manual,FWD,4,Sedan,39395,572,Low
+1905,Subaru,Forester,2019,185,4,Petrol,Automatic,FWD,4,SUV,28358,654,High
+1906,Audi,Q7,2022,155,4,Petrol,Automatic,FWD,5,Hatchback,37601,597,Medium
+1907,Toyota,Corolla,2023,186,4,Petrol,Automatic,AWD,4,Sedan,27318,652,High
+1908,Subaru,WRX,2024,433,8,Petrol,CVT,FWD,3,SUV,55415,760,High
+1909,Aston Martin,DB11,2023,107,4,Diesel,Automatic,FWD,5,Van,35469,623,Medium
+1910,Subaru,Crosstrek,2015,117,4,Petrol,Automatic,AWD,5,SUV,18322,587,Medium
+1911,Buick,Encore,2015,407,8,Petrol,CVT,FWD,5,SUV,33619,559,Low
+1912,Lexus,RX,2018,248,6,Hybrid,Automatic,AWD,5,Coupe,30401,548,Low
+1913,Subaru,WRX,2017,414,8,Diesel,Automatic,FWD,2,Hatchback,35934,650,High
+1914,Mercedes,GLC,2021,284,6,Petrol,Automatic,FWD,4,Sedan,31445,497,Low
+1915,Mini,Countryman,2022,135,4,Petrol,Automatic,FWD,5,Hatchback,34431,578,Medium
+1916,Toyota,Highlander,2018,177,4,Petrol,Automatic,FWD,4,SUV,18374,510,Low
+1917,Ferrari,488 GTB,2015,323,6,Petrol,Automatic,RWD,5,Van,27952,513,Low
+1918,Mercedes,GLE,2020,377,8,Petrol,Automatic,FWD,2,Van,38607,576,Low
+1919,Nissan,Sentra,2015,177,4,Petrol,Automatic,AWD,4,Truck,19117,507,Low
+1920,Cadillac,XT5,2018,191,4,Hybrid,Manual,FWD,4,Hatchback,29240,678,High
+1921,Ford,Explorer,2022,99,4,Hybrid,Automatic,FWD,4,Hatchback,34350,667,High
+1922,Volvo,XC90,2021,134,4,Petrol,Automatic,FWD,2,SUV,29820,508,Low
+1923,Mercedes,E-Class,2023,144,4,Electric,Automatic,AWD,5,Hatchback,44938,719,High
+1924,Volkswagen,Passat,2019,261,6,Electric,Automatic,FWD,4,Sedan,35106,622,Medium
+1925,Mini,Countryman,2020,153,4,Hybrid,Manual,AWD,5,Truck,31153,578,Medium
+1926,Suzuki,Swift,2017,383,8,Petrol,CVT,RWD,5,SUV,35164,592,Medium
+1927,Mercedes,E-Class,2015,318,6,Diesel,Automatic,FWD,2,Truck,25170,497,Low
+1928,BMW,X5,2023,294,6,Diesel,Automatic,AWD,4,SUV,44943,692,High
+1929,Lexus,NX,2023,138,4,Petrol,Automatic,AWD,4,SUV,42340,754,High
+1930,Audi,Q7,2016,164,4,Petrol,CVT,AWD,5,Sedan,27354,608,Medium
+1931,Ford,Mustang,2018,197,4,Petrol,Automatic,AWD,2,SUV,29701,598,Medium
+1932,Toyota,Corolla,2015,139,4,Electric,Automatic,FWD,5,Hatchback,20477,478,Low
+1933,Porsche,911,2021,295,6,Petrol,CVT,AWD,4,Sedan,45793,737,High
+1934,Honda,Civic,2023,629,12,Petrol,Automatic,AWD,4,Sedan,55635,674,High
+1935,Ford,F-150,2017,230,4,Petrol,Automatic,FWD,5,Coupe,28851,483,Low
+1936,Mini,Countryman,2020,136,4,Petrol,Automatic,RWD,5,Hatchback,33551,577,Low
+1937,Honda,Pilot,2015,311,8,Petrol,CVT,FWD,4,Hatchback,25026,599,Medium
+1938,Nissan,Altima,2021,420,8,Petrol,Automatic,FWD,5,Sedan,41381,588,Medium
+1939,Audi,A4,2020,301,6,Hybrid,Automatic,FWD,5,Sedan,37602,657,High
+1940,BMW,X5,2017,262,6,Petrol,Automatic,RWD,4,SUV,29655,487,Low
+1941,Honda,CR-V,2018,278,6,Hybrid,CVT,AWD,4,Truck,31879,699,High
+1942,Mitsubishi,Eclipse Cross,2022,174,4,Electric,CVT,AWD,4,Van,34675,591,Medium
+1943,Cadillac,XT5,2022,262,6,Electric,Automatic,RWD,4,SUV,45848,741,High
+1944,Toyota,Corolla,2015,339,6,Petrol,Manual,FWD,4,Sedan,30373,453,Low
+1945,Tesla,Model S,2016,284,6,Electric,Automatic,FWD,4,Sedan,33648,633,Medium
+1946,Suzuki,Vitara,2016,206,4,Hybrid,Automatic,RWD,4,SUV,21127,542,Low
+1947,Mitsubishi,Lancer,2017,338,6,Petrol,Automatic,AWD,4,Sedan,29868,661,High
+1948,Chevrolet,Equinox,2015,143,4,Petrol,Manual,AWD,4,SUV,24760,529,Low
+1949,Chevrolet,Silverado,2018,331,6,Petrol,Automatic,AWD,4,SUV,29997,653,High
+1950,Mini,Cooper,2020,370,8,Petrol,Automatic,FWD,4,SUV,34452,589,Medium
+1951,Toyota,Corolla,2019,306,6,Petrol,Automatic,FWD,3,Truck,35596,575,Low
+1952,Cadillac,Escalade,2020,142,4,Petrol,Automatic,AWD,4,SUV,37014,601,Medium
+1953,Buick,Enclave,2020,314,6,Petrol,Automatic,FWD,3,SUV,44010,554,Low
+1954,Buick,Encore,2022,169,4,Petrol,CVT,FWD,4,Sedan,38097,569,Low
+1955,Subaru,Forester,2024,252,6,Diesel,Automatic,FWD,4,Coupe,44002,685,High
+1956,Subaru,Forester,2017,211,4,Petrol,CVT,AWD,4,Sedan,31704,671,High
+1957,Chevrolet,Equinox,2023,162,4,Electric,Automatic,AWD,5,SUV,36006,753,High
+1958,Cadillac,XT5,2019,283,6,Petrol,Automatic,RWD,4,Sedan,39180,630,Medium
+1959,BMW,5 Series,2017,315,6,Hybrid,Automatic,AWD,5,Hatchback,27554,627,Medium
+1960,Chevrolet,Tahoe,2017,186,4,Petrol,Automatic,AWD,4,SUV,22485,576,Low
+1961,Cadillac,XT5,2024,347,6,Petrol,Automatic,AWD,5,Sedan,54306,738,High
+1962,Honda,CR-V,2015,384,8,Petrol,Automatic,FWD,5,SUV,33555,617,Medium
+1963,Volvo,XC90,2020,391,8,Petrol,CVT,FWD,4,Truck,47019,661,High
+1964,Suzuki,Swift,2018,382,8,Petrol,Manual,AWD,4,SUV,42732,538,Low
+1965,Aston Martin,DB11,2018,128,4,Petrol,Automatic,FWD,2,SUV,25839,583,Medium
+1966,Subaru,Crosstrek,2020,299,6,Hybrid,CVT,FWD,4,Hatchback,38895,598,Medium
+1967,Mitsubishi,Eclipse Cross,2024,182,4,Petrol,CVT,AWD,4,SUV,44808,649,High
+1968,Ford,Mustang,2017,280,6,Petrol,Automatic,RWD,4,Hatchback,33679,585,Medium
+1969,Tesla,Model S,2023,169,4,Hybrid,Automatic,AWD,2,SUV,38957,702,High
+1970,BMW,X3,2015,162,4,Hybrid,Automatic,FWD,5,Coupe,18471,566,Low
+1971,Lexus,NX,2023,220,6,Electric,Automatic,AWD,4,Coupe,42049,734,High
+1972,Ford,Explorer,2017,214,4,Electric,Automatic,FWD,4,Sedan,27967,612,Medium
+1973,Mazda,Mazda3,2024,205,6,Hybrid,Automatic,FWD,4,Sedan,42004,640,Medium
+1974,Tesla,Model 3,2022,387,8,Petrol,Automatic,FWD,5,Coupe,50936,712,High
+1975,Mitsubishi,Lancer,2018,273,6,Hybrid,Automatic,FWD,5,SUV,32826,613,Medium
+1976,Suzuki,Swift,2019,125,4,Electric,Automatic,FWD,5,Truck,27671,519,Low
+1977,Mitsubishi,Outlander,2024,162,4,Petrol,Automatic,FWD,4,Sedan,39779,688,High
+1978,Buick,Enclave,2016,149,4,Petrol,Automatic,FWD,5,Sedan,22865,497,Low
+1979,Tesla,Model X,2015,165,4,Petrol,Automatic,RWD,4,SUV,28392,571,Low
+1980,Suzuki,Vitara,2015,144,4,Petrol,Automatic,RWD,4,SUV,24460,438,Low
+1981,Aston Martin,DB11,2020,126,4,Hybrid,Automatic,FWD,5,Sedan,34344,683,High
+1982,Porsche,Macan,2016,267,6,Petrol,CVT,FWD,2,SUV,30262,548,Low
+1983,Mazda,CX-5,2016,130,4,Petrol,Automatic,FWD,5,Coupe,25639,485,Low
+1984,Mercedes,C-Class,2019,152,4,Electric,Automatic,FWD,4,Sedan,29090,519,Low
+1985,Honda,CR-V,2016,280,6,Petrol,CVT,FWD,4,SUV,28465,533,Low
+1986,Volkswagen,Golf,2018,152,4,Diesel,Automatic,RWD,5,SUV,24552,481,Low
+1987,Volvo,S60,2017,146,4,Petrol,Manual,FWD,5,SUV,29787,502,Low
+1988,Ferrari,Portofino,2021,119,4,Petrol,Automatic,AWD,4,Hatchback,35313,611,Medium
+1989,Mazda,CX-50,2019,268,6,Electric,Automatic,AWD,4,SUV,34522,581,Medium
+1990,Honda,Accord,2018,90,4,Hybrid,CVT,AWD,4,SUV,23787,670,High
+1991,Ferrari,Portofino,2023,351,6,Hybrid,Automatic,FWD,4,Sedan,39392,676,High
+1992,Buick,Enclave,2016,126,4,Petrol,Manual,RWD,5,Coupe,21554,588,Medium
+1993,Aston Martin,Vantage,2023,318,6,Petrol,CVT,FWD,4,SUV,40541,646,Medium
+1994,Suzuki,Swift,2021,379,8,Hybrid,Automatic,AWD,4,SUV,44205,544,Low
+1995,Cadillac,Escalade,2015,391,8,Diesel,Automatic,AWD,4,Sedan,32795,695,High
+1996,Genesis,G70,2015,181,4,Diesel,Automatic,FWD,5,Hatchback,27773,507,Low
+1997,Cadillac,Escalade,2015,140,4,Petrol,Manual,FWD,4,Hatchback,21393,513,Low
+1998,Ford,Escape,2016,206,4,Electric,Automatic,AWD,4,SUV,30070,685,High
+1999,Alfa Romeo,Stelvio,2017,369,8,Petrol,Automatic,AWD,5,Hatchback,30891,622,Medium
+2000,Audi,A6,2015,179,4,Petrol,Automatic,FWD,4,Sedan,26310,505,Low
+2001,Jeep,Wrangler,2024,605,12,Petrol,CVT,RWD,5,Sedan,50936,634,Medium
+2002,Ford,Escape,2016,331,6,Electric,Automatic,AWD,4,Truck,33078,558,Low
+2003,Mercedes,GLE,2021,336,6,Petrol,Manual,FWD,2,Truck,41826,575,Low
+2004,Suzuki,Vitara,2023,382,8,Petrol,Automatic,FWD,5,SUV,43001,644,Medium
+2005,Mercedes,GLC,2023,115,4,Hybrid,Automatic,RWD,5,SUV,33828,681,High
+2006,Volvo,XC60,2015,188,4,Petrol,Automatic,FWD,4,Sedan,24180,510,Low
+2007,Cadillac,XT5,2021,309,6,Petrol,Automatic,FWD,4,Sedan,49232,641,Medium
+2008,Mercedes,GLC,2023,210,4,Petrol,Automatic,AWD,4,SUV,40636,590,Medium
+2009,Jeep,Cherokee,2023,280,6,Petrol,Manual,FWD,4,Van,39713,525,Low
+2010,Alfa Romeo,Stelvio,2022,191,4,Petrol,Automatic,FWD,4,SUV,36801,612,Medium
+2011,Volkswagen,Tiguan,2023,193,4,Electric,Automatic,AWD,4,SUV,41073,662,High
+2012,Toyota,Camry,2015,303,8,Petrol,Automatic,FWD,4,SUV,32346,487,Low
+2013,Mercedes,E-Class,2018,429,8,Petrol,Manual,FWD,5,SUV,39780,606,Medium
+2014,Alfa Romeo,Giulia,2021,202,6,Petrol,Automatic,AWD,4,SUV,32496,664,High
+2015,Mitsubishi,Lancer,2015,314,6,Electric,CVT,AWD,4,SUV,25136,570,Low
+2016,Lexus,ES,2020,166,4,Petrol,Automatic,FWD,4,Sedan,30251,520,Low
+2017,Audi,A4,2023,268,6,Electric,CVT,AWD,4,SUV,45482,700,High
+2018,Kia,Sorento,2021,125,4,Diesel,Automatic,RWD,5,Sedan,31069,639,Medium
+2019,Mazda,Mazda6,2015,272,6,Electric,Manual,FWD,4,SUV,26803,611,Medium
+2020,Cadillac,Escalade,2019,311,6,Petrol,Automatic,FWD,5,Truck,37432,646,Medium
+2021,Honda,CR-V,2023,120,4,Hybrid,Automatic,FWD,5,Sedan,35825,605,Medium
+2022,Hyundai,Elantra,2019,248,6,Diesel,Automatic,FWD,5,Hatchback,32217,441,Low
+2023,Subaru,Forester,2023,421,8,Hybrid,Automatic,AWD,5,Sedan,51250,822,High
+2024,Mazda,Mazda3,2016,239,6,Hybrid,CVT,AWD,5,SUV,25552,663,High
+2025,Buick,Enclave,2021,135,4,Petrol,Automatic,FWD,2,SUV,34322,634,Medium
+2026,Cadillac,Escalade,2019,101,4,Petrol,CVT,FWD,4,Sedan,29719,676,High
+2027,Ford,F-150,2023,163,4,Petrol,Manual,AWD,4,SUV,47892,657,High
+2028,Mini,Cooper,2023,149,4,Petrol,Automatic,FWD,4,SUV,39274,550,Low
+2029,Jeep,Compass,2019,90,4,Petrol,CVT,FWD,4,Hatchback,29131,592,Medium
+2030,Porsche,Macan,2022,297,6,Diesel,Manual,AWD,4,Van,46770,692,High
+2031,Volvo,S60,2018,301,6,Petrol,Manual,AWD,4,Coupe,30551,473,Low
+2032,Mitsubishi,Lancer,2019,559,12,Petrol,Automatic,RWD,4,SUV,46234,663,High
+2033,Ford,Escape,2024,328,6,Petrol,Automatic,RWD,5,SUV,51637,685,High
+2034,Mitsubishi,Outlander,2022,90,4,Hybrid,Automatic,RWD,4,Hatchback,33838,600,Medium
+2035,Volvo,XC90,2017,153,4,Hybrid,Automatic,FWD,5,SUV,32276,589,Medium
+2036,Mini,Cooper,2015,122,4,Diesel,CVT,FWD,5,Coupe,22266,478,Low
+2037,Volvo,S90,2015,158,4,Petrol,CVT,FWD,4,SUV,19899,519,Low
+2038,Volvo,XC90,2019,442,8,Petrol,CVT,FWD,5,Truck,42377,617,Medium
+2039,Suzuki,Vitara,2020,149,4,Petrol,Manual,RWD,2,SUV,32929,542,Low
+2040,Alfa Romeo,Giulia,2020,257,6,Hybrid,Automatic,FWD,4,Sedan,40924,620,Medium
+2041,Tesla,Model S,2017,314,6,Petrol,Automatic,AWD,5,Coupe,37373,587,Medium
+2042,Porsche,Cayenne,2020,215,4,Petrol,Manual,FWD,2,SUV,31835,666,High
+2043,Tesla,Model X,2023,157,4,Petrol,Automatic,FWD,4,SUV,35947,583,Medium
+2044,Mazda,Mazda6,2019,601,12,Petrol,CVT,AWD,4,Sedan,49980,616,Medium
+2045,Ram,3500,2020,369,8,Hybrid,Manual,FWD,4,Hatchback,44425,627,Medium
+2046,Subaru,Crosstrek,2015,421,8,Diesel,CVT,FWD,4,SUV,34256,661,High
+2047,Hyundai,Santa Fe,2018,244,4,Petrol,Automatic,RWD,4,SUV,30379,537,Low
+2048,Buick,Enclave,2019,388,8,Petrol,Automatic,AWD,4,Coupe,31841,637,Medium
+2049,BMW,5 Series,2024,162,4,Petrol,Automatic,RWD,5,Truck,38412,738,High
+2050,Hyundai,Elantra,2021,582,12,Petrol,Automatic,RWD,4,SUV,49043,569,Low
+2051,Nissan,Rogue,2022,228,4,Petrol,CVT,RWD,4,Truck,36651,493,Low
+2052,Cadillac,XT5,2016,141,4,Electric,Automatic,FWD,2,Sedan,23977,614,Medium
+2053,Alfa Romeo,Stelvio,2020,133,4,Diesel,Automatic,FWD,5,Coupe,29735,508,Low
+2054,Lexus,ES,2018,382,8,Diesel,Automatic,AWD,5,Hatchback,31206,650,High
+2055,Suzuki,Swift,2024,151,4,Diesel,Automatic,FWD,4,Sedan,43654,607,Medium
+2056,Volvo,XC60,2016,293,6,Petrol,Manual,AWD,2,SUV,36694,560,Low
+2057,Genesis,GV70,2021,193,4,Electric,Manual,FWD,4,Sedan,32273,667,High
+2058,Mazda,Mazda3,2017,279,6,Petrol,CVT,FWD,4,Truck,30084,538,Low
+2059,Buick,Encore,2021,311,6,Diesel,CVT,RWD,4,SUV,48058,732,High
+2060,Jeep,Wrangler,2019,634,12,Petrol,Automatic,RWD,2,SUV,48042,561,Low
+2061,Toyota,Highlander,2019,578,12,Petrol,CVT,FWD,2,SUV,44194,568,Low
+2062,Ram,1500,2021,231,6,Hybrid,Automatic,AWD,4,SUV,41226,641,Medium
+2063,Mazda,Mazda6,2018,105,4,Hybrid,Automatic,FWD,5,Truck,27210,554,Low
+2064,Subaru,Outback,2022,307,6,Diesel,Automatic,AWD,4,Truck,39914,775,High
+2065,Ford,Explorer,2016,583,12,Petrol,Automatic,AWD,4,Sedan,43651,668,High
+2066,Honda,CR-V,2023,121,4,Diesel,Manual,RWD,4,SUV,42260,591,Medium
+2067,Ford,Mustang,2019,202,4,Petrol,Automatic,AWD,4,SUV,34472,649,High
+2068,Nissan,Altima,2020,133,4,Petrol,CVT,AWD,2,Truck,33514,558,Low
+2069,Alfa Romeo,Giulia,2017,282,6,Diesel,Automatic,FWD,3,Coupe,33640,628,Medium
+2070,Mini,Countryman,2021,255,6,Petrol,Automatic,FWD,2,Coupe,37310,553,Low
+2071,Mercedes,E-Class,2020,314,6,Petrol,Automatic,RWD,4,Hatchback,30623,665,High
+2072,Buick,Enclave,2020,268,6,Hybrid,Automatic,FWD,5,SUV,40014,707,High
+2073,Volkswagen,Tiguan,2020,165,4,Petrol,Manual,FWD,2,SUV,31133,555,Low
+2074,Volvo,S60,2017,211,4,Petrol,Manual,AWD,4,Hatchback,29899,540,Low
+2075,Toyota,Camry,2016,152,4,Petrol,Automatic,FWD,5,Sedan,22487,512,Low
+2076,Subaru,Forester,2022,434,8,Petrol,Automatic,FWD,3,Truck,45850,684,High
+2077,Alfa Romeo,Stelvio,2017,114,4,Hybrid,Automatic,FWD,4,Sedan,23639,589,Medium
+2078,Mini,Cooper,2019,291,6,Diesel,Automatic,FWD,4,Coupe,35714,486,Low
+2079,Suzuki,Vitara,2016,123,4,Diesel,Manual,AWD,4,Sedan,26937,434,Low
+2080,Audi,Q5,2023,283,6,Electric,Automatic,FWD,5,SUV,54318,746,High
+2081,Cadillac,XT5,2019,336,6,Petrol,Automatic,FWD,5,SUV,43829,640,Medium
+2082,Mercedes,E-Class,2021,173,4,Petrol,Manual,RWD,5,Truck,33516,613,Medium
+2083,Aston Martin,DB11,2023,644,12,Petrol,Automatic,RWD,4,SUV,59540,769,High
+2084,Alfa Romeo,Stelvio,2022,289,6,Petrol,Automatic,FWD,2,SUV,43798,706,High
+2085,Hyundai,Elantra,2021,164,4,Petrol,Automatic,AWD,5,Sedan,31767,505,Low
+2086,Honda,Pilot,2015,155,4,Petrol,Automatic,FWD,4,Truck,14553,560,Low
+2087,Ferrari,488 GTB,2018,157,4,Hybrid,Automatic,FWD,4,SUV,25907,643,Medium
+2088,Mitsubishi,Lancer,2021,285,6,Diesel,Automatic,AWD,4,Sedan,41897,617,Medium
+2089,Suzuki,Swift,2016,162,4,Hybrid,Automatic,FWD,4,Truck,23266,555,Low
+2090,Cadillac,Escalade,2015,158,4,Petrol,Automatic,FWD,4,SUV,21102,545,Low
+2091,Volkswagen,Jetta,2021,146,4,Hybrid,Automatic,RWD,5,SUV,31688,588,Medium
+2092,Volkswagen,Jetta,2024,415,8,Diesel,Automatic,FWD,5,Coupe,48322,666,High
+2093,Porsche,Cayenne,2024,118,4,Petrol,Automatic,RWD,4,Sedan,43371,680,High
+2094,Audi,Q5,2019,262,6,Petrol,Automatic,AWD,4,SUV,38145,562,Low
+2095,Mazda,Mazda3,2021,332,6,Petrol,Automatic,AWD,4,Truck,40968,510,Low
+2096,Ferrari,488 GTB,2016,264,6,Petrol,Automatic,FWD,4,Truck,31737,487,Low
+2097,Ferrari,488 GTB,2018,310,6,Petrol,CVT,AWD,5,SUV,34809,502,Low
+2098,Genesis,G70,2017,445,8,Hybrid,CVT,FWD,5,SUV,38720,587,Medium
+2099,Ford,Escape,2022,167,4,Hybrid,CVT,FWD,5,Coupe,40594,620,Medium
+2100,Honda,Accord,2020,292,6,Petrol,CVT,FWD,5,Hatchback,40535,573,Low
+2101,Cadillac,XT5,2022,392,8,Petrol,Automatic,FWD,4,Coupe,45070,710,High
+2102,Ford,Explorer,2017,150,4,Petrol,Automatic,AWD,4,Sedan,25643,553,Low
+2103,Chevrolet,Equinox,2024,136,4,Electric,Automatic,FWD,4,Hatchback,44033,658,High
+2104,Tesla,Model X,2016,314,6,Petrol,Automatic,AWD,4,SUV,31845,576,Low
+2105,Tesla,Model X,2017,142,4,Diesel,Automatic,FWD,5,Sedan,26772,558,Low
+2106,Alfa Romeo,Giulia,2021,303,6,Petrol,Automatic,AWD,2,Hatchback,45098,602,Medium
+2107,Mitsubishi,Outlander,2022,120,4,Electric,Automatic,AWD,2,Sedan,35368,693,High
+2108,Toyota,Corolla,2023,132,4,Diesel,Automatic,RWD,4,SUV,32460,605,Medium
+2109,Genesis,GV70,2023,582,12,Petrol,CVT,FWD,4,SUV,57657,720,High
+2110,Lexus,ES,2023,157,4,Petrol,Automatic,RWD,5,SUV,35649,667,High
+2111,Ram,3500,2018,166,4,Hybrid,Automatic,FWD,5,Sedan,31310,595,Medium
+2112,Volvo,S60,2018,126,4,Petrol,CVT,FWD,5,SUV,31797,537,Low
+2113,Volvo,XC90,2024,387,8,Petrol,Automatic,FWD,5,Sedan,48710,622,Medium
+2114,Genesis,G70,2016,164,4,Diesel,Automatic,AWD,4,Sedan,21755,430,Low
+2115,Mini,Countryman,2015,390,8,Diesel,Automatic,FWD,3,SUV,27160,586,Medium
+2116,Hyundai,Elantra,2024,195,4,Petrol,Automatic,FWD,4,SUV,33343,572,Low
+2117,Toyota,Camry,2022,113,4,Petrol,Automatic,AWD,4,Truck,35721,589,Medium
+2118,Genesis,G80,2018,393,8,Petrol,CVT,AWD,4,Sedan,35214,577,Low
+2119,Ford,Escape,2017,112,4,Petrol,Automatic,AWD,3,Truck,26156,602,Medium
+2120,Tesla,Model X,2017,240,6,Diesel,Manual,AWD,4,Sedan,26994,601,Medium
+2121,Audi,Q7,2018,195,4,Diesel,Automatic,RWD,2,SUV,32294,591,Medium
+2122,Kia,Telluride,2019,400,8,Electric,Automatic,FWD,2,Sedan,46247,684,High
+2123,Subaru,Crosstrek,2020,237,6,Diesel,Automatic,RWD,5,SUV,47061,604,Medium
+2124,Ram,2500,2023,152,4,Hybrid,CVT,AWD,2,Sedan,35222,803,High
+2125,Hyundai,Santa Fe,2022,454,8,Hybrid,Automatic,FWD,4,SUV,48312,659,High
+2126,Ford,Explorer,2019,292,6,Electric,Automatic,FWD,2,SUV,38212,665,High
+2127,Honda,CR-V,2023,168,4,Petrol,Automatic,FWD,4,Van,40557,578,Medium
+2128,Toyota,RAV4,2023,203,4,Petrol,Automatic,RWD,2,Sedan,41760,570,Low
+2129,Lexus,IS,2016,270,6,Petrol,Automatic,RWD,4,Sedan,32396,617,Medium
+2130,Tesla,Model Y,2019,394,8,Petrol,CVT,RWD,4,SUV,44860,618,Medium
+2131,Ram,ProMaster,2022,408,8,Petrol,CVT,AWD,5,Coupe,48443,761,High
+2132,Mitsubishi,Outlander,2017,188,4,Petrol,Automatic,FWD,5,Sedan,32905,538,Low
+2133,Mazda,Mazda6,2022,651,12,Petrol,Automatic,AWD,4,Coupe,61923,724,High
+2134,Aston Martin,Vantage,2024,157,4,Petrol,Automatic,FWD,5,Sedan,42601,699,High
+2135,Cadillac,Escalade,2021,317,6,Petrol,Automatic,FWD,4,SUV,49834,717,High
+2136,Subaru,WRX,2015,241,6,Diesel,Automatic,RWD,4,Sedan,23369,615,Medium
+2137,Tesla,Model X,2021,264,6,Petrol,Automatic,FWD,5,Sedan,39940,646,Medium
+2138,Mercedes,GLC,2024,152,4,Electric,Automatic,FWD,5,SUV,38844,755,High
+2139,Lexus,RX,2022,346,6,Petrol,Automatic,FWD,4,SUV,43561,603,Medium
+2140,BMW,X3,2023,309,6,Hybrid,Automatic,RWD,5,SUV,41953,704,High
+2141,Hyundai,Santa Fe,2019,367,6,Electric,Automatic,RWD,5,Sedan,35159,600,Medium
+2142,Honda,Pilot,2018,122,4,Hybrid,Automatic,FWD,4,Truck,26034,559,Low
+2143,Cadillac,Escalade,2023,169,4,Petrol,Automatic,RWD,4,Sedan,44712,630,Medium
+2144,BMW,5 Series,2024,164,4,Diesel,CVT,RWD,2,Sedan,41396,665,High
+2145,Porsche,Macan,2017,120,4,Hybrid,Automatic,FWD,4,Truck,23152,504,Low
+2146,Honda,CR-V,2015,165,4,Petrol,Automatic,FWD,4,Coupe,27068,579,Medium
+2147,Porsche,Cayenne,2021,180,4,Electric,Automatic,FWD,5,Sedan,36688,643,Medium
+2148,Jeep,Cherokee,2020,275,6,Petrol,Automatic,AWD,2,SUV,38359,600,Medium
+2149,Mini,Countryman,2018,149,4,Electric,Automatic,AWD,2,SUV,25527,523,Low
+2150,Audi,Q7,2020,299,6,Diesel,Automatic,FWD,2,Truck,40331,698,High
+2151,Nissan,Murano,2015,168,4,Petrol,Automatic,FWD,4,SUV,20532,425,Low
+2152,Toyota,Highlander,2022,168,4,Petrol,CVT,FWD,4,SUV,37788,585,Medium
+2153,Toyota,Highlander,2019,122,4,Petrol,Manual,FWD,4,SUV,22482,508,Low
+2154,Nissan,Altima,2023,309,6,Electric,Automatic,AWD,2,Sedan,40441,662,High
+2155,Aston Martin,Vantage,2017,90,4,Hybrid,CVT,AWD,4,Van,17858,586,Medium
+2156,Subaru,Crosstrek,2023,203,4,Diesel,Automatic,AWD,4,SUV,35945,735,High
+2157,Volvo,XC90,2020,566,12,Electric,Automatic,FWD,2,Sedan,49209,681,High
+2158,Mercedes,GLE,2022,450,8,Petrol,CVT,AWD,5,Coupe,43931,700,High
+2159,Hyundai,Santa Fe,2019,94,4,Petrol,Manual,AWD,4,SUV,20096,512,Low
+2160,Alfa Romeo,Stelvio,2023,96,4,Hybrid,Automatic,RWD,4,SUV,33292,656,High
+2161,Mitsubishi,Eclipse Cross,2018,333,6,Hybrid,Manual,FWD,4,Sedan,39663,614,Medium
+2162,Volvo,S90,2015,122,4,Petrol,CVT,RWD,4,SUV,17682,501,Low
+2163,BMW,3 Series,2019,279,6,Hybrid,Automatic,RWD,4,SUV,41408,604,Medium
+2164,Volkswagen,Jetta,2021,256,6,Hybrid,Manual,AWD,4,Sedan,36984,555,Low
+2165,Chevrolet,Equinox,2024,256,6,Petrol,CVT,FWD,4,Coupe,44092,591,Medium
+2166,Lexus,NX,2024,162,4,Petrol,Automatic,FWD,4,Hatchback,39094,660,High
+2167,Kia,K5,2018,95,4,Hybrid,Automatic,AWD,5,SUV,23527,637,Medium
+2168,Aston Martin,Vantage,2023,108,4,Petrol,Automatic,AWD,4,SUV,46499,681,High
+2169,Volkswagen,Jetta,2020,159,4,Petrol,Automatic,FWD,5,SUV,29503,563,Low
+2170,Suzuki,Swift,2023,121,4,Petrol,Automatic,RWD,4,Van,41983,502,Low
+2171,Kia,K5,2017,217,4,Electric,Automatic,FWD,5,Sedan,27256,657,High
+2172,Alfa Romeo,Giulia,2015,304,6,Petrol,Automatic,AWD,5,SUV,28435,663,High
+2173,Porsche,Macan,2019,90,4,Hybrid,Manual,RWD,4,Sedan,29344,499,Low
+2174,Alfa Romeo,Stelvio,2020,151,4,Petrol,Automatic,FWD,5,Sedan,31480,575,Low
+2175,Ram,3500,2020,137,4,Electric,CVT,FWD,5,Truck,31622,650,High
+2176,Mazda,Mazda3,2022,275,6,Petrol,Automatic,RWD,2,SUV,37615,725,High
+2177,Honda,Pilot,2022,178,4,Diesel,Automatic,AWD,4,Sedan,37857,739,High
+2178,Hyundai,Santa Fe,2017,129,4,Petrol,Automatic,AWD,2,Truck,18877,514,Low
+2179,Honda,Civic,2022,139,4,Hybrid,Automatic,AWD,5,Sedan,39622,660,High
+2180,Lexus,RX,2017,286,6,Petrol,Manual,AWD,5,SUV,25392,652,High
+2181,Volvo,XC60,2022,169,4,Petrol,Manual,FWD,4,Sedan,40324,621,Medium
+2182,Tesla,Model Y,2018,168,4,Diesel,Manual,FWD,4,Sedan,22446,560,Low
+2183,Aston Martin,Vantage,2020,126,4,Hybrid,Manual,FWD,5,SUV,32836,627,Medium
+2184,Audi,Q5,2018,394,8,Petrol,Automatic,AWD,5,Sedan,42908,679,High
+2185,Chevrolet,Silverado,2015,113,4,Electric,Automatic,AWD,4,Sedan,21328,563,Low
+2186,Kia,Telluride,2020,132,4,Petrol,Automatic,FWD,4,Sedan,35203,525,Low
+2187,Ram,1500,2020,154,4,Petrol,Manual,AWD,2,SUV,32597,562,Low
+2188,Subaru,Crosstrek,2020,448,8,Diesel,Automatic,AWD,2,Sedan,43501,694,High
+2189,Tesla,Model S,2023,307,6,Petrol,Automatic,AWD,4,SUV,49508,664,High
+2190,Cadillac,XT5,2017,234,4,Hybrid,CVT,RWD,4,Van,32805,662,High
+2191,Subaru,Outback,2020,665,12,Petrol,Automatic,FWD,4,Coupe,50287,619,Medium
+2192,Audi,A6,2017,142,4,Hybrid,Automatic,FWD,4,SUV,27979,627,Medium
+2193,Lexus,NX,2015,166,4,Petrol,Automatic,RWD,4,Hatchback,20471,551,Low
+2194,Honda,CR-V,2018,126,4,Petrol,Automatic,FWD,5,Truck,25213,694,High
+2195,Tesla,Model X,2021,385,8,Hybrid,Manual,AWD,4,Sedan,41954,689,High
+2196,Kia,Sportage,2022,162,4,Hybrid,Automatic,RWD,3,Truck,40887,709,High
+2197,Mini,Cooper,2016,258,6,Hybrid,Automatic,AWD,2,Truck,28783,588,Medium
+2198,Buick,Enclave,2016,164,4,Hybrid,Automatic,RWD,4,Van,24443,517,Low
+2199,Alfa Romeo,Stelvio,2016,273,6,Hybrid,Automatic,FWD,4,Sedan,26267,617,Medium
+2200,Volvo,XC60,2016,184,4,Petrol,Automatic,AWD,4,Sedan,25601,548,Low
+2201,Tesla,Model S,2015,269,6,Petrol,Automatic,FWD,4,SUV,31056,572,Low
+2202,Honda,Civic,2015,659,12,Petrol,Automatic,FWD,2,Coupe,41264,619,Medium
+2203,Ford,Explorer,2022,150,4,Petrol,Automatic,FWD,5,Hatchback,37022,606,Medium
+2204,Volvo,S60,2022,174,4,Electric,Automatic,RWD,5,Truck,35902,744,High
+2205,Hyundai,Sonata,2021,150,4,Petrol,CVT,AWD,4,Sedan,30955,597,Medium
+2206,Alfa Romeo,Stelvio,2019,128,4,Hybrid,Manual,FWD,4,Sedan,26183,681,High
+2207,Suzuki,Vitara,2024,423,8,Electric,CVT,AWD,4,Sedan,46369,662,High
+2208,Jeep,Compass,2023,302,6,Diesel,Manual,FWD,2,Sedan,38728,610,Medium
+2209,Subaru,WRX,2021,120,4,Hybrid,Automatic,RWD,4,SUV,39541,721,High
+2210,Kia,Sorento,2024,128,4,Petrol,Automatic,FWD,4,Hatchback,50219,675,High
+2211,Volvo,S60,2015,150,4,Petrol,Automatic,AWD,4,Sedan,31921,550,Low
+2212,Tesla,Model S,2023,585,12,Petrol,CVT,AWD,4,Hatchback,62384,703,High
+2213,Buick,Enclave,2022,366,8,Petrol,CVT,RWD,5,Hatchback,48957,726,High
+2214,Alfa Romeo,Giulia,2022,145,4,Petrol,Automatic,FWD,5,SUV,29084,642,Medium
+2215,Volvo,S90,2017,193,4,Petrol,Automatic,AWD,4,SUV,22149,612,Medium
+2216,Ram,3500,2016,167,4,Hybrid,CVT,FWD,2,Truck,16829,521,Low
+2217,Ford,Explorer,2016,645,12,Petrol,Automatic,FWD,4,Hatchback,43534,673,High
+2218,Jeep,Grand Cherokee,2017,340,6,Diesel,Manual,AWD,4,Sedan,37642,506,Low
+2219,Kia,Sportage,2022,272,6,Petrol,Automatic,AWD,4,Van,41636,583,Medium
+2220,Tesla,Model Y,2015,333,6,Electric,Automatic,RWD,4,Coupe,29482,643,Medium
+2221,Honda,Pilot,2020,143,4,Petrol,Automatic,AWD,4,SUV,32242,617,Medium
+2222,Honda,CR-V,2017,608,12,Petrol,Automatic,RWD,4,SUV,47901,562,Low
+2223,Volvo,S90,2016,127,4,Diesel,Automatic,RWD,2,Coupe,21751,569,Low
+2224,Mazda,Mazda6,2015,154,4,Petrol,CVT,FWD,4,Truck,21807,575,Low
+2225,Ferrari,488 GTB,2016,258,6,Diesel,CVT,AWD,5,Sedan,22851,553,Low
+2226,Buick,Enclave,2022,98,4,Petrol,Automatic,RWD,4,Sedan,38033,590,Medium
+2227,Chevrolet,Equinox,2020,161,4,Hybrid,CVT,RWD,5,Sedan,32051,610,Medium
+2228,BMW,X5,2024,291,6,Hybrid,Automatic,AWD,4,SUV,47072,720,High
+2229,Genesis,G70,2022,167,4,Petrol,Manual,RWD,4,Van,37044,691,High
+2230,Audi,A6,2018,163,4,Hybrid,CVT,FWD,4,SUV,27345,609,Medium
+2231,Alfa Romeo,Giulia,2019,380,8,Diesel,Automatic,AWD,4,SUV,45411,676,High
+2232,Audi,A4,2019,173,4,Petrol,Automatic,AWD,4,SUV,35016,564,Low
+2233,Lexus,NX,2018,301,6,Hybrid,Manual,RWD,4,SUV,32531,630,Medium
+2234,Mercedes,C-Class,2022,117,4,Diesel,Automatic,FWD,4,Sedan,29220,620,Medium
+2235,Honda,Accord,2023,90,4,Petrol,Automatic,FWD,5,Sedan,40891,638,Medium
+2236,Nissan,Altima,2024,310,6,Petrol,CVT,FWD,2,Sedan,44364,579,Medium
+2237,Ferrari,488 GTB,2021,157,4,Diesel,Automatic,RWD,4,SUV,37358,617,Medium
+2238,Volkswagen,Golf,2022,338,6,Hybrid,CVT,AWD,5,SUV,51984,649,High
+2239,Honda,CR-V,2018,90,4,Hybrid,Automatic,FWD,5,SUV,26505,553,Low
+2240,Alfa Romeo,Stelvio,2017,376,8,Petrol,Automatic,FWD,4,SUV,41545,682,High
+2241,Audi,A4,2022,122,4,Electric,Automatic,FWD,4,Sedan,33989,670,High
+2242,Suzuki,Swift,2017,117,4,Diesel,Manual,AWD,4,Sedan,22742,507,Low
+2243,Porsche,Panamera,2022,90,4,Hybrid,Manual,AWD,4,Hatchback,33149,713,High
+2244,Alfa Romeo,Stelvio,2023,316,6,Petrol,Automatic,FWD,4,Sedan,49647,652,High
+2245,Jeep,Cherokee,2018,184,4,Petrol,Automatic,FWD,4,Coupe,23809,493,Low
+2246,Honda,Accord,2019,402,8,Petrol,Automatic,AWD,5,Hatchback,40779,623,Medium
+2247,Suzuki,Vitara,2017,103,4,Petrol,Automatic,RWD,5,SUV,24254,441,Low
+2248,Lexus,ES,2022,143,4,Petrol,Manual,AWD,4,Hatchback,37168,607,Medium
+2249,Toyota,Highlander,2020,191,4,Petrol,Automatic,FWD,4,SUV,27442,575,Low
+2250,Toyota,Corolla,2015,291,6,Petrol,CVT,AWD,2,SUV,30246,411,Low
+2251,Subaru,Outback,2015,450,8,Electric,Automatic,AWD,5,Coupe,33703,694,High
+2252,Audi,A6,2015,169,4,Petrol,Manual,FWD,5,Sedan,20529,499,Low
+2253,Mitsubishi,Outlander,2020,289,6,Petrol,Automatic,RWD,2,Sedan,40101,590,Medium
+2254,Genesis,GV70,2022,147,4,Electric,CVT,FWD,4,SUV,35219,670,High
+2255,Alfa Romeo,Giulia,2021,151,4,Diesel,Automatic,FWD,4,SUV,40495,610,Medium
+2256,Jeep,Grand Cherokee,2022,126,4,Petrol,CVT,AWD,4,Sedan,33418,567,Low
+2257,Lexus,IS,2016,284,6,Electric,CVT,AWD,4,SUV,28781,605,Medium
+2258,Ram,2500,2021,134,4,Petrol,CVT,FWD,2,SUV,42034,572,Low
+2259,Mini,Countryman,2024,174,4,Hybrid,Automatic,AWD,4,Hatchback,38074,674,High
+2260,Suzuki,Vitara,2015,313,6,Petrol,Manual,RWD,4,Hatchback,27443,486,Low
+2261,Hyundai,Tucson,2021,148,4,Petrol,CVT,FWD,4,Hatchback,33485,439,Low
+2262,Tesla,Model S,2015,249,4,Electric,Automatic,AWD,2,Sedan,23892,651,High
+2263,BMW,X5,2022,318,6,Petrol,Automatic,AWD,4,Sedan,43065,623,Medium
+2264,Volkswagen,Passat,2021,190,4,Petrol,CVT,RWD,4,Sedan,33520,577,Low
+2265,Mini,Cooper,2016,601,12,Petrol,Automatic,RWD,2,SUV,46773,607,Medium
+2266,Volvo,XC60,2019,167,4,Hybrid,Automatic,RWD,4,Sedan,33655,617,Medium
+2267,Aston Martin,Vantage,2019,174,4,Hybrid,Automatic,RWD,4,Sedan,38721,548,Low
+2268,Hyundai,Sonata,2017,108,4,Hybrid,CVT,AWD,5,Sedan,27857,563,Low
+2269,Alfa Romeo,Stelvio,2018,247,6,Hybrid,Automatic,AWD,5,Hatchback,33077,613,Medium
+2270,Porsche,Cayenne,2021,161,4,Petrol,Automatic,AWD,4,Sedan,30056,658,High
+2271,Ram,1500,2016,122,4,Petrol,Manual,AWD,5,Hatchback,20248,555,Low
+2272,Chevrolet,Tahoe,2022,248,6,Petrol,Automatic,FWD,4,SUV,44190,720,High
+2273,Tesla,Model S,2015,108,4,Petrol,Automatic,FWD,2,SUV,17859,554,Low
+2274,Jeep,Compass,2024,140,4,Petrol,Manual,FWD,5,Hatchback,41578,586,Medium
+2275,BMW,X3,2016,157,4,Hybrid,Automatic,RWD,5,Sedan,22059,574,Low
+2276,Tesla,Model 3,2016,546,12,Petrol,Automatic,FWD,2,SUV,38396,660,High
+2277,Tesla,Model X,2019,232,4,Petrol,CVT,AWD,4,Coupe,33535,567,Low
+2278,Tesla,Model S,2020,243,6,Petrol,Automatic,AWD,3,SUV,40813,643,Medium
+2279,Mercedes,GLE,2018,110,4,Hybrid,Automatic,AWD,2,Truck,27466,599,Medium
+2280,Subaru,Forester,2018,117,4,Petrol,Manual,RWD,4,Sedan,30965,625,Medium
+2281,Mazda,CX-50,2022,630,12,Hybrid,Automatic,RWD,5,SUV,56765,774,High
+2282,Mitsubishi,Lancer,2023,427,8,Electric,Automatic,RWD,5,Sedan,52592,794,High
+2283,Ram,1500,2023,159,4,Hybrid,Automatic,AWD,4,SUV,39137,752,High
+2284,Toyota,Camry,2016,164,4,Diesel,Automatic,AWD,2,Sedan,21263,554,Low
+2285,Mitsubishi,Outlander,2024,388,8,Diesel,Automatic,FWD,4,SUV,50766,705,High
+2286,Honda,Pilot,2022,397,8,Diesel,Manual,AWD,4,Sedan,47278,673,High
+2287,Alfa Romeo,Giulia,2020,607,12,Petrol,CVT,AWD,3,Truck,58325,695,High
+2288,Mercedes,GLE,2015,185,4,Petrol,Manual,FWD,5,SUV,17364,555,Low
+2289,Mini,Countryman,2018,182,4,Electric,Automatic,FWD,4,Sedan,32816,615,Medium
+2290,Subaru,WRX,2019,265,6,Electric,Automatic,FWD,5,Hatchback,34644,770,High
+2291,Honda,Civic,2019,136,4,Electric,Automatic,FWD,5,SUV,36302,612,Medium
+2292,Chevrolet,Silverado,2021,454,8,Diesel,CVT,AWD,4,Sedan,45028,728,High
+2293,Nissan,Sentra,2021,90,4,Diesel,Automatic,AWD,4,Coupe,29084,574,Low
+2294,Alfa Romeo,Stelvio,2022,352,8,Petrol,CVT,AWD,5,Hatchback,44545,691,High
+2295,Mazda,Mazda3,2021,160,4,Hybrid,Automatic,FWD,4,Sedan,40436,666,High
+2296,Kia,K5,2018,169,4,Petrol,Automatic,AWD,5,Sedan,32809,492,Low
+2297,Toyota,Camry,2017,281,6,Petrol,Automatic,RWD,5,SUV,31840,569,Low
+2298,Toyota,Corolla,2019,90,4,Petrol,Automatic,AWD,4,SUV,25221,560,Low
+2299,BMW,X3,2024,170,4,Petrol,CVT,RWD,4,Hatchback,34240,630,Medium
+2300,Audi,A4,2024,160,4,Petrol,Automatic,FWD,4,SUV,42980,650,High
+2301,Toyota,Camry,2016,359,6,Petrol,Automatic,RWD,5,Coupe,29857,503,Low
+2302,Toyota,Camry,2015,620,12,Diesel,Automatic,AWD,5,SUV,36665,655,High
+2303,Lexus,ES,2024,338,6,Petrol,CVT,FWD,4,SUV,51147,700,High
+2304,Aston Martin,Vantage,2017,124,4,Petrol,Automatic,RWD,4,Sedan,24983,512,Low
+2305,Mercedes,GLE,2017,167,4,Petrol,Manual,AWD,4,SUV,28035,569,Low
+2306,Cadillac,Escalade,2017,290,6,Petrol,Automatic,FWD,4,SUV,33842,635,Medium
+2307,Toyota,Camry,2017,293,6,Petrol,Automatic,RWD,5,Coupe,24309,502,Low
+2308,Audi,A6,2018,196,4,Petrol,Automatic,FWD,4,Sedan,30002,584,Medium
+2309,Ford,F-150,2023,106,4,Petrol,Automatic,RWD,5,Hatchback,38661,702,High
+2310,Ford,Escape,2020,433,8,Petrol,CVT,RWD,4,Hatchback,40404,611,Medium
+2311,Ford,Escape,2021,407,8,Diesel,CVT,AWD,2,Hatchback,39390,701,High
+2312,Mitsubishi,Lancer,2024,662,12,Petrol,Automatic,FWD,5,SUV,67325,793,High
+2313,Aston Martin,Vantage,2021,167,4,Petrol,Automatic,FWD,4,SUV,37059,592,Medium
+2314,Toyota,RAV4,2021,147,4,Hybrid,Automatic,AWD,5,Hatchback,37911,601,Medium
+2315,Tesla,Model S,2020,246,6,Petrol,Automatic,FWD,4,Coupe,37371,614,Medium
+2316,Mitsubishi,Eclipse Cross,2022,149,4,Petrol,Automatic,AWD,2,SUV,35739,632,Medium
+2317,Mini,Cooper,2021,407,8,Electric,Automatic,RWD,4,Hatchback,47550,744,High
+2318,Toyota,RAV4,2024,174,4,Petrol,CVT,RWD,4,SUV,37903,528,Low
+2319,Subaru,Outback,2017,205,4,Electric,CVT,FWD,5,SUV,30820,575,Low
+2320,Mercedes,E-Class,2024,317,6,Hybrid,Automatic,RWD,3,Coupe,51025,680,High
+2321,Toyota,Corolla,2018,356,8,Electric,Manual,FWD,5,SUV,29455,639,Medium
+2322,Toyota,RAV4,2022,152,4,Hybrid,Automatic,RWD,5,Sedan,32738,610,Medium
+2323,Cadillac,Escalade,2018,220,6,Petrol,Manual,FWD,5,SUV,36190,605,Medium
+2324,Ford,Explorer,2015,172,4,Petrol,Automatic,AWD,5,Truck,23369,529,Low
+2325,Audi,Q7,2021,171,4,Diesel,CVT,FWD,5,Sedan,37284,601,Medium
+2326,Nissan,Sentra,2017,245,6,Petrol,CVT,FWD,5,Sedan,25077,583,Medium
+2327,Honda,Accord,2020,280,6,Hybrid,Automatic,AWD,5,Hatchback,40545,710,High
+2328,Volvo,S60,2024,126,4,Hybrid,Automatic,AWD,5,SUV,37247,678,High
+2329,Volkswagen,Jetta,2024,174,4,Petrol,CVT,RWD,5,Truck,39512,599,Medium
+2330,Tesla,Model 3,2020,267,6,Petrol,Manual,RWD,5,SUV,38761,638,Medium
+2331,Honda,Civic,2020,243,6,Petrol,Automatic,AWD,4,Sedan,33531,610,Medium
+2332,Ram,1500,2024,261,6,Petrol,Automatic,RWD,4,SUV,43687,626,Medium
+2333,Volvo,S60,2022,457,8,Petrol,CVT,FWD,4,Hatchback,50072,735,High
+2334,Hyundai,Sonata,2022,412,8,Petrol,Manual,RWD,2,SUV,43014,553,Low
+2335,Volvo,XC60,2019,110,4,Electric,Automatic,AWD,4,SUV,32666,616,Medium
+2336,Alfa Romeo,Giulia,2019,204,4,Electric,Manual,RWD,5,Hatchback,31467,754,High
+2337,Suzuki,Swift,2017,121,4,Petrol,Manual,AWD,5,SUV,26680,397,Low
+2338,Aston Martin,DB11,2018,369,8,Petrol,Automatic,RWD,4,Coupe,33442,635,Medium
+2339,Ford,Escape,2017,160,4,Electric,Automatic,RWD,4,SUV,25609,656,High
+2340,Audi,Q5,2023,173,4,Diesel,Automatic,AWD,5,SUV,42423,697,High
+2341,Honda,Pilot,2021,162,4,Petrol,Automatic,FWD,5,Sedan,32822,660,High
+2342,Volkswagen,Golf,2021,269,6,Petrol,Manual,RWD,4,SUV,38426,641,Medium
+2343,Subaru,Crosstrek,2023,261,6,Petrol,Automatic,AWD,4,Coupe,46960,734,High
+2344,Cadillac,XT5,2024,221,4,Hybrid,CVT,AWD,4,Sedan,44836,748,High
+2345,Mercedes,E-Class,2020,169,4,Diesel,CVT,RWD,5,Truck,26954,602,Medium
+2346,Lexus,NX,2017,396,8,Petrol,CVT,FWD,4,Hatchback,39109,600,Medium
+2347,Tesla,Model 3,2015,250,6,Petrol,Automatic,FWD,4,Van,27043,521,Low
+2348,BMW,X5,2024,120,4,Petrol,Automatic,AWD,4,Hatchback,43037,602,Medium
+2349,Nissan,Sentra,2018,133,4,Petrol,Automatic,FWD,2,SUV,28495,479,Low
+2350,Ford,Escape,2017,165,4,Diesel,Automatic,AWD,4,SUV,24962,623,Medium
+2351,Volkswagen,Tiguan,2024,131,4,Petrol,CVT,AWD,4,SUV,34694,508,Low
+2352,Chevrolet,Malibu,2018,175,4,Hybrid,Manual,RWD,2,Hatchback,28377,511,Low
+2353,Subaru,WRX,2018,257,4,Petrol,Automatic,FWD,4,Hatchback,39480,690,High
+2354,Jeep,Compass,2015,259,6,Hybrid,Automatic,FWD,4,SUV,19849,539,Low
+2355,Chevrolet,Tahoe,2017,459,8,Petrol,Automatic,FWD,4,SUV,36088,625,Medium
+2356,Kia,Telluride,2022,369,6,Hybrid,Automatic,RWD,2,Sedan,52804,651,High
+2357,Buick,Enclave,2018,154,4,Diesel,Automatic,FWD,4,Truck,23414,645,Medium
+2358,Mini,Countryman,2017,309,6,Petrol,CVT,FWD,5,SUV,30206,575,Low
+2359,Kia,Sorento,2015,157,4,Petrol,CVT,AWD,5,SUV,26313,598,Medium
+2360,Lexus,ES,2023,226,4,Petrol,Automatic,FWD,2,SUV,47690,615,Medium
+2361,Aston Martin,DB11,2016,176,4,Petrol,Automatic,RWD,4,SUV,24932,589,Medium
+2362,Nissan,Sentra,2019,216,4,Electric,Automatic,AWD,5,SUV,37992,467,Low
+2363,Jeep,Compass,2024,241,6,Hybrid,Automatic,AWD,4,SUV,40674,645,Medium
+2364,Ram,ProMaster,2017,189,4,Petrol,Automatic,FWD,4,Truck,29707,633,Medium
+2365,BMW,3 Series,2022,124,4,Electric,Automatic,AWD,4,Hatchback,35055,711,High
+2366,Suzuki,Vitara,2017,139,4,Diesel,Automatic,AWD,4,Sedan,25465,462,Low
+2367,Mercedes,E-Class,2019,371,8,Electric,CVT,AWD,2,SUV,41563,705,High
+2368,Aston Martin,Vantage,2016,149,4,Hybrid,Automatic,FWD,4,Truck,23347,659,High
+2369,Lexus,ES,2018,295,6,Petrol,CVT,RWD,4,SUV,32752,615,Medium
+2370,BMW,X5,2016,126,4,Petrol,Automatic,RWD,5,Sedan,22122,435,Low
+2371,Tesla,Model Y,2019,286,6,Petrol,Automatic,FWD,5,Hatchback,35615,626,Medium
+2372,Tesla,Model X,2019,155,4,Electric,CVT,AWD,4,SUV,36164,605,Medium
+2373,Toyota,Camry,2023,227,6,Petrol,Automatic,FWD,4,Hatchback,40123,578,Medium
+2374,Ford,Mustang,2017,343,8,Hybrid,CVT,FWD,4,Sedan,33669,627,Medium
+2375,Volvo,XC60,2016,322,6,Diesel,Automatic,FWD,4,SUV,27427,563,Low
+2376,Chevrolet,Equinox,2022,302,6,Petrol,Manual,FWD,5,SUV,41250,635,Medium
+2377,Subaru,WRX,2015,117,4,Hybrid,Automatic,AWD,5,SUV,19054,566,Low
+2378,Mini,Cooper,2020,283,6,Diesel,CVT,AWD,4,SUV,37473,585,Medium
+2379,BMW,X5,2017,102,4,Petrol,Automatic,FWD,5,SUV,24309,547,Low
+2380,Genesis,G80,2023,200,4,Petrol,Automatic,FWD,4,SUV,32873,639,Medium
+2381,BMW,X5,2020,159,4,Hybrid,CVT,AWD,4,SUV,29151,578,Medium
+2382,Chevrolet,Malibu,2017,156,4,Electric,Automatic,AWD,5,Truck,23358,632,Medium
+2383,Cadillac,XT5,2024,293,6,Hybrid,Automatic,AWD,5,Coupe,46624,754,High
+2384,Volvo,XC60,2019,376,8,Hybrid,Automatic,RWD,4,Coupe,41146,642,Medium
+2385,Ferrari,Portofino,2019,336,8,Petrol,Automatic,AWD,2,Sedan,37779,579,Medium
+2386,Chevrolet,Tahoe,2020,274,6,Petrol,Automatic,RWD,4,Truck,41510,663,High
+2387,Volvo,XC60,2024,218,4,Petrol,Automatic,AWD,3,SUV,41470,675,High
+2388,Chevrolet,Malibu,2023,315,6,Electric,Automatic,FWD,4,Sedan,44375,752,High
+2389,Mini,Countryman,2020,156,4,Petrol,CVT,RWD,5,Coupe,31282,574,Low
+2390,Honda,Pilot,2024,157,4,Petrol,Automatic,RWD,4,Hatchback,42524,606,Medium
+2391,Tesla,Model X,2023,153,4,Petrol,Manual,AWD,4,Sedan,41843,555,Low
+2392,BMW,5 Series,2022,638,12,Hybrid,CVT,AWD,5,SUV,57578,800,High
+2393,Toyota,Highlander,2021,321,8,Diesel,Automatic,RWD,5,Hatchback,31263,564,Low
+2394,Alfa Romeo,Giulia,2016,414,8,Petrol,CVT,FWD,5,Coupe,33808,549,Low
+2395,Hyundai,Sonata,2017,276,6,Diesel,Automatic,AWD,4,SUV,24136,542,Low
+2396,Alfa Romeo,Stelvio,2021,286,6,Petrol,Automatic,AWD,4,SUV,41446,704,High
+2397,Genesis,G70,2018,380,8,Petrol,Automatic,AWD,4,Sedan,32846,629,Medium
+2398,Cadillac,XT5,2022,582,12,Petrol,Automatic,FWD,4,Sedan,62669,700,High
+2399,Mercedes,C-Class,2018,107,4,Petrol,Automatic,FWD,5,SUV,21193,499,Low
+2400,Alfa Romeo,Giulia,2019,157,4,Petrol,Automatic,AWD,4,Sedan,30544,571,Low

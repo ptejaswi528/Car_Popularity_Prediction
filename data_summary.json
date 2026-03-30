@@ -1,0 +1,1 @@
+{"total_records": 1728, "accuracy": "97.1%", "feature_importance": {"Price": 0.11, "Maint": 0.12, "Doors": 0.04, "Persons": 0.34, "Luggage": 0.09, "Safety": 0.3}, "class_dist": [0, 0, 0, 0], "top_factor": "Persons"}
