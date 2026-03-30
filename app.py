@@ -461,14 +461,48 @@ def index():
     charts = chart_payload(filt)
     overview = overview_cards(filt)
     cars_sel = car_options_list(filt)
+    eff_meta = effective_meta()
+
+    # For the prediction dropdown we want models constrained by brand.
+    # This also improves UX (prevents selecting an "impossible" brand+model combo).
+    models_by_brand: dict[str, list[str]] = {}
+    try:
+        brands = (eff_meta or {}).get("categories", {}).get("brand", [])
+        for b in brands:
+            sub = df_all[df_all["brand"].astype(str) == str(b)]
+            models_by_brand[str(b)] = sorted(sub["model"].astype(str).unique().tolist())
+    except Exception:
+        models_by_brand = {}
+
+    prediction_default_brand = request.args.get("pred_brand", "").strip()
+    if not prediction_default_brand or prediction_default_brand == "__all__":
+        # Fall back to interactive filter brand (if present), otherwise first brand.
+        prediction_default_brand = request.args.get("brand", "").strip()
+        if not prediction_default_brand or prediction_default_brand == "__all__":
+            brand_list = ((eff_meta or {}).get("categories", {}).get("brand") or [])
+            prediction_default_brand = brand_list[0] if brand_list else ""
+
+    prediction_defaults = {
+        "brand": prediction_default_brand,
+        "model": request.args.get("pred_model", "").strip(),
+        "year": request.args.get("pred_year", "").strip(),
+        "engine_hp": request.args.get("pred_engine_hp", "").strip(),
+        "engine_cylinders": request.args.get("pred_engine_cylinders", "").strip(),
+        "fuel_type": request.args.get("pred_fuel_type", "").strip(),
+        "transmission": request.args.get("pred_transmission", "").strip(),
+        "driven_wheels": request.args.get("pred_driven_wheels", "").strip(),
+        "doors": request.args.get("pred_doors", "").strip(),
+        "market_category": request.args.get("pred_market_category", "").strip(),
+        "price": request.args.get("pred_price", "").strip(),
+    }
     pred_result = None
     if request.args.get("predicted"):
         try:
             score = float(request.args.get("score", 0))
             pred_result = {
-                "score": round(score, 1),
+                "score": round(score, 2),
                 "level": request.args.get("level", score_to_level(score)),
-                "percent": round(score_to_percent(score), 1),
+                "percent": round(score_to_percent(score), 2),
             }
         except ValueError:
             pred_result = None
@@ -498,7 +532,9 @@ def index():
         overview=overview,
         charts=charts,
         car_options=cars_sel,
-        meta=effective_meta(),
+        meta=eff_meta,
+        models_by_brand=models_by_brand,
+        prediction_defaults=prediction_defaults,
         filter_state=filter_state,
         pred_result=pred_result,
         return_query=return_query,
@@ -512,6 +548,19 @@ def predict():
         return redirect(url_for("index"))
 
     try:
+        submitted = {
+            "brand": request.form.get("brand", ""),
+            "model": request.form.get("model", ""),
+            "year": request.form.get("year", ""),
+            "engine_hp": request.form.get("engine_hp", ""),
+            "engine_cylinders": request.form.get("engine_cylinders", ""),
+            "fuel_type": request.form.get("fuel_type", ""),
+            "transmission": request.form.get("transmission", ""),
+            "driven_wheels": request.form.get("driven_wheels", ""),
+            "doors": request.form.get("doors", ""),
+            "market_category": request.form.get("market_category", ""),
+            "price": request.form.get("price", ""),
+        }
         row = pd.DataFrame(
             [
                 {
@@ -536,8 +585,28 @@ def predict():
         return redirect(url_for("index"))
 
     qs = request.form.get("return_query", "").strip()
-    tail = f"predicted=1&score={score:.1f}&level={level}"
     base = url_for("index")
+
+    # Preserve what the user selected, so the prediction form doesn't reset
+    # to the first brand/model after redirect.
+    tail = urlencode(
+        {
+            "predicted": "1",
+            "score": f"{score:.2f}",
+            "level": level,
+            "pred_brand": submitted["brand"],
+            "pred_model": submitted["model"],
+            "pred_year": submitted["year"],
+            "pred_engine_hp": submitted["engine_hp"],
+            "pred_engine_cylinders": submitted["engine_cylinders"],
+            "pred_fuel_type": submitted["fuel_type"],
+            "pred_transmission": submitted["transmission"],
+            "pred_driven_wheels": submitted["driven_wheels"],
+            "pred_doors": submitted["doors"],
+            "pred_market_category": submitted["market_category"],
+            "pred_price": submitted["price"],
+        }
+    )
     if qs:
         return redirect(f"{base}?{qs}&{tail}")
     return redirect(f"{base}?{tail}")
