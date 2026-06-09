@@ -686,6 +686,4 @@ def api_car(car_id):
 
 
 if __name__ == "__main__":
-    if not _load_data():
-        print("Missing car_market_data.csv — run generate_car_market_data.py", file=sys.stderr)
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
